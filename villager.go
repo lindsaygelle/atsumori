@@ -2,8 +2,11 @@ package main
 
 import "time"
 
-// Villager is a representation of an Animal Crossing villager.
+// Villager is an Animal Crossing villager.
 type Villager struct {
+
+	// Appearances is a collection of Animal Crossing games the villager has appeared in.
+	Apperances []Game
 
 	// Birthday is the birth date of the Animal Crossing villager.
 	Birthday time.Time
@@ -18,7 +21,7 @@ type Villager struct {
 	Hobbies []Hobby
 
 	// Name is the name of the Animal Crossing villager.
-	Name string
+	Name Name
 
 	// Personality is the personality of the Animal Crossing villager.
 	Personality Personality
