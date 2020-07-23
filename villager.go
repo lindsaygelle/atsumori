@@ -14,4 +14,7 @@ type Villager struct {
 
 	// Personality is the personality of the Animal Crossing villager.
 	Personality Personality
+
+	// Species is the species of the Animal Crossing villager.
+	Species Species
 }
