@@ -1,11 +1,9 @@
 package main
 
-// Gender is an enum of a Animal Crossing villager genders.
+// Gender is an enum of villager genders found in the Animal Crossing series.
 type Gender int
 
 const (
-	// Female is the namespace for female Animal Crossing villagers.
-	Female Gender = iota
-	// Male is the namespace for male Animal Crossing villagers.
-	Male
+	female Gender = iota
+	male
 )

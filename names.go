@@ -1,4 +1,4 @@
 package main
 
-// Name is a name of an Animal Crossing Villager.
+// Name is an enum of villager names found in the Animal Crossing series.
 type Name int
