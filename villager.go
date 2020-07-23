@@ -11,6 +11,9 @@ type Villager struct {
 	// Appearance is a description of the Animal Crossing villagers appearance.
 	Appearance string
 
+	// Astrology is the star-sign of the Animal Crossing villager.
+	Astrology Astrology
+
 	// Birthday is the birth date of the Animal Crossing villager.
 	Birthday time.Time
 
