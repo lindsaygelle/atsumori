@@ -23,6 +23,12 @@ type Villager struct {
 	// Personality is the personality of the Animal Crossing villager.
 	Personality Personality
 
+	// Phrases is a collection of phrases said by the Animal Crossing villager.
+	Phrases []Phrase
+
+	// Quotes is a collection of quotes said by the Animal Crossing villager.
+	Quotes []string
+
 	// Species is the species of the Animal Crossing villager.
 	Species Species
 }
