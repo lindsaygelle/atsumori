@@ -5,14 +5,17 @@ import "time"
 // Villager is an Animal Crossing villager.
 type Villager struct {
 
-	// Appearances is a collection of Animal Crossing games the villager has appeared in.
-	Apperances []Game
+	// Appearance is a description of the Animal Crossing villagers appearance.
+	Appearance string
 
 	// Birthday is the birth date of the Animal Crossing villager.
 	Birthday time.Time
 
 	// Description is the verbose description of the Animal Crossing villager.
 	Description string
+
+	// Games is a collection of Animal Crossing games the villager has appeared in.
+	Games []Game
 
 	// Gender is the biological gender of the Animal Crossing villager.
 	Gender Gender
