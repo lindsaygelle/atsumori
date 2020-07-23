@@ -1,111 +1,84 @@
 package main
 
-// Species is an enum of Animal Crossing villager animal species.
+// Species is an enum of animal species found in the Animal Crossing series.
+//
+// A Species iota refer to a Earth-like animal species found in the Animal Crossing series.
+// A villager in Animal Crossing must be one type of species and cannot contain
+// multiple references to a species type.
 type Species int
 
 const (
-	// Alligator is the namespace for all alligator-like Animal Crossing villagers.
+	// Alligator is the namespace for alligator Animal Crossing villagers.
+	//
+	// There are currently 7 known villagers with the species
+	// type of alligator.
 	Alligator Species = iota
-
-	// Anteater is the namespace for all anteater-like Animal Crossing villagers.
+	// Anteater is the namespace for anteater Animal Crossing villagers.
 	Anteater
-
-	// Bear is the namespace for all bear-like Animal Crossing villagers.
+	// Bear is the namespace for bear Animal Crossing villagers.
 	Bear
-
-	// Bird is the namespace for all bird-like Animal Crossing villagers.
+	// Bird is the namespace for bird Animal Crossing villagers.
 	Bird
-
-	// Bull is the namespace for all bull-like Animal Crossing villagers.
+	// Bull is the namespace for bull Animal Crossing villagers.
 	Bull
-
-	// Cat is the namespace for all cat-like Animal Crossing villagers.
+	// Cat is the namespace for cat Animal Crossing villagers.
 	Cat
-
-	// Chicken is the namespace for all chicken-like Animal Crossing villagers.
+	// Chicken is the namespace for chicken Animal Crossing villagers.
 	Chicken
-
-	// Cow is the namespace for all cow-like Animal Crossing villagers.
+	// Cow is the namespace for cow Animal Crossing villagers.
 	Cow
-
-	// Cub is the namespace for all cub-like Animal Crossing villagers.
+	// Cub is the namespace for cub Animal Crossing villagers.
 	Cub
-
-	// Deer is the namespace for all deer-like Animal Crossing villagers.
+	// Deer is the namespace for deer Animal Crossing villagers.
 	Deer
-
-	// Dog is the namespace for all dog-like Animal Crossing villagers.
+	// Dog is the namespace for dog Animal Crossing villagers.
 	Dog
-
-	// Duck is the namespace for all duck-like Animal Crossing villagers.
+	// Duck is the namespace for duck Animal Crossing villagers.
 	Duck
-
-	// Eagle is the namespace for all eagle-like Animal Crossing villagers.
+	// Eagle is the namespace for eagle Animal Crossing villagers.
 	Eagle
-
-	// Elephant is the namespace for all elephant-like Animal Crossing villagers.
+	// Elephant is the namespace for elephant Animal Crossing villagers.
 	Elephant
-
-	// Frog is the namespace for all frog-like Animal Crossing villagers.
+	// Frog is the namespace for frog Animal Crossing villagers.
 	Frog
-
-	// Goat is the namespace for all goat-like Animal Crossing villagers.
+	// Goat is the namespace for goat Animal Crossing villagers.
 	Goat
-
-	// Gorilla is the namespace for all gorilla-like Animal Crossing villagers.
+	// Gorilla is the namespace for gorilla Animal Crossing villagers.
 	Gorilla
-
-	// Hamster is the namespace for all hamster-like Animal Crossing villagers.
+	// Hamster is the namespace for hamster Animal Crossing villagers.
 	Hamster
-
-	// Hippo is the namespace for all hippo-like Animal Crossing villagers.
+	// Hippo is the namespace for hippo Animal Crossing villagers.
 	Hippo
-
-	// Horse is the namespace for all horse-like Animal Crossing villagers.
+	// Horse is the namespace for horse Animal Crossing villagers.
 	Horse
-
-	// Kangaroo is the namespace for all kangaroo-like Animal Crossing villagers.
+	// Kangaroo is the namespace for kangaroo Animal Crossing villagers.
 	Kangaroo
-
-	// Koala is the namespace for all koala-like Animal Crossing villagers.
+	// Koala is the namespace for koala Animal Crossing villagers.
 	Koala
-
-	// Lion is the namespace for all lion-like Animal Crossing villagers.
+	// Lion is the namespace for lion Animal Crossing villagers.
 	Lion
-
-	// Monkey is the namespace for all monkey-like Animal Crossing villagers.
+	// Monkey is the namespace for monkey Animal Crossing villagers.
 	Monkey
-
-	// Mouse is the namespace for all mouse-like Animal Crossing villagers.
+	// Mouse is the namespace for mouse Animal Crossing villagers.
 	Mouse
-
-	// Octopus is the namespace for all octopus-like Animal Crossing villagers.
+	// Octopus is the namespace for octopus Animal Crossing villagers.
 	Octopus
-
-	// Ostrich is the namespace for all ostrich-like Animal Crossing villagers.
+	// Ostrich is the namespace for ostrich Animal Crossing villagers.
 	Ostrich
-
-	// Penguin is the namespace for all penguin-like Animal Crossing villagers.
+	// Penguin is the namespace for penguin Animal Crossing villagers.
 	Penguin
-
-	// Pig is the namespace for all pig-like Animal Crossing villagers.
+	// Pig is the namespace for pig Animal Crossing villagers.
 	Pig
-
-	// Rabbit is the namespace for all rabbit-like Animal Crossing villagers.
+	// Rabbit is the namespace for rabbit Animal Crossing villagers.
 	Rabbit
-
-	// Rhino is the namespace for all rhino-like Animal Crossing villagers.
+	// Rhino is the namespace for rhino Animal Crossing villagers.
 	Rhino
-
-	// Sheep is the namespace for all sheep-like Animal Crossing villagers.
+	// Sheep is the namespace for sheep Animal Crossing villagers.
 	Sheep
-
-	// Squirrel is the namespace for all squirrel-like Animal Crossing villagers.
+	// Squirrel is the namespace for squirrel Animal Crossing villagers.
 	Squirrel
-
-	// Tiger is the namespace for all tiger-like Animal Crossing villagers.
+	// Tiger is the namespace for tiger Animal Crossing villagers.
 	Tiger
-
-	// Wolf is the namespace for all wolf-like Animal Crossing villagers.
+	// Wolf is the namespace for wolf Animal Crossing villagers.
 	Wolf
 )
