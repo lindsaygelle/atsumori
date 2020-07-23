@@ -5,6 +5,9 @@ import "time"
 // Villager is an Animal Crossing villager.
 type Villager struct {
 
+	// Aliases is a collection of alternative names of the Animal Crossing villager.
+	Aliases []Alias
+
 	// Appearance is a description of the Animal Crossing villagers appearance.
 	Appearance string
 
