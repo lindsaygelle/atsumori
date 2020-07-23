@@ -11,11 +11,17 @@ type Villager struct {
 	// Appearance is a description of the Animal Crossing villagers appearance.
 	Appearance string
 
+	// Astrology is the star-sign of the Animal Crossing villager.
+	Astrology Astrology
+
 	// Birthday is the birth date of the Animal Crossing villager.
 	Birthday time.Time
 
 	// Description is the verbose description of the Animal Crossing villager.
 	Description string
+
+	// ECard is the Animal Crossing villager E-Card.
+	ECard ECard
 
 	// Games is a collection of Animal Crossing games the villager has appeared in.
 	Games []Game
