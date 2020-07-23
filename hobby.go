@@ -1,6 +1,6 @@
 package main
 
-// Hobby is an enum of hobbies found in the Animal Crossing series.
+// Hobby is an enum of villager hobbies found in the Animal Crossing series.
 type Hobby int
 
 const (
