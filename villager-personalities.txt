@@ -1,0 +1,8 @@
+♀ Normal: 59
+♀ Peppy: 49
+♀ Sisterly: 24
+♀ Snooty: 55
+♂ Cranky: 56
+♂ Jock: 55
+♂ Lazy: 60
+♂ Smug: 34
