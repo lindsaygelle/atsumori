@@ -1,7 +1,11 @@
 package main
 
 // Species is an enum of animals found in the Animal Crossing series.
-type Species int
+type Species uint
+
+func (s Species) String() string {
+	return (species[s])
+}
 
 const (
 	alligator Species = iota
@@ -40,3 +44,40 @@ const (
 	tiger
 	wolf
 )
+
+var species = [...]string{
+	"Alligator",
+	"Anteater",
+	"Bear",
+	"Bird",
+	"Bull",
+	"Cat",
+	"Chicken",
+	"Cow",
+	"Cub",
+	"Deer",
+	"Dog",
+	"Duck",
+	"Eagle",
+	"Elephant",
+	"Frog",
+	"Goat",
+	"Gorilla",
+	"Hamster",
+	"Hippo",
+	"Horse",
+	"Kangaroo",
+	"Koala",
+	"Lion",
+	"Monkey",
+	"Mouse",
+	"Octopus",
+	"Ostrich",
+	"Penguin",
+	"Pig",
+	"Rabbit",
+	"Rhino",
+	"Sheep",
+	"Squirrel",
+	"Tiger",
+	"Wolf"}
