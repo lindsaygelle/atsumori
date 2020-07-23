@@ -1,7 +1,11 @@
 package main
 
 // Hobby is an enum of villager hobbies found in the Animal Crossing series.
-type Hobby int
+type Hobby uint
+
+func (h Hobby) String() string {
+	return (hobbies[h])
+}
 
 const (
 	education Hobby = iota
@@ -11,3 +15,11 @@ const (
 	nature
 	play
 )
+
+var hobbies = [...]string{
+	"Education",
+	"Fashion",
+	"Fitness",
+	"Music",
+	"Nature",
+	"Play"}
