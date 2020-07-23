@@ -20,6 +20,9 @@ type Villager struct {
 	// Description is the verbose description of the Animal Crossing villager.
 	Description string
 
+	// ECard is the Animal Crossing villager E-Card.
+	ECard ECard
+
 	// Games is a collection of Animal Crossing games the villager has appeared in.
 	Games []Game
 
