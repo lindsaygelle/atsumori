@@ -7,6 +7,13 @@ func (a Astrology) String() string {
 	return (starSigns[a])
 }
 
+// astrology is a composable field.
+type astrology struct {
+
+	// Astrology is the star-sign of the Animal Crossing villager.
+	Astrology Astrology
+}
+
 const (
 	aquarius Astrology = iota
 	aries

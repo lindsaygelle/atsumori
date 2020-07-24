@@ -7,6 +7,13 @@ func (s Species) String() string {
 	return (species[s])
 }
 
+// species is a composable field.
+type species struct {
+
+	// Species is the species of the Animal Crossing villager.
+	Species Species
+}
+
 const (
 	alligator Species = iota
 	anteater
