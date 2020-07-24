@@ -5,6 +5,7 @@ type Villager struct {
 	astrology
 	birthday
 	color
+	description
 	game
 	gender
 	name
@@ -13,17 +14,14 @@ type Villager struct {
 	// Amiibo is the Nintendo Amiibo card.
 	Amiibo Amiibo `json:"amiibo"`
 
-	// ECard is the E-card information for the Animal Crossing character.
-	ECard ECard `json:"ecard"`
+	// Card is the Animal Crossing character card.
+	Card Card `json:"card"`
 
 	// Aliases is a collection of alternative names of the Animal Crossing villager.
 	Aliases []Alias
 
 	// Appearance is a description of the Animal Crossing villagers appearance.
 	Appearance string
-
-	// Description is the verbose description of the Animal Crossing villager.
-	Description string
 
 	// Phrases is a collection of phrases said by the Animal Crossing villager.
 	Phrases []Phrase
