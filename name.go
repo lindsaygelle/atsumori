@@ -195,9 +195,10 @@ const (
 	hugh
 	iggly
 	ike
-	jacobNA
+	isabelle
+	jacob
 	jacques
-	jakeyPAL
+	jakey
 	jambette
 	jay
 	jeremiah
@@ -218,6 +219,7 @@ const (
 	kiki
 	kitt
 	kitty
+	kkslider
 	klaus
 	knox
 	kody
@@ -317,7 +319,8 @@ const (
 	rasher
 	raymond
 	reneigh
-	renée
+	renee
+	resetti
 	rex
 	rhonda
 	ribbot
@@ -379,8 +382,11 @@ const (
 	tia
 	tiffany
 	timbra
+	timmy
 	tipper
 	tom
+	tommy
+	tomNook
 	truffles
 	tucker
 	tutu
@@ -590,6 +596,7 @@ var names = [...]string{
 	"Hugh",
 	"Iggly",
 	"Ike",
+	"Isabelle",
 	"JacobNA",
 	"Jacques",
 	"JakeyPAL",
@@ -613,6 +620,7 @@ var names = [...]string{
 	"Kiki",
 	"Kitt",
 	"Kitty",
+	"K.K. Slider",
 	"Klaus",
 	"Knox",
 	"Kody",
@@ -713,6 +721,7 @@ var names = [...]string{
 	"Raymond",
 	"Reneigh",
 	"Renée",
+	"Resetti"
 	"Rex",
 	"Rhonda",
 	"Ribbot",
@@ -775,8 +784,11 @@ var names = [...]string{
 	"Tia",
 	"Tiffany",
 	"Timbra",
+	"Timmy",
 	"Tipper",
 	"Tom",
+	"Tommy",
+	"Tom Nook",
 	"Truffles",
 	"Tucker",
 	"Tutu",
