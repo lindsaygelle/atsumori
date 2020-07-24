@@ -11,7 +11,7 @@ func (g Gender) String() string {
 type gender struct {
 
 	// Gender is the biological gender of the Animal Crossing villager.
-	Gender Gender
+	Gender Gender `json:"gender"`
 }
 
 const (
