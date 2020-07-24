@@ -11,7 +11,7 @@ func (h Hobby) String() string {
 type hobby struct {
 
 	// Hobby is the interest of the Animal Crossing villager.
-	Hobby Hobby
+	Hobby Hobby `json:"hobby"`
 }
 
 const (
