@@ -805,7 +805,7 @@ var names = [...]string{
 	"Soleil",
 	"Sparro",
 	"Spike",
-	"SporkNA",
+	"Spork",
 	"Sprinkle",
 	"Sprocket",
 	"Static",
