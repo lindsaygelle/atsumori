@@ -11,7 +11,7 @@ func (n Name) String() string {
 type name struct {
 
 	// Name is the name of the Animal Crossing villager.
-	Name Name
+	Name Name `json:"name"`
 }
 
 const (
