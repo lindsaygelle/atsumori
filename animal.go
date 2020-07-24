@@ -10,9 +10,12 @@ type animal struct {
 	name
 	species
 
-	// Birthday is the date of birth of the Animal Crossing character.
+	// Birthday is the birth date for the Animal Crossing character.
 	Birthday time.Time `json:"birthday"`
 
-	// ECard is the E-Card for the Animal Crossing character.
+	// Games is the Animal Crossing games the Animal Crossing character has appeared in.
+	Games []Game `json:"games"`
+
+	// ECard is the E-card information for the Animal Crossing character.
 	ECard ECard `json:"ecard"`
 }

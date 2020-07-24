@@ -13,9 +13,6 @@ type Villager struct {
 	// Description is the verbose description of the Animal Crossing villager.
 	Description string
 
-	// Games is a collection of Animal Crossing games the villager has appeared in.
-	Games []Game
-
 	// Phrases is a collection of phrases said by the Animal Crossing villager.
 	Phrases []Phrase
 
