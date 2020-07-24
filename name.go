@@ -217,7 +217,7 @@ const (
 	julia
 	julian
 	june
-	kKSlider
+	kkSlider
 	kabuki
 	katt
 	keaton
