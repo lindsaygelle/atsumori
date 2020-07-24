@@ -44,6 +44,7 @@ Biskit
 Bitty
 Blaire
 Blanche
+Blathers
 Bluebear
 Bob
 Bonbon
@@ -63,6 +64,7 @@ Bud
 Bunnie
 Butch
 Buzz
+C.J.
 Cally
 Camofrog
 Canberra
@@ -71,6 +73,7 @@ Carmen
 Caroline
 Carrie
 Cashmere
+Celeste
 Celia
 Cesar
 Chadder
@@ -95,6 +98,7 @@ Cole
 Colton
 Cookie
 Cousteau
+CracklePAL
 Cranston
 Croque
 Cube
@@ -103,7 +107,9 @@ Curly
 Curt
 Cyd
 Cyrano
+Cyrus
 Daisy
+Daisy Mae
 Deena
 Deirdre
 Del
@@ -134,6 +140,7 @@ Fang
 Fauna
 Felicity
 Filbert
+Flick
 Flip
 Flo
 Flora
@@ -162,11 +169,14 @@ Greta
 Grizzly
 Groucho
 Gruff
+Gullivarrr
+Gulliver
 Gwen
 Hamlet
 Hamphrey
 Hans
 Harry
+Harvey
 Hazel
 Henry
 Hippeux
@@ -177,9 +187,10 @@ Huck
 Hugh
 Iggly
 Ike
+Isabelle
 JacobNA
-JakeyPAL
 Jacques
+JakeyPAL
 Jambette
 Jay
 Jeremiah
@@ -189,12 +200,14 @@ Judy
 Julia
 Julian
 June
+K.K. Slider
 Kabuki
 Katt
 Keaton
 Ken
 Ketchup
 Kevin
+Kicks
 Kid Cat
 Kidd
 Kiki
@@ -204,11 +217,15 @@ Klaus
 Knox
 Kody
 Kyle
+Label
+Labelle
+Leif
 Leonardo
 Leopold
 Lily
 Limberg
 Lionel
+Lloid
 Lobo
 Lolly
 Lopez
@@ -217,6 +234,7 @@ Lucha
 Lucky
 Lucy
 Lyman
+Mabel
 Mac
 Maddie
 Maelle
@@ -252,17 +270,19 @@ Naomi
 Nate
 Nibbles
 Norma
-Octavian
 O'Hare
+Octavian
 Olaf
 Olive
 Olivia
 Opal
+Orville
 Ozzie
 Pancetti
 Pango
 Paolo
 Papi
+Pascal
 Pashmina
 Pate
 Patty
@@ -298,8 +318,11 @@ Quillson
 Raddle
 Rasher
 Raymond
-Renée
+Redd
+Reese
 Reneigh
+Renée
+Resetti
 Rex
 Rhonda
 Ribbot
@@ -317,9 +340,12 @@ Rooney
 Rory
 Roscoe
 Rosie
+Rover
 Rowan
 Ruby
 Rudy
+Sable
+Saharah
 Sally
 Samson
 Sandy
@@ -337,7 +363,6 @@ Soleil
 Sparro
 Spike
 SporkNA
-CracklePAL
 Sprinkle
 Sprocket
 Static
@@ -349,6 +374,7 @@ Stu
 Sydney
 Sylvana
 Sylvia
+T-Bone
 Tabby
 Tad
 Tammi
@@ -356,14 +382,16 @@ Tammy
 Tangy
 Tank
 Tasha
-T-Bone
 Teddy
 Tex
 Tia
 Tiffany
 Timbra
+Timmy
 Tipper
 Tom
+Tom Nook
+Tommy
 Truffles
 Tucker
 Tutu
@@ -384,9 +412,12 @@ Wart Jr.
 Weber
 Wendy
 Whitney
+Wilbur
 Willow
 Winnie
+Wisp
 Wolfgang
 Yuka
 Zell
+Zipper T. Bunny
 Zucker

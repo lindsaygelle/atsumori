@@ -24,7 +24,7 @@ const (
 	baseballPlayer
 	basketballPlayer
 	boxer
-	cEO
+	ceo
 	carpenter
 	cartoonist
 	chef
@@ -79,11 +79,11 @@ const (
 	sumoWrestler
 	superhero
 	swimmer
-	Teacher
-	TennisPlayer
-	TourGuide
-	Translator
-	Tycoon
+	teacher
+	tennisPlayer
+	tourGuide
+	translator
+	tycoon
 	unknown
 	violinist
 	volleyballPlayer

@@ -54,13 +54,14 @@ const (
 	bettina
 	bianca
 	biff
-	big
+	bigTop
 	bill
 	billy
 	biskit
 	bitty
 	blaire
 	blanche
+	blathers
 	bluebear
 	bob
 	bonbon
@@ -80,6 +81,7 @@ const (
 	bunnie
 	butch
 	buzz
+	cj
 	cally
 	camofrog
 	canberra
@@ -88,6 +90,7 @@ const (
 	caroline
 	carrie
 	cashmere
+	celeste
 	celia
 	cesar
 	chadder
@@ -112,7 +115,7 @@ const (
 	colton
 	cookie
 	cousteau
-	cracklePAL
+	crackle
 	cranston
 	croque
 	cube
@@ -121,7 +124,9 @@ const (
 	curt
 	cyd
 	cyrano
+	cyrus
 	daisy
+	daisyMae
 	deena
 	deirdre
 	del
@@ -152,6 +157,7 @@ const (
 	fauna
 	felicity
 	filbert
+	flick
 	flip
 	flo
 	flora
@@ -180,11 +186,14 @@ const (
 	grizzly
 	groucho
 	gruff
+	gullivarrr
+	gulliver
 	gwen
 	hamlet
 	hamphrey
 	hans
 	harry
+	harvey
 	hazel
 	henry
 	hippeux
@@ -195,9 +204,10 @@ const (
 	hugh
 	iggly
 	ike
-	jacobNA
+	isabelle
+	jacob
 	jacques
-	jakeyPAL
+	jakey
 	jambette
 	jay
 	jeremiah
@@ -207,13 +217,15 @@ const (
 	julia
 	julian
 	june
+	kkSlider
 	kabuki
 	katt
 	keaton
 	ken
 	ketchup
 	kevin
-	kid
+	kicks
+	kidCat
 	kidd
 	kiki
 	kitt
@@ -222,11 +234,15 @@ const (
 	knox
 	kody
 	kyle
+	label
+	labelle
+	leif
 	leonardo
 	leopold
 	lily
 	limberg
 	lionel
+	lloid
 	lobo
 	lolly
 	lopez
@@ -235,6 +251,7 @@ const (
 	lucky
 	lucy
 	lyman
+	mabel
 	mac
 	maddie
 	maelle
@@ -276,11 +293,13 @@ const (
 	olive
 	olivia
 	opal
+	orville
 	ozzie
 	pancetti
 	pango
 	paolo
 	papi
+	pascal
 	pashmina
 	pate
 	patty
@@ -316,8 +335,11 @@ const (
 	raddle
 	rasher
 	raymond
+	redd
+	reese
 	reneigh
-	renée
+	renee
+	resetti
 	rex
 	rhonda
 	ribbot
@@ -335,9 +357,12 @@ const (
 	rory
 	roscoe
 	rosie
+	rover
 	rowan
 	ruby
 	rudy
+	sable
+	saharah
 	sally
 	samson
 	sandy
@@ -354,7 +379,7 @@ const (
 	soleil
 	sparro
 	spike
-	sporkNA
+	spork
 	sprinkle
 	sprocket
 	static
@@ -379,8 +404,11 @@ const (
 	tia
 	tiffany
 	timbra
+	timmy
 	tipper
 	tom
+	tomNook
+	tommy
 	truffles
 	tucker
 	tutu
@@ -401,11 +429,14 @@ const (
 	weber
 	wendy
 	whitney
+	wilbur
 	willow
 	winnie
+	wisp
 	wolfgang
 	yuka
 	zell
+	zipperTBunny
 	zucker
 )
 
@@ -456,6 +487,7 @@ var names = [...]string{
 	"Bitty",
 	"Blaire",
 	"Blanche",
+	"Blathers",
 	"Bluebear",
 	"Bob",
 	"Bonbon",
@@ -475,6 +507,7 @@ var names = [...]string{
 	"Bunnie",
 	"Butch",
 	"Buzz",
+	"C.J.",
 	"Cally",
 	"Camofrog",
 	"Canberra",
@@ -483,6 +516,7 @@ var names = [...]string{
 	"Caroline",
 	"Carrie",
 	"Cashmere",
+	"Celeste",
 	"Celia",
 	"Cesar",
 	"Chadder",
@@ -507,7 +541,7 @@ var names = [...]string{
 	"Colton",
 	"Cookie",
 	"Cousteau",
-	"CracklePAL",
+	"Crackle",
 	"Cranston",
 	"Croque",
 	"Cube",
@@ -516,7 +550,9 @@ var names = [...]string{
 	"Curt",
 	"Cyd",
 	"Cyrano",
+	"Cyrus",
 	"Daisy",
+	"Daisy Mae",
 	"Deena",
 	"Deirdre",
 	"Del",
@@ -547,6 +583,7 @@ var names = [...]string{
 	"Fauna",
 	"Felicity",
 	"Filbert",
+	"Flick",
 	"Flip",
 	"Flo",
 	"Flora",
@@ -575,11 +612,14 @@ var names = [...]string{
 	"Grizzly",
 	"Groucho",
 	"Gruff",
+	"Gullivarrr",
+	"Gulliver",
 	"Gwen",
 	"Hamlet",
 	"Hamphrey",
 	"Hans",
 	"Harry",
+	"Harvey",
 	"Hazel",
 	"Henry",
 	"Hippeux",
@@ -590,7 +630,8 @@ var names = [...]string{
 	"Hugh",
 	"Iggly",
 	"Ike",
-	"JacobNA",
+	"Isabelle",
+	"Jacob",
 	"Jacques",
 	"JakeyPAL",
 	"Jambette",
@@ -602,12 +643,14 @@ var names = [...]string{
 	"Julia",
 	"Julian",
 	"June",
+	"K.K. Slider",
 	"Kabuki",
 	"Katt",
 	"Keaton",
 	"Ken",
 	"Ketchup",
 	"Kevin",
+	"Kicks",
 	"Kid Cat",
 	"Kidd",
 	"Kiki",
@@ -617,11 +660,15 @@ var names = [...]string{
 	"Knox",
 	"Kody",
 	"Kyle",
+	"Label",
+	"Labelle",
+	"Leif",
 	"Leonardo",
 	"Leopold",
 	"Lily",
 	"Limberg",
 	"Lionel",
+	"Lloid",
 	"Lobo",
 	"Lolly",
 	"Lopez",
@@ -630,6 +677,7 @@ var names = [...]string{
 	"Lucky",
 	"Lucy",
 	"Lyman",
+	"Mabel",
 	"Mac",
 	"Maddie",
 	"Maelle",
@@ -671,11 +719,13 @@ var names = [...]string{
 	"Olive",
 	"Olivia",
 	"Opal",
+	"Orville",
 	"Ozzie",
 	"Pancetti",
 	"Pango",
 	"Paolo",
 	"Papi",
+	"Pascal",
 	"Pashmina",
 	"Pate",
 	"Patty",
@@ -711,8 +761,11 @@ var names = [...]string{
 	"Raddle",
 	"Rasher",
 	"Raymond",
+	"Redd",
+	"Reese",
 	"Reneigh",
 	"Renée",
+	"Resetti",
 	"Rex",
 	"Rhonda",
 	"Ribbot",
@@ -730,9 +783,12 @@ var names = [...]string{
 	"Rory",
 	"Roscoe",
 	"Rosie",
+	"Rover",
 	"Rowan",
 	"Ruby",
 	"Rudy",
+	"Sable",
+	"Saharah",
 	"Sally",
 	"Samson",
 	"Sandy",
@@ -746,11 +802,10 @@ var names = [...]string{
 	"Skye",
 	"Sly",
 	"Snake",
-	"Snooty",
 	"Soleil",
 	"Sparro",
 	"Spike",
-	"SporkNA",
+	"Spork",
 	"Sprinkle",
 	"Sprocket",
 	"Static",
@@ -775,8 +830,11 @@ var names = [...]string{
 	"Tia",
 	"Tiffany",
 	"Timbra",
+	"Timmy",
 	"Tipper",
 	"Tom",
+	"Tom Nook",
+	"Tommy",
 	"Truffles",
 	"Tucker",
 	"Tutu",
@@ -797,9 +855,12 @@ var names = [...]string{
 	"Weber",
 	"Wendy",
 	"Whitney",
+	"Wilbur",
 	"Willow",
 	"Winnie",
+	"Wisp",
 	"Wolfgang",
 	"Yuka",
 	"Zell",
+	"Zipper T. Bunny",
 	"Zucker"}
