@@ -45,9 +45,11 @@ const (
 	penguin
 	pig
 	rabbit
+	raccoon
 	rhino
 	sheep
 	squirrel
+	tanuki
 	tiger
 	wolf
 )
@@ -83,8 +85,10 @@ var animals = [...]string{
 	"Penguin",
 	"Pig",
 	"Rabbit",
+	"Raccoon",
 	"Rhino",
 	"Sheep",
 	"Squirrel",
+	"Tanuki",
 	"Tiger",
 	"Wolf"}
