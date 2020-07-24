@@ -6,11 +6,13 @@ import "time"
 type Villager struct {
 	astrology
 	color
+	goal
 	gender
 	hobby
 	name
 	personality
 	species
+	style
 
 	// Aliases is a collection of alternative names of the Animal Crossing villager.
 	Aliases []Alias
@@ -36,13 +38,3 @@ type Villager struct {
 	// Quotes is a collection of quotes said by the Animal Crossing villager.
 	Quotes []string
 }
-
-var (
-	Admiral = Villager{
-		astrology:   astrology{sagittarius},
-		color:       color{green},
-		gender:      gender{male},
-		hobby:       hobby{nature},
-		personality: personality{cranky},
-		species:     species{bird}}
-)

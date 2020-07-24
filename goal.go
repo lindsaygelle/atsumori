@@ -7,6 +7,13 @@ func (g Goal) String() string {
 	return (goals[g])
 }
 
+// goal is a composable field.
+type goal struct {
+
+	// Goal is the career ambition of an Animal Crossing villager.
+	Goal Goal `json:"goal"`
+}
+
 const (
 	actor Goal = iota
 	aesthetician
