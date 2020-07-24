@@ -11,7 +11,7 @@ func (s Species) String() string {
 type species struct {
 
 	// Species is the species of the Animal Crossing villager.
-	Species Species
+	Species Species `json:"species"`
 }
 
 const (
