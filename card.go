@@ -1,7 +1,7 @@
 package main
 
-// ECard is a Animal Crossing villagers E-Card.
-type ECard struct {
+// Card is the Animal Crossing villagers character Card.
+type Card struct {
 	astrology
 	gender
 	name
