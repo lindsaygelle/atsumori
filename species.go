@@ -4,7 +4,14 @@ package main
 type Species uint
 
 func (s Species) String() string {
-	return (species[s])
+	return (animals[s])
+}
+
+// species is a composable field.
+type species struct {
+
+	// Species is the species of the Animal Crossing villager.
+	Species Species `json:"species"`
 }
 
 const (
@@ -45,7 +52,7 @@ const (
 	wolf
 )
 
-var species = [...]string{
+var animals = [...]string{
 	"Alligator",
 	"Anteater",
 	"Bear",

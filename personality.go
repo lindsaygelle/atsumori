@@ -7,6 +7,13 @@ func (p Personality) String() string {
 	return (personalities[p])
 }
 
+// personality is a composable field.
+type personality struct {
+
+	// Personality is the personality of the Animal Crossing villager.
+	Personality Personality `json:"personality"`
+}
+
 const (
 	cranky Personality = iota
 	jock
