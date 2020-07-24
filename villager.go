@@ -6,6 +6,7 @@ import "time"
 type Villager struct {
 	astrology
 	gender
+	hobby
 	name
 	personality
 	species
@@ -27,9 +28,6 @@ type Villager struct {
 
 	// Games is a collection of Animal Crossing games the villager has appeared in.
 	Games []Game
-
-	// Hobbies is a collection of interests for the Animal Crossing villager.
-	Hobbies []Hobby
 
 	// Phrases is a collection of phrases said by the Animal Crossing villager.
 	Phrases []Phrase
