@@ -5,6 +5,7 @@ import "time"
 // Villager is an Animal Crossing villager.
 type Villager struct {
 	astrology
+	color
 	gender
 	hobby
 	name
@@ -35,3 +36,13 @@ type Villager struct {
 	// Quotes is a collection of quotes said by the Animal Crossing villager.
 	Quotes []string
 }
+
+var (
+	Admiral = Villager{
+		astrology:   astrology{sagittarius},
+		color:       color{green},
+		gender:      gender{male},
+		hobby:       hobby{nature},
+		personality: personality{cranky},
+		species:     species{bird}}
+)
