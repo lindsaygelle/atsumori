@@ -4,7 +4,7 @@ package main
 type Species uint
 
 func (s Species) String() string {
-	return (species[s])
+	return (animals[s])
 }
 
 // species is a composable field.
@@ -52,7 +52,7 @@ const (
 	wolf
 )
 
-var species = [...]string{
+var animals = [...]string{
 	"Alligator",
 	"Anteater",
 	"Bear",
