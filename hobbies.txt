@@ -1,6 +1,0 @@
-Education: 64
-Fashion: 66
-Fitness: 66
-Music: 65
-Nature: 66
-Play: 65
