@@ -4,6 +4,7 @@ package main
 type ECard struct {
 	astrology
 	gender
+	species
 
 	Clothes     string
 	Description string
@@ -11,5 +12,4 @@ type ECard struct {
 	Letter      string
 	Password    string
 	Phrase      string
-	Species     Species
 }
