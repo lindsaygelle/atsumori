@@ -11,7 +11,7 @@ func (p Personality) String() string {
 type personality struct {
 
 	// Personality is the personality of the Animal Crossing villager.
-	Personality Personality
+	Personality Personality `json:"personality"`
 }
 
 const (
