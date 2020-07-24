@@ -4,6 +4,7 @@ package main
 type ECard struct {
 	astrology
 	gender
+	name
 	species
 
 	Clothes     string

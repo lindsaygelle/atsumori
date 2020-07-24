@@ -6,6 +6,8 @@ import "time"
 type Villager struct {
 	astrology
 	gender
+	name
+	personality
 	species
 
 	// Aliases is a collection of alternative names of the Animal Crossing villager.
@@ -28,12 +30,6 @@ type Villager struct {
 
 	// Hobbies is a collection of interests for the Animal Crossing villager.
 	Hobbies []Hobby
-
-	// Name is the name of the Animal Crossing villager.
-	Name Name
-
-	// Personality is the personality of the Animal Crossing villager.
-	Personality Personality
 
 	// Phrases is a collection of phrases said by the Animal Crossing villager.
 	Phrases []Phrase

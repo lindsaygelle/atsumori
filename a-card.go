@@ -5,6 +5,7 @@ import "time"
 // ACard is the Animal Crossing villagers Amiibo Card.
 type ACard struct {
 	astrology
+	name
 
 	Birthday  time.Time
 	HandSign  string
