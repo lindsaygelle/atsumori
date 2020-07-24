@@ -7,6 +7,13 @@ func (n Name) String() string {
 	return (names[n])
 }
 
+// name is a composable field.
+type name struct {
+
+	// Name is the name of the Animal Crossing villager.
+	Name Name
+}
+
 const (
 	admiral Name = iota
 	agentS
