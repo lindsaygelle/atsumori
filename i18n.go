@@ -2,8 +2,8 @@ package main
 
 import "golang.org/x/text/language"
 
-// ISO is an internationalization.
-type ISO struct {
+// I18N is an internationalization.
+type I18N struct {
 	Language language.Tag
 	Value    string
 }
