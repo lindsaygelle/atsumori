@@ -2,7 +2,7 @@ package main
 
 // VillagerAmiiboCard is the Animal Crossing villagers Amiibo card.
 type VillagerAmiiboCard struct {
-	birthday
+	villagerBirthday
 	villagerCard
 	villagerHandSign
 
