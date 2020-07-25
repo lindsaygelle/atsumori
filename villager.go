@@ -2,11 +2,11 @@ package main
 
 // Villager is an Animal Crossing villager.
 type Villager struct {
-	astrology
 	birthday
 	color
 	description
 	games
+	villagerAstrology
 	villagerSpecies
 	villagerGender
 	villagerName

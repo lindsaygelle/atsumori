@@ -4,7 +4,7 @@ package main
 type VillagerSpecies uint
 
 func (v VillagerSpecies) String() string {
-	return (animals[v])
+	return (villagerSpeciesNames[v])
 }
 
 // villagerSpecies is a composable field.
@@ -70,7 +70,7 @@ const (
 	wolf
 )
 
-var animals = [...]string{
+var villagerSpeciesNames = [...]string{
 	"Alligator",
 	"Alpaca",
 	"Anteater",
