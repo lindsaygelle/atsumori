@@ -7,7 +7,7 @@ func (g Goal) String() string {
 	return (goals[g])
 }
 
-// goal is a composable field.
+// goal is a composable struct.
 type goal struct {
 
 	// Goal is the career ambition of an Animal Crossing villager.

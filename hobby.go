@@ -7,7 +7,7 @@ func (h Hobby) String() string {
 	return (hobbies[h])
 }
 
-// hobby is a composable field.
+// hobby is a composable struct.
 type hobby struct {
 
 	// Hobby is the interest of the Animal Crossing villager.

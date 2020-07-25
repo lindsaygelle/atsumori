@@ -21,7 +21,7 @@ func (g Game) String() string {
 	return (animalCrossingGames[g])
 }
 
-// games is a composable field.
+// games is a composable struct.
 type games struct {
 	Games []Game `json:"games"`
 }

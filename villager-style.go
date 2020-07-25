@@ -7,7 +7,7 @@ func (v VillagerStyle) String() string {
 	return (villagerStyles[v])
 }
 
-// villagerStyle is a composable field.
+// villagerStyle is a composable struct.
 type villagerStyle struct {
 
 	// Style is the dress style of an Animal Crossing villager.

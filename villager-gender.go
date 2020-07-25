@@ -7,7 +7,7 @@ func (v VillagerGender) String() string {
 	return (villagerGenders[v])
 }
 
-// villagerGender is a composable field.
+// villagerGender is a composable struct.
 type villagerGender struct {
 
 	// Gender is the biological gender of an Animal Crossing villager.

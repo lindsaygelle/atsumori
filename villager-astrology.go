@@ -7,7 +7,7 @@ func (v VillagerAstrology) String() string {
 	return (villagerAstrologyNames[v])
 }
 
-// villagerAstrology is a composable field.
+// villagerAstrology is a composable struct.
 type villagerAstrology struct {
 
 	// Astrology is the star-sign of the Animal Crossing villager.
