@@ -4,5 +4,5 @@ package main
 type names struct {
 
 	// Names is a collection of international text.
-	Names []ISO `json:"iso"`
+	Names []I18N `json:"names"`
 }
