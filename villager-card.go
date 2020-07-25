@@ -2,8 +2,8 @@ package main
 
 import "image"
 
-// card is a composable field.
-type card struct {
+// villagerCard is a composable struct.
+type villagerCard struct {
 	villagerAstrology
 	villagerName
 	villagerSpecies

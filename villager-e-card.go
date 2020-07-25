@@ -2,8 +2,8 @@ package main
 
 // VillagerECard is the Animal Crossing villagers e-card.
 type VillagerECard struct {
-	card
 	description
+	villagerCard
 	villagerGender
 
 	Clothes  string
