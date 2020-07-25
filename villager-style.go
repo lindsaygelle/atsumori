@@ -1,6 +1,6 @@
 package main
 
-// Style is an enum of Animal Crossing villager styles.
+// VillagerStyle is an enum of Animal Crossing villager styles.
 type VillagerStyle uint
 
 func (v VillagerStyle) String() string {
