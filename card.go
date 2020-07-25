@@ -8,7 +8,7 @@ type card struct {
 	villagerName
 	villagerSpecies
 
-	Back  image.Image
-	Front image.Image
-	ID    int
+	BackImage  image.Image `json:"back_image"`
+	FrontImage image.Image `json:"front_image"`
+	ID         int         `json:"id"`
 }

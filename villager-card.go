@@ -7,7 +7,6 @@ type VillagerCard struct {
 	villagerGender
 
 	Clothes  string
-	ID       int
 	Letter   string
 	Password string
 	Phrase   string
