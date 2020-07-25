@@ -1,12 +1,9 @@
 package main
 
-// Song is an enum of Animal Crossing songs performed by K.K. Rider.
-type Song int
+import "image"
 
-func (s Song) String() string {
-	return (songs[s])
+// Song is a K.K. Slider song.
+type Song struct {
+	AlbumArt image.Image
+	Name     VillagerSong
 }
-
-const ()
-
-var songs = [...]string{}

@@ -1,21 +1,21 @@
 package main
 
 // Style is an enum of Animal Crossing villager styles.
-type Style uint
+type VillagerStyle uint
 
-func (s Style) String() string {
-	return (styles[s])
+func (v VillagerStyle) String() string {
+	return (villagerStyles[v])
 }
 
-// style is a composable field.
-type style struct {
+// villagerStyle is a composable field.
+type villagerStyle struct {
 
 	// Style is the dress style of an Animal Crossing villager.
-	Style Style `json:"style"`
+	Style VillagerStyle `json:"style"`
 }
 
 const (
-	active Style = iota
+	active VillagerStyle = iota
 	basic
 	civic
 	cool
@@ -34,7 +34,7 @@ const (
 	sporty
 )
 
-var styles = [...]string{
+var villagerStyles = [...]string{
 	"Active",
 	"Basic",
 	"Civic",

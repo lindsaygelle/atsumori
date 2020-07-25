@@ -7,8 +7,10 @@ type Villager struct {
 	description
 	games
 	villagerAstrology
-	villagerSpecies
 	villagerGender
+	villagerSpecies
+	villagerSong
+	villagerStyle
 	villagerName
 	villagerPersonality
 
