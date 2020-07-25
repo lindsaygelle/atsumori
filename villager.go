@@ -10,6 +10,7 @@ type Villager struct {
 	species
 	villagerGender
 	villagerName
+	villagerPersonality
 
 	// Amiibo is the Nintendo Amiibo card.
 	Amiibo Amiibo `json:"amiibo"`
