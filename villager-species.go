@@ -1,21 +1,21 @@
 package main
 
-// Species is an enum of animals found in the Animal Crossing series.
-type Species uint
+// VillagerSpecies is an enum of animals found in the Animal Crossing series.
+type VillagerSpecies uint
 
-func (s Species) String() string {
-	return (animals[s])
+func (v VillagerSpecies) String() string {
+	return (animals[v])
 }
 
-// species is a composable field.
-type species struct {
+// villagerSpecies is a composable field.
+type villagerSpecies struct {
 
 	// Species is the species of the Animal Crossing villager.
-	Species Species `json:"species"`
+	Species VillagerSpecies `json:"species"`
 }
 
 const (
-	alligator Species = iota
+	alligator VillagerSpecies = iota
 	alpaca
 	anteater
 	bear

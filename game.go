@@ -18,15 +18,15 @@ const (
 )
 
 func (g Game) String() string {
-	return (games[g])
+	return (animalCrossingGames[g])
 }
 
-// game is a composable field.
-type game struct {
+// games is a composable field.
+type games struct {
 	Games []Game `json:"games"`
 }
 
-var games = [...]string{
+var animalCrossingGames = [...]string{
 	"Animal-Crossing",
 	"Animal Crossing: Amiibo Festival",
 	"Animal Crossing: Animal Forest",
