@@ -5,8 +5,8 @@ type VillagerAmiiboCard struct {
 	astrology
 	birthday
 	card
+	handsign
 
-	HandSign  string
 	Request   string
 	RollValue int
 }
