@@ -11,7 +11,7 @@ const (
 	green Color = iota
 )
 
-// color is a composable field.
+// color is a composable struct.
 type color struct {
 
 	// Color is the primary color for an Animal Crossing asset.

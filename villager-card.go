@@ -1,13 +1,19 @@
 package main
 
-// VillagerCard is the Animal Crossing villagers character card.
-type VillagerCard struct {
-	card
-	description
-	villagerGender
+import "image"
 
-	Clothes  string
-	Letter   string
-	Password string
-	Phrase   string
+// villagerCard is a composable struct.
+type villagerCard struct {
+	villagerAstrology
+	villagerName
+	villagerSpecies
+
+	// BackImage is the cards back-side image.
+	BackImage image.Image `json:"back_image"`
+
+	// FrontImage is the cards front-side image.
+	FrontImage image.Image `json:"front_image"`
+
+	// ID is the numeric ID for the card.
+	ID int `json:"id"`
 }

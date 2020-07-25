@@ -1,21 +1,21 @@
 package main
 
-// Goal is an enum of Animal Crossing villager goals.
-type Goal uint
+// VillagerGoal is an enum of Animal Crossing villager goals.
+type VillagerGoal uint
 
-func (g Goal) String() string {
-	return (goals[g])
+func (v VillagerGoal) String() string {
+	return (villagerGoals[v])
 }
 
-// goal is a composable field.
-type goal struct {
+// villagerGoal is a composable struct.
+type villagerGoal struct {
 
 	// Goal is the career ambition of an Animal Crossing villager.
-	Goal Goal `json:"goal"`
+	Goal VillagerGoal `json:"goal"`
 }
 
 const (
-	actor Goal = iota
+	actor VillagerGoal = iota
 	aesthetician
 	archaeologist
 	architect
@@ -90,7 +90,7 @@ const (
 	writer
 )
 
-var goals = [...]string{
+var villagerGoals = [...]string{
 	"Actor",
 	"Aesthetician",
 	"Archaeologist",

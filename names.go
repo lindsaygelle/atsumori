@@ -1,6 +1,6 @@
 package main
 
-// names is a composable field.
+// names is a composable struct.
 type names struct {
 
 	// Names is a collection of international text.
