@@ -9,6 +9,7 @@ type Villager struct {
 	villagerAstrology
 	villagerBirthday
 	villagerECard
+	villagerGoal
 	villagerGender
 	villagerSpecies
 	villagerSong
