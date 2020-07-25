@@ -10,7 +10,7 @@ func (g Gender) String() string {
 // gender is a composable field.
 type gender struct {
 
-	// Gender is the biological gender of the Animal Crossing villager.
+	// Gender is the biological gender of an Animal Crossing villager.
 	Gender Gender `json:"gender"`
 }
 
