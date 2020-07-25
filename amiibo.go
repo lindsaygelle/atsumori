@@ -4,7 +4,7 @@ package main
 type Amiibo struct {
 	astrology
 	birthday
-	name
+	villagerName
 
 	HandSign  string
 	ID        int

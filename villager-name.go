@@ -1,21 +1,21 @@
 package main
 
-// Name is an enum of Animal Crossing villager names.
-type Name uint
+// VillagerName is an enum of Animal Crossing villager names.
+type VillagerName uint
 
-func (n Name) String() string {
-	return (names[n])
+func (v VillagerName) String() string {
+	return (villagerNames[v])
 }
 
-// name is a composable field.
-type name struct {
+// villagerName is a composable field.
+type villagerName struct {
 
 	// Name is the name of the Animal Crossing villager.
-	Name Name `json:"name"`
+	Name VillagerName `json:"name"`
 }
 
 const (
-	admiral Name = iota
+	admiral VillagerName = iota
 	agentS
 	agnes
 	al
@@ -440,7 +440,7 @@ const (
 	zucker
 )
 
-var names = [...]string{
+var villagerNames = [...]string{
 	"Admiral",
 	"Agent S",
 	"Agnes",

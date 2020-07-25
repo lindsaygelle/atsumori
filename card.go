@@ -4,9 +4,9 @@ package main
 type Card struct {
 	astrology
 	description
-	gender
-	name
+	VillagerGender
 	species
+	villagerName
 
 	Clothes  string
 	ID       int

@@ -7,9 +7,9 @@ type Villager struct {
 	color
 	description
 	game
-	gender
-	name
 	species
+	villagerGender
+	villagerName
 
 	// Amiibo is the Nintendo Amiibo card.
 	Amiibo Amiibo `json:"amiibo"`
@@ -18,14 +18,11 @@ type Villager struct {
 	Card Card `json:"card"`
 
 	// Aliases is a collection of alternative names of the Animal Crossing villager.
-	Aliases []Alias
+	Aliases []ISO
 
 	// Appearance is a description of the Animal Crossing villagers appearance.
 	Appearance string
 
-	// Phrases is a collection of phrases said by the Animal Crossing villager.
-	Phrases []Phrase
-
-	// Quotes is a collection of quotes said by the Animal Crossing villager.
-	Quotes []string
+	// Phrases is a collection of quotes said by the Animal Crossing villager.
+	Phrases []ISO
 }

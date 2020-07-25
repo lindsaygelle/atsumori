@@ -1,0 +1,129 @@
+var u = "https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)"
+
+	var r, _ = http.Get(u)
+
+	var d, _ = goquery.NewDocumentFromResponse(r)
+	var wg sync.WaitGroup
+	var roll = map[string]int{}
+	var hand = map[string]int{}
+
+	d.Find(".roundy.sortable tr").Each(func(_ int, s *goquery.Selection) {
+		wg.Add(1)
+		go func(u string) {
+			defer wg.Done()
+			var r, _ = http.Get("https://animalcrossing.fandom.com" + u)
+			if r.StatusCode != http.StatusOK {
+				return
+			}
+			var d, _ = goquery.NewDocumentFromResponse(r)
+
+			var s = d.Find("table.roundytop")
+			fmt.Println(u, s.Length())
+			if s.Length() == 0 {
+				return
+			}
+			s.Find("table").Each(func(_ int, s *goquery.Selection) {
+				s = s.Find("tr")
+				if s.Length() == 0 {
+					return
+				}
+				s.Each(func(_ int, s *goquery.Selection) {
+					var k = s.Find("td:nth-child(1)").Text()
+					var v = s.Find("td:nth-child(2)").Text()
+
+					var r = regexp.MustCompile(`(\n|\t)+`)
+					k = r.ReplaceAllString(k, "")
+					k = strings.TrimSpace(k)
+					v = r.ReplaceAllString(v, "")
+					v = strings.TrimSpace(v)
+					if len(k) == 0 || len(v) == 0 {
+						return
+					}
+					var m map[string]int
+					if strings.ToUpper(k) == "ROLL VALUE" {
+						fmt.Println(len(k), k)
+						fmt.Println(len(v), v)
+					}
+					switch strings.ToUpper(k) {
+					case "ROLL VALUE":
+						m = roll
+					case "HAND SIGN":
+						m = hand
+					}
+					if reflect.ValueOf(m).IsZero() {
+						return
+					}
+					if _, ok := m[v]; !ok {
+						m[v] = 0
+					}
+					m[v]++
+					fmt.Println(k, v)
+				})
+			})
+		}(s.Find("td a").First().AttrOr("href", ""))
+	})
+	wg.Wait()
+	for _, v := range []map[string]int{roll, hand} {
+		var b, _ = json.Marshal(v)
+		fmt.Println(string(b))
+		fmt.Println("")
+		fmt.Println("")
+	}
+
+
+
+
+
+
+
+
+	
+	var u = "https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)"
+
+	var r, _ = http.Get(u)
+
+	var d, _ = goquery.NewDocumentFromResponse(r)
+	var wg sync.WaitGroup
+
+	var goal = map[string]int{}
+	var skill = map[string]int{}
+	var style = map[string]int{}
+
+	d.Find(".roundy.sortable tr").Each(func(_ int, s *goquery.Selection) {
+		wg.Add(1)
+		go func(u string) {
+			defer wg.Done()
+			var r, _ = http.Get("https://animalcrossing.fandom.com" + u)
+			if r.StatusCode != http.StatusOK {
+				return
+			}
+			var d, _ = goquery.NewDocumentFromResponse(r)
+			d.Find(".portable-infobox div.pi-item").Each(func(_ int, s *goquery.Selection) {
+				var k = s.Find(".pi-data-label.pi-secondary-font").Text()
+				var v = s.Find(".pi-data-value.pi-font").Text()
+				var m map[string]int
+				switch strings.ToUpper(k) {
+				case "GOAL":
+					m = goal
+				case "SKILL":
+					m = skill
+				case "STYLE":
+					m = style
+				}
+				if reflect.ValueOf(m).IsZero() {
+					return
+				}
+				if _, ok := m[v]; !ok {
+					m[v] = 0
+				}
+				m[v]++
+			})
+		}(s.Find("td a").First().AttrOr("href", ""))
+	})
+	wg.Wait()
+	for _, v := range []map[string]int{goal, skill, style} {
+		var b, _ = json.Marshal(v)
+		fmt.Println(string(b))
+		fmt.Println("")
+		fmt.Println("")
+	}
