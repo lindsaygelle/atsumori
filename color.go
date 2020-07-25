@@ -1,6 +1,6 @@
 package main
 
-// Color is an enum of Animal Crossing villager primary colors.
+// Color is an enum of Animal Crossing primary colors.
 type Color uint
 
 func (c Color) String() string {
@@ -14,7 +14,7 @@ const (
 // color is a composable field.
 type color struct {
 
-	// Color is the Animal Crossing villagers primary color.
+	// Color is the primary color for an Animal Crossing asset.
 	Color Color `json:"color"`
 }
 
