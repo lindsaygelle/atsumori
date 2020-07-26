@@ -4,6 +4,7 @@ package main
 type VillagerECard struct {
 	description
 	villagerCard
+	villagerClothes
 	villagerGender
 
 	Clothes  string
@@ -12,6 +13,7 @@ type VillagerECard struct {
 	Phrase   string
 }
 
+// villagerECard is a composable struct.
 type villagerECard struct {
 	ECard VillagerECard `json:"e_card"`
 }
