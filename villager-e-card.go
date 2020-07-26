@@ -7,7 +7,6 @@ type VillagerECard struct {
 	villagerClothes
 	villagerGender
 
-	Clothes  string
 	Letter   string
 	Password string
 	Phrase   string

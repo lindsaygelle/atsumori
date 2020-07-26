@@ -7,6 +7,7 @@ type Villager struct {
 	games
 	names
 	villagerAmiiboCard
+	villagerAppearance
 	villagerAstrology
 	villagerBirthday
 	villagerClothes
@@ -18,9 +19,6 @@ type Villager struct {
 	villagerStyle
 	villagerName
 	villagerPersonality
-
-	// Appearance is a description of the Animal Crossing villagers appearance.
-	Appearance string
 
 	// Phrases is a collection of quotes said by the Animal Crossing villager.
 	Phrases []I18N
