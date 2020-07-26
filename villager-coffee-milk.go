@@ -7,16 +7,18 @@ type VillagerCoffeeMilk string
 type villagerCoffeeMilk struct {
 
 	//  Milk is the amount of milk an Animal Crossing villager enjoys in their coffee.
-	Milk VillagerCoffeeMilk `json:"milk"`
+	Milk *VillagerCoffeeMilk `json:"milk"`
 }
 
-func (v villagerCoffeeMilk) SetMilk(x VillagerCoffeeMilk) {
+func (v villagerCoffeeMilk) SetMilk(x *VillagerCoffeeMilk) {
 	v.Milk = x
 }
 
-const (
-	villagerCoffeeMilkLittle  VillagerCoffeeMilk = "Little"
-	villagerCoffeeMilkLots    VillagerCoffeeMilk = "Lots"
-	villagerCoffeeMilkNone    VillagerCoffeeMilk = "None"
-	villagerCoffeeMilkRegular VillagerCoffeeMilk = "Regular"
-)
+// villagerCoffeeMilkLittle is the volumn of milk that is on the lower scale.
+const villagerCoffeeMilkLittle VillagerCoffeeMilk = "Little"
+
+// villagerCoffeeMilkLots is the volumn of milk that is on the higher scale.
+const villagerCoffeeMilkLots VillagerCoffeeMilk = "Lots"
+
+// villagerCoffeeMilkLittle is the volumn of milk that is between lower and higher on the scale.
+const villagerCoffeeMilkRegular VillagerCoffeeMilk = "Regular"

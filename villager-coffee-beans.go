@@ -7,18 +7,21 @@ type VillagerCoffeeBeans string
 type villagerCoffeeBeans struct {
 
 	// Beans is the coffee bean flavour an Animal Crossing villager enjoys.
-	Beans VillagerCoffeeBeans `json:"beans"`
+	Beans *VillagerCoffeeBeans `json:"beans"`
 }
 
-func (v villagerCoffeeBeans) SetBeans(x VillagerCoffeeBeans) {
+func (v villagerCoffeeBeans) SetBeans(x *VillagerCoffeeBeans) {
 	v.Beans = x
 }
 
-const (
-	villagerCoffeeBeansBlend        VillagerCoffeeBeans = "Blended"
-	villagerCoffeeBeansBlueMountain VillagerCoffeeBeans = "Blue Mountain"
-	villagerCoffeeBeansHouse        VillagerCoffeeBeans = "House"
-	villagerCoffeeBeansKilimanjaro  VillagerCoffeeBeans = "Kilimanjaro"
-	villagerCoffeeBeansMocha        VillagerCoffeeBeans = "Mocha"
-	villagerCoffeeBeansNone         VillagerCoffeeBeans = "None"
-)
+// villagerCoffeeBeansBlend is the coffee beans flavour of Blended.
+const villagerCoffeeBeansBlend VillagerCoffeeBeans = "Blended"
+
+// villagerCoffeeBeansBlend is the coffee beans flavour of Blue Mountain.
+const villagerCoffeeBeansBlueMountain VillagerCoffeeBeans = "Blue Mountain"
+
+// villagerCoffeeBeansBlend is the coffee beans flavour of Kilimanjaro.
+const villagerCoffeeBeansKilimanjaro VillagerCoffeeBeans = "Kilimanjaro"
+
+// villagerCoffeeBeansBlend is the coffee beans flavour of Mocha.
+const villagerCoffeeBeansMocha VillagerCoffeeBeans = "Mocha"
