@@ -1,11 +1,7 @@
 package main
 
-// VillagerStyle is an enum of Animal Crossing villager styles.
-type VillagerStyle uint
-
-func (v VillagerStyle) String() string {
-	return (villagerStyles[v])
-}
+// VillagerStyle is the dress style of an Animal Crossing villager.
+type VillagerStyle string
 
 // villagerStyle is a composable struct.
 type villagerStyle struct {
@@ -15,40 +11,21 @@ type villagerStyle struct {
 }
 
 const (
-	villagerStyleActive VillagerStyle = iota
-	villagerStyleBasic
-	villagerStyleCivic
-	villagerStyleCool
-	villagerStyleCute
-	villagerStyleElegant
-	villagerStyleFlashy
-	villagerStyleGorgeous
-	villagerStyleHistorical
-	villagerStyleIconic
-	villagerStyleModern
-	villagerStyleOfficial
-	villagerStyleOrnate
-	villagerStyleRockNRoll
-	villagerStyleRustic
-	villagerStyleSimple
-	villagerStyleSsporty
+	villagerStyleActive     VillagerStyle = "Active"
+	villagerStyleBasic      VillagerStyle = "Basic"
+	villagerStyleCivic      VillagerStyle = "Civic"
+	villagerStyleCool       VillagerStyle = "Cool"
+	villagerStyleCute       VillagerStyle = "Cute"
+	villagerStyleElegant    VillagerStyle = "Elegant"
+	villagerStyleFlashy     VillagerStyle = "Flashy"
+	villagerStyleGorgeous   VillagerStyle = "Gorgeous"
+	villagerStyleHistorical VillagerStyle = "Historical"
+	villagerStyleIconic     VillagerStyle = "Iconic"
+	villagerStyleModern     VillagerStyle = "Modern"
+	villagerStyleOfficial   VillagerStyle = "Official"
+	villagerStyleOrnate     VillagerStyle = "Ornate"
+	villagerStyleRockNRoll  VillagerStyle = "Rock'n'Roll"
+	villagerStyleRustic     VillagerStyle = "Rustic"
+	villagerStyleSimple     VillagerStyle = "Simple"
+	villagerStyleSporty     VillagerStyle = "Sporty"
 )
-
-var villagerStyles = [...]string{
-	"Active",
-	"Basic",
-	"Civic",
-	"Cool",
-	"Cute",
-	"Elegant",
-	"Flashy",
-	"Gorgeous",
-	"Historical",
-	"Iconic",
-	"Modern",
-	"Official",
-	"Ornate",
-	"Rock'n'roll",
-	"Rustic",
-	"Simple",
-	"Sporty"}

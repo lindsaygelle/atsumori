@@ -7,9 +7,9 @@ type VillagerAmiiboCard struct {
 	villagerHandSign
 	villagerHobby
 	villagerHome
+	villagerRoll
 
-	Request   string `json:"request"`
-	RollValue int    `json:"roll_value"`
+	Request string `json:"request"`
 }
 
 // villagerAmiiboCard is a composable struct.
