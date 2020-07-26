@@ -1,24 +1,17 @@
 package main
 
-// VillagerGender is an enum of Animal Crossing villager VillagerGenders.
-type VillagerGender uint
-
-func (v VillagerGender) String() string {
-	return (villagerGenders[v])
-}
+// VillagerGender is the gender of an Animal Crossing villager.
+type VillagerGender string
 
 // villagerGender is a composable struct.
 type villagerGender struct {
 
-	// Gender is the biological gender of an Animal Crossing villager.
-	Gender VillagerGender `json:"gender"`
+	// Gender is the gender of an Animal Crossing villager.
+	Gender *VillagerGender `json:"gender"`
 }
 
-const (
-	female VillagerGender = iota
-	male
-)
+// genderFemale is the namespace for female Animal Crossing villagers.
+const genderFemale VillagerGender = "Female"
 
-var villagerGenders = [...]string{
-	"female",
-	"male"}
+// genderMale is the namespace for male Animal Crossing villagers.
+const genderMale VillagerGender = "Male"
