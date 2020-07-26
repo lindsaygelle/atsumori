@@ -10,8 +10,8 @@ type villagerAstrology struct {
 	Astrology VillagerAstrology `json:"astrology"`
 }
 
-func (v villagerAstrology) SetAstrology(a VillagerAstrology) {
-	v.Astrology = a
+func (v villagerAstrology) SetAstrology(x VillagerAstrology) {
+	v.Astrology = x
 }
 
 const (
