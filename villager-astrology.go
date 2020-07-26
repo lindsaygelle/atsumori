@@ -1,11 +1,7 @@
 package main
 
-// VillagerAstrology is an enum of astrological star-signs for Animal Crossing villagers.
-type VillagerAstrology uint
-
-func (v VillagerAstrology) String() string {
-	return (villagerAstrologyNames[v])
-}
+// VillagerAstrology is the astrological star-sign for an Animal Crossing villager.
+type VillagerAstrology string
 
 // villagerAstrology is a composable struct.
 type villagerAstrology struct {
@@ -14,31 +10,21 @@ type villagerAstrology struct {
 	Astrology VillagerAstrology `json:"astrology"`
 }
 
-const (
-	villagerAstrologyAquarius VillagerAstrology = iota
-	villagerAstrologyAries
-	villagerAstrologyCancer
-	villagerAstrologyCapricorn
-	villagerAstrologyGemini
-	villagerAstrologyLeo
-	villagerAstrologyLibra
-	villagerAstrologyPisces
-	villagerAstrologySagittarius
-	villagerAstrologyScorpio
-	villagerAstrologyTaurus
-	villagerAstrologyVirgo
-)
+func (v villagerAstrology) SetAstrology(a VillagerAstrology) {
+	v.Astrology = a
+}
 
-var villagerAstrologyNames = [...]string{
-	"Aquarius",
-	"Aries",
-	"Cancer",
-	"Capricorn",
-	"Gemini",
-	"Leo",
-	"Libra",
-	"Pisces",
-	"Sagittarius",
-	"Scorpio",
-	"Taurus",
-	"Virgo"}
+const (
+	villagerAstrologyAquarius    VillagerAstrology = "Aquarius"
+	villagerAstrologyAries       VillagerAstrology = "Aries"
+	villagerAstrologyCancer      VillagerAstrology = "Cancer"
+	villagerAstrologyCapricorn   VillagerAstrology = "Capricorn"
+	villagerAstrologyGemini      VillagerAstrology = "Gemini"
+	villagerAstrologyLeo         VillagerAstrology = "Leo"
+	villagerAstrologyLibra       VillagerAstrology = "Libra"
+	villagerAstrologyPisces      VillagerAstrology = "Pisces"
+	villagerAstrologySagittarius VillagerAstrology = "Sagittarius"
+	villagerAstrologyScorpio     VillagerAstrology = "Scorpio"
+	villagerAstrologyTaurus      VillagerAstrology = "Taurus"
+	villagerAstrologyVirgo       VillagerAstrology = "Virgo"
+)
