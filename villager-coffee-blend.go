@@ -4,17 +4,18 @@ package main
 type VillagerCoffeeBlend uint
 
 // villagerCoffeeBlend is a composable struct.
-type villageCoffeeBlend struct {
+type villagerCoffeeBlend struct {
 
 	// Blend is the coffee blend of coffee the Animal Crossing villager prefers.
 	Blend VillagerCoffeeBlend `json:"blend"`
 }
 
 const (
-	blend VillagerCoffeeBlend = iota
-	blueMountain
-	kilimanjaro
-	mocha
-	none
-	// unknown
+	coffeeBlend VillagerCoffeeBlend = iota
+	coffeeBlueMountain
+	coffeeHouse
+	coffeekilimanjaro
+	coffeeMocha
+	coffeeNone
+	coffeeUnknown
 )
