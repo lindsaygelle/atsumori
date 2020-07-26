@@ -4,8 +4,9 @@ package main
 type VillagerAmiiboCard struct {
 	villagerBirthday
 	villagerCard
-	villagerHobby
 	villagerHandSign
+	villagerHobby
+	villagerHome
 
 	Request   string
 	RollValue int
