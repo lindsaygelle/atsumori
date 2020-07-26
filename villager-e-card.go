@@ -14,5 +14,7 @@ type VillagerECard struct {
 
 // villagerECard is a composable struct.
 type villagerECard struct {
+
+	// ECard is the Animal Crossing villagers e-card information.
 	ECard VillagerECard `json:"e_card"`
 }
