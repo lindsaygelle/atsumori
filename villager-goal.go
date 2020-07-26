@@ -1,166 +1,88 @@
 package main
 
-// VillagerGoal is an enum of Animal Crossing villager goals.
-type VillagerGoal uint
-
-func (v VillagerGoal) String() string {
-	return (villagerGoals[v])
-}
+// VillagerGoal is the personal aspiration of an Animal Crossing villager.
+type VillagerGoal string
 
 // villagerGoal is a composable struct.
 type villagerGoal struct {
 
-	// Goal is the career ambition of an Animal Crossing villager.
-	Goal VillagerGoal `json:"goal"`
+	// Goal is the personal aspiration of an Animal Crossing villager.
+	Goal *VillagerGoal `json:"goal"`
 }
 
-const (
-	actor VillagerGoal = iota
-	aesthetician
-	archaeologist
-	architect
-	artist
-	astronaut
-	baseballPlayer
-	basketballPlayer
-	boxer
-	ceo
-	carpenter
-	cartoonist
-	chef
-	dancer
-	dentist
-	dermatologist
-	designer
-	detective
-	doctor
-	drummer
-	esthetician
-	explorer
-	fashionDesigner
-	figureSkater
-	firefighter
-	fisherman
-	florist
-	forestRanger
-	guitarist
-	gymnast
-	hairStylist
-	illustrator
-	journalist
-	judge
-	lawyer
-	makeupArtist
-	marathonRunner
-	mayor
-	model
-	movieDirector
-	movieStar
-	musician
-	painter
-	pastryChef
-	pharmacist
-	photographer
-	pianist
-	pilot
-	poet
-	policeOfficer
-	politician
-	president
-	proGolfer
-	proWrestler
-	professor
-	programmer
-	raceCarDriver
-	rugbyPlayer
-	singer
-	soccerPlayer
-	stylist
-	sumoWrestler
-	superhero
-	swimmer
-	teacher
-	tennisPlayer
-	tourGuide
-	translator
-	tycoon
-	unknown
-	violinist
-	volleyballPlayer
-	writer
-)
+func (v villagerGoal) SetGoal(x *VillagerGoal) {
+	v.Goal = x
+}
 
-var villagerGoals = [...]string{
-	"Actor",
-	"Aesthetician",
-	"Archaeologist",
-	"Architect",
-	"Artist",
-	"Astronaut",
-	"Baseball Player",
-	"Basketball Player",
-	"Boxer",
-	"CEO",
-	"Carpenter",
-	"Cartoonist",
-	"Chef",
-	"Dancer",
-	"Dentist",
-	"Dermatologist",
-	"Designer",
-	"Detective",
-	"Doctor",
-	"Drummer",
-	"Esthetician",
-	"Explorer",
-	"Fashion Designer",
-	"Figure Skater",
-	"Firefighter",
-	"Fisherman",
-	"Florist",
-	"Forest Ranger",
-	"Guitarist",
-	"Gymnast",
-	"Hair Stylist",
-	"Illustrator",
-	"Journalist",
-	"Judge",
-	"Lawyer",
-	"Makeup Artist",
-	"Marathon Runner",
-	"Mayor",
-	"Model",
-	"Movie Director",
-	"Movie Star",
-	"Musician",
-	"Painter",
-	"Pastry Chef",
-	"Pharmacist",
-	"Photographer",
-	"Pianist",
-	"Pilot",
-	"Poet",
-	"Police Officer",
-	"Politician",
-	"President",
-	"Pro Golfer",
-	"Pro Wrestler",
-	"Professor",
-	"Programmer",
-	"Race Car Driver",
-	"Rugby Player",
-	"Singer",
-	"Soccer Player",
-	"Stylist",
-	"Sumo Wrestler",
-	"Superhero",
-	"Swimmer",
-	"Teacher",
-	"Tennis Player",
-	"Tour Guide",
-	"Translator",
-	"Tycoon",
-	"Unknown",
-	"Violinist",
-	"Volleyball Player",
-	"Writer"}
+const villagerActor VillagerGoal = "Actor"
+const villagerAesthetician VillagerGoal = "Aesthetician"
+const villagerArchaeologist VillagerGoal = "Archaeologist"
+const villagerArchitect VillagerGoal = "Architect"
+const villagerArtist VillagerGoal = "Artist"
+const villagerAstronaut VillagerGoal = "Astronaut"
+const villagerBaseballPlayer VillagerGoal = "Baseball Player"
+const villagerBasketballPlayer VillagerGoal = "Basketball Player"
+const villagerBoxer VillagerGoal = "Boxer"
+const villagerCEO VillagerGoal = "CEO"
+const villagerCarpenter VillagerGoal = "Carpenter"
+const villagerCartoonist VillagerGoal = "Cartoonist"
+const villagerChef VillagerGoal = "Chef"
+const villagerDancer VillagerGoal = "Dancer"
+const villagerDentist VillagerGoal = "Dentist"
+const villagerDermatologist VillagerGoal = "Dermatologist"
+const villagerDesigner VillagerGoal = "Designer"
+const villagerDetective VillagerGoal = "Detective"
+const villagerDoctor VillagerGoal = "Doctor"
+const villagerDrummer VillagerGoal = "Drummer"
+const villagerEsthetician VillagerGoal = "Esthetician"
+const villagerExplorer VillagerGoal = "Explorer"
+const villagerFashionDesigner VillagerGoal = "Fashion Designer"
+const villagerFigureSkater VillagerGoal = "Figure Skater"
+const villagerFirefighter VillagerGoal = "Firefighter"
+const villagerFisherman VillagerGoal = "Fisherman"
+const villagerFlorist VillagerGoal = "Florist"
+const villagerForestRanger VillagerGoal = "Forest Ranger"
+const villagerGuitarist VillagerGoal = "Guitarist"
+const villagerGymnast VillagerGoal = "Gymnast"
+const villagerHairStylist VillagerGoal = "Hair Stylist"
+const villagerIllustrator VillagerGoal = "Illustrator"
+const villagerJournalist VillagerGoal = "Journalist"
+const villagerJudge VillagerGoal = "Judge"
+const villagerLawyer VillagerGoal = "Lawyer"
+const villagerMakeupArtist VillagerGoal = "Makeup Artist"
+const villagerMarathonRunner VillagerGoal = "Marathon Runner"
+const villagerMayor VillagerGoal = "Mayor"
+const villagerModel VillagerGoal = "Model"
+const villagerMovieDirector VillagerGoal = "Movie Director"
+const villagerMovieStar VillagerGoal = "Movie Star"
+const villagerMusician VillagerGoal = "Musician"
+const villagerPainter VillagerGoal = "Painter"
+const villagerPastryChef VillagerGoal = "Pastry Chef"
+const villagerPharmacist VillagerGoal = "Pharmacist"
+const villagerPhotographer VillagerGoal = "Photographer"
+const villagerPianist VillagerGoal = "Pianist"
+const villagerPilot VillagerGoal = "Pilot"
+const villagerPoet VillagerGoal = "Poet"
+const villagerPoliceOfficer VillagerGoal = "Police Officer"
+const villagerPolitician VillagerGoal = "Politician"
+const villagerPresident VillagerGoal = "President"
+const villagerProGolfer VillagerGoal = "Pro Golfer"
+const villagerProWrestler VillagerGoal = "Ppro Wrestler"
+const villagerProfessor VillagerGoal = "Professor"
+const villagerProgrammer VillagerGoal = "Programmer"
+const villagerRaceCarDriver VillagerGoal = "Racecar driver"
+const villagerRugbyPlayer VillagerGoal = "Rugby Player"
+const villagerSinger VillagerGoal = "Singer"
+const villagerSoccerPlayer VillagerGoal = "Soccer Player"
+const villagerStylist VillagerGoal = "Stylist"
+const villagerSumoWrestler VillagerGoal = "Sumo Wrestler"
+const villagerSuperhero VillagerGoal = "Superhero"
+const villagerSwimmer VillagerGoal = "Swimmer"
+const villagerTeacher VillagerGoal = "Teacher"
+const villagerTennisPlayer VillagerGoal = "Tennis Player"
+const villagerTourGuide VillagerGoal = "Tour Guide"
+const villagerTranslator VillagerGoal = "Translator"
+const villagerTycoon VillagerGoal = "Tycoon"
+const villagerViolinist VillagerGoal = "Violinist"
+const villagerVolleyballPlayer VillagerGoal = "Volleyball Player"
+const villagerWriter VillagerGoal = "Writer"
