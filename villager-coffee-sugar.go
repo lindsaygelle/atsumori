@@ -15,12 +15,14 @@ type villagerCoffeeSugar struct {
 }
 
 const (
-	oneSpoonful VillagerCoffeeSugar = iota + 1
-	twoSpoonfuls
-	threeSpoonfuls
+	villagerCoffeeSugarOneSpoon VillagerCoffeeSugar = iota + 1
+	villagerCoffeeSugarTwoSpoon
+	villagerCoffeeSugarThreeSpoon
+	villagerCoffeeSugarZeroSpoon
 )
 
 var sugarSpoonfuls = [...]string{
 	"One",
 	"Two",
-	"Three"}
+	"Three",
+	"Zero"}

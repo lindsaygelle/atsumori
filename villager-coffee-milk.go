@@ -11,13 +11,13 @@ type villagerCoffeeMilk struct {
 }
 
 const (
-	milkLittle VillagerCoffeeMilk = iota
-	milkLots
-	milkNone
-	milkRegular
+	villagerCoffeeMilkLittle VillagerCoffeeMilk = iota
+	villagerCoffeeMilkLots
+	villagerCoffeeMilkNone
+	villagerCoffeeMilkRegular
 )
 
-var animalCrossingMilk = [...]string{
+var animalCrossingCoffeeMilk = [...]string{
 	"Little",
 	"Lots",
 	"None",

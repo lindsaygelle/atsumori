@@ -15,18 +15,18 @@ type villagerAstrology struct {
 }
 
 const (
-	aquarius VillagerAstrology = iota
-	aries
-	cancer
-	capricorn
-	gemini
-	leo
-	libra
-	pisces
-	sagittarius
-	scorpio
-	taurus
-	virgo
+	villagerAstrologyAquarius VillagerAstrology = iota
+	villagerAstrologyAries
+	villagerAstrologyCancer
+	villagerAstrologyCapricorn
+	villagerAstrologyGemini
+	villagerAstrologyLeo
+	villagerAstrologyLibra
+	villagerAstrologyPisces
+	villagerAstrologySagittarius
+	villagerAstrologyScorpio
+	villagerAstrologyTaurus
+	villagerAstrologyVirgo
 )
 
 var villagerAstrologyNames = [...]string{

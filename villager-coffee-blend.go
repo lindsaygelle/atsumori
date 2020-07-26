@@ -11,11 +11,11 @@ type villagerCoffeeBlend struct {
 }
 
 const (
-	coffeeBlend VillagerCoffeeBlend = iota
-	coffeeBlueMountain
-	coffeeHouse
-	coffeekilimanjaro
-	coffeeMocha
-	coffeeNone
-	coffeeUnknown
+	villagerCoffeeBlended VillagerCoffeeBlend = iota
+	villagerCoffeeBlueMountain
+	villagerCoffeeHouse
+	villagerCoffeekilimanjaro
+	villagerCoffeeMocha
+	villagerCoffeeNone
+	villagerCoffeeUnknown
 )
