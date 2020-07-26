@@ -1,11 +1,7 @@
 package main
 
-// VillagerCoffeeSugar is an enum of spoonfuls of sugar an Animal Crossing villager prefers in their coffee.
-type VillagerCoffeeSugar uint
-
-func (v VillagerCoffeeSugar) String() string {
-	return (sugarSpoonfuls[v])
-}
+// VillagerCoffeeSugar is the number of spoonfuls of sugar an Animal Crossing villager enjoys in their coffee.
+type VillagerCoffeeSugar uint8
 
 // villagerCoffeeSugar is a composable struct.
 type villagerCoffeeSugar struct {
@@ -14,15 +10,13 @@ type villagerCoffeeSugar struct {
 	Sugar VillagerCoffeeSugar `json:"sugar"`
 }
 
-const (
-	villagerCoffeeSugarOneSpoon VillagerCoffeeSugar = iota + 1
-	villagerCoffeeSugarTwoSpoon
-	villagerCoffeeSugarThreeSpoon
-	villagerCoffeeSugarZeroSpoon
-)
+func (v villagerCoffeeSugar) SetSugar(x VillagerCoffeeSugar) {
+	v.Sugar = x
+}
 
-var sugarSpoonfuls = [...]string{
-	"One",
-	"Two",
-	"Three",
-	"Zero"}
+const (
+	villagerCoffeeSugar0 VillagerCoffeeSugar = iota
+	villagerCoffeeSugar1
+	villagerCoffeeSugar2
+	villagerCoffeeSugar3
+)
