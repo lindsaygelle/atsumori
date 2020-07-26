@@ -7,10 +7,10 @@ type VillagerCoffeeSugar uint8
 type villagerCoffeeSugar struct {
 
 	// Sugar is number of spoonfuls a villager prefers in their coffee.
-	Sugar VillagerCoffeeSugar `json:"sugar"`
+	Sugar *VillagerCoffeeSugar `json:"sugar"`
 }
 
-func (v villagerCoffeeSugar) SetSugar(x VillagerCoffeeSugar) {
+func (v villagerCoffeeSugar) SetSugar(x *VillagerCoffeeSugar) {
 	v.Sugar = x
 }
 
