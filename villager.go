@@ -2,7 +2,6 @@ package main
 
 // Villager is an Animal Crossing villager.
 type Villager struct {
-	color
 	description
 	games
 	names
@@ -20,6 +19,6 @@ type Villager struct {
 	villagerName
 	villagerPersonality
 
-	// Phrases is a collection of quotes said by the Animal Crossing villager.
+	// Phrases is a collection of lines said by the Animal Crossing villager.
 	Phrases []I18N
 }

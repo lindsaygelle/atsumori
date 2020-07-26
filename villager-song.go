@@ -11,7 +11,7 @@ func (v VillagerSong) String() string {
 type villagerSong struct {
 
 	// Song is the Animal Crossing villagers favourite K.K Slider song.
-	Song VillagerSong
+	Song VillagerSong `json:"song"`
 }
 
 const (
