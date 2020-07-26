@@ -6,3 +6,10 @@ type VillagerCoffee struct {
 	villagerCoffeeMilk
 	villagerCoffeeSugar
 }
+
+// villagerCoffee is a composable struct.
+type villagerCoffee struct {
+
+	// Coffee is the Animal Crossing villagers coffee preferences.
+	Coffee VillagerCoffee `json:"coffee"`
+}
