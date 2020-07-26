@@ -1,24 +1,22 @@
 package main
 
-// VillagerCoffeeMilk is the volumn of milk an Animal Crossing villager likes in their coffee.
-type VillagerCoffeeMilk uint
+// VillagerCoffeeMilk is the amount of milk an Animal Crossing villager enjoys in their coffee.
+type VillagerCoffeeMilk string
 
 // villagerCoffeeMilk is a composable struct.
 type villagerCoffeeMilk struct {
 
-	//  Milk is the volumn of milk an Animal Crossing villager likes in their coffee.
+	//  Milk is the amount of milk an Animal Crossing villager enjoys in their coffee.
 	Milk VillagerCoffeeMilk `json:"milk"`
 }
 
-const (
-	villagerCoffeeMilkLittle VillagerCoffeeMilk = iota
-	villagerCoffeeMilkLots
-	villagerCoffeeMilkNone
-	villagerCoffeeMilkRegular
-)
+func (v villagerCoffeeMilk) SetMilk(x VillagerCoffeeMilk) {
+	v.Milk = x
+}
 
-var animalCrossingCoffeeMilk = [...]string{
-	"Little",
-	"Lots",
-	"None",
-	"Regular"}
+const (
+	villagerCoffeeMilkLittle  VillagerCoffeeMilk = "Little"
+	villagerCoffeeMilkLots    VillagerCoffeeMilk = "Lots"
+	villagerCoffeeMilkNone    VillagerCoffeeMilk = "None"
+	villagerCoffeeMilkRegular VillagerCoffeeMilk = "Regular"
+)
