@@ -4,13 +4,16 @@ package main
 type VillagerFurniture uint
 
 func (v VillagerFurniture) String() string {
-	return (furniture[v])
+	return (animalCrossingFurniture[v])
 }
 
+// villagerFurniture is a composable struct.
 type villagerFurniture struct {
+
+	// Furniture is a collection of household furniture owned by an Animal Crossing villager.
 	Furniture []VillagerFurniture `json:"furniture"`
 }
 
 const ()
 
-var furniture = [...]string{}
+var animalCrossingFurniture = [...]string{}
