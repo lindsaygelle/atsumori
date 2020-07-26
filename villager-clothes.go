@@ -11,7 +11,7 @@ func (v VillagerClothes) String() string {
 type villagerClothes struct {
 
 	// Clothes are the clothes worn by the Animal Crossing villager.
-	Clothes VillagerClothes `json:"clothes"`
+	Clothes []VillagerClothes `json:"clothes"`
 }
 
 const ()
