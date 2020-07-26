@@ -5,6 +5,8 @@ type VillagerAmiiboCard struct {
 	villagerBirthday
 	villagerCard
 	villagerHandSign
+	villagerHobby
+	villagerHome
 
 	Request   string
 	RollValue int

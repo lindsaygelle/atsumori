@@ -4,9 +4,9 @@ package main
 type Furniture uint
 
 func (f Furniture) String() string {
-	return (furniture[f])
+	return (furnitures[f])
 }
 
 const ()
 
-var furniture = [...]string{}
+var furnitures = [...]string{}
