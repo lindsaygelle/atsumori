@@ -4,6 +4,7 @@ package main
 type VillagerAmiiboCard struct {
 	villagerBirthday
 	villagerCard
+	villagerHobby
 	villagerHandSign
 
 	Request   string
