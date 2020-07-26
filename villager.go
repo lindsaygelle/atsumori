@@ -2,7 +2,6 @@ package main
 
 // Villager is an Animal Crossing villager.
 type Villager struct {
-	color
 	description
 	games
 	names

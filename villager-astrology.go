@@ -11,7 +11,7 @@ func (v VillagerAstrology) String() string {
 type villagerAstrology struct {
 
 	// Astrology is the star-sign of the Animal Crossing villager.
-	Astrology Astrology `json:"astrology"`
+	Astrology VillagerAstrology `json:"astrology"`
 }
 
 const (
