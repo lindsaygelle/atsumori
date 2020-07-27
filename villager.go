@@ -12,6 +12,7 @@ type villager struct {
 	villagersGames
 	villagersGender
 	villagersHomeRequest
+	villagersID
 	villagersInterest
 	villagersIntlNames
 	villagersIntlPhrases
