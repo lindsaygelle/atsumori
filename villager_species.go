@@ -1,0 +1,78 @@
+package main
+
+type villagerSpecies uint8
+
+type villagersSpecies struct {
+	Species *villagerSpecies
+}
+
+const (
+	villagerSpeciesAlligator villagerSpecies = iota
+	villagerSpeciesAlpaca
+	villagerSpeciesAnteater
+	villagerSpeciesAxolotl
+	villagerSpeciesBear
+	villagerSpeciesBird
+	villagerSpeciesBoar
+	villagerSpeciesBull
+	villagerSpeciesCamel
+	villagerSpeciesCat
+	villagerSpeciesChameleon
+	villagerSpeciesChicken
+	villagerSpeciesCow
+	villagerSpeciesCub
+	villagerSpeciesDeer
+	villagerSpeciesDodo
+	villagerSpeciesDog
+	villagerSpeciesDuck
+	villagerSpeciesEagle
+	villagerSpeciesElephant
+	villagerSpeciesFox
+	villagerSpeciesFrog
+	villagerSpeciesGeaver
+	villagerSpeciesGiraffe
+	villagerSpeciesGoat
+	villagerSpeciesGorilla
+	villagerSpeciesHamster
+	villagerSpeciesHedgehog
+	villagerSpeciesHippo
+	villagerSpeciesHorse
+	villagerSpeciesKangaroo
+	villagerSpeciesKappa
+	villagerSpeciesKitsune
+	villagerSpeciesKoala
+	villagerSpeciesLion
+	villagerSpeciesMole
+	villagerSpeciesMonkey
+	villagerSpeciesMouse
+	villagerSpeciesOctopus
+	villagerSpeciesOstrich
+	villagerSpeciesOtter
+	villagerSpeciesOwl
+	villagerSpeciesPanther
+	villagerSpeciesPeacock
+	villagerSpeciesPelican
+	villagerSpeciesPenguin
+	villagerSpeciesPig
+	villagerSpeciesPigeon
+	villagerSpeciesPumpkin
+	villagerSpeciesRabbit
+	villagerSpeciesRaccoon
+	villagerSpeciesReindeer
+	villagerSpeciesRhino
+	villagerSpeciesSeaGull
+	villagerSpeciesSeaLion
+	villagerSpeciesSheep
+	villagerSpeciesSkunk
+	villagerSpeciesSloth
+	villagerSpeciesSpecies
+	villagerSpeciesSpirit
+	villagerSpeciesSquirrel
+	villagerSpeciesTanuki
+	villagerSpeciesTapir
+	villagerSpeciesTiger
+	villagerSpeciesTurkey
+	villagerSpeciesTurtle
+	villagerSpeciesWalrus
+	villagerSpeciesWolf
+)
