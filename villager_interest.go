@@ -7,10 +7,10 @@ type villagersInterest struct {
 }
 
 const (
-	Education villagerInterest = iota
-	Fashion
-	Fitness
-	Music
-	Nature
-	Play
+	villagerInterestEducation villagerInterest = iota
+	villagerInterestFashion
+	villagerInterestFitness
+	villagerInterestMusic
+	villagerInterestNature
+	villagerInterestPlay
 )

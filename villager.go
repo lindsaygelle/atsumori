@@ -2,12 +2,12 @@ package main
 
 type villager struct {
 	villagersAmiiboCard
-	villagersAppearance
 	villagersAspiration
 	villagersAstrology
 	villagersBirthday
 	villagersClothes
 	villagersCoffee
+	villagersColor
 	villagersECard
 	villagersGames
 	villagersGender
