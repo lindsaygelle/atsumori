@@ -1,7 +1,19 @@
 package main
 
-type villagerGames uint8
+type villagerGame uint8
 
 type villagersGames struct {
-	Games []*villagerGames
+	Games []*villagerGame
 }
+
+const (
+	villagerGameAnimalCrossing villagerGame = iota
+	villagerGameCityFolk
+	villagerGameDoubutsuNoMori
+	villagerGameDoubutsuNoMoriEPlus
+	villagerGameHappyHomeDesigner
+	villagerGameNewHorizons
+	villagerGameNewLeaf
+	villagerGamePocketCamp
+	villagerGameWildWorld
+)
