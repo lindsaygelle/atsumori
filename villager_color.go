@@ -8,18 +8,18 @@ type villagersColor struct {
 }
 
 const (
-	Beige villagerColor = iota
-	Black
-	Blue
-	Brown
-	Colorful
-	Gray
-	Green
-	LightBlue
-	Orange
-	Pink
-	Purple
-	Red
-	White
-	Yellow
+	villagerColorBeige villagerColor = iota
+	villagerColorBlack
+	villagerColorBlue
+	villagerColorBrown
+	villagerColorColorful
+	villagerColorGray
+	villagerColorGreen
+	villagerColorLightBlue
+	villagerColorOrange
+	villagerColorPink
+	villagerColorPurple
+	villagerColorRed
+	villagerColorWhite
+	villagerColorYellow
 )
