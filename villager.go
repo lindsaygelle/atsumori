@@ -26,5 +26,6 @@ type villager struct {
 	villagersStyle
 
 	Description string
+	Icon        image.Image
 	Image       image.Image
 }
