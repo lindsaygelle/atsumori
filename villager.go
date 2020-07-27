@@ -13,6 +13,8 @@ type villager struct {
 	villagersGender
 	villagersHomeRequest
 	villagersInterest
+	villagersIntlNames
+	villagersIntlPhrases
 	villagersName
 	villagersPersonality
 	villagersSkill
@@ -21,5 +23,5 @@ type villager struct {
 	villagersStyle
 
 	Description string
-	Names       []string
+	ID          string
 }
