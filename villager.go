@@ -1,25 +1,25 @@
 package main
 
-// Villager is an Animal Crossing villager.
-type Villager struct {
-	description
-	games
-	names
-	villagerAmiiboCard
-	villagerAppearance
-	villagerAstrology
-	villagerBirthday
-	villagerClothes
-	villagerCoffee
-	villagerECard
-	villagerGoal
-	villagerGender
-	villagerSpecies
-	villagerSong
-	villagerStyle
-	villagerName
-	villagerPersonality
+type villager struct {
+	villagersAmiiboCard
+	villagersAppearance
+	villagersAspiration
+	villagersAstrology
+	villagersBirthday
+	villagersClothes
+	villagersCoffee
+	villagersECard
+	villagersGames
+	villagersGender
+	villagersHomeRequest
+	villagersInterest
+	villagersName
+	villagersPersonality
+	villagersSkill
+	villagersSong
+	villagersSpecies
+	villagersStyle
 
-	// Phrases is a collection of lines said by the Animal Crossing villager.
-	Phrases []I18N
+	Description string
+	Names       []string
 }

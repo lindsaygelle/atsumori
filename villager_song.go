@@ -1,0 +1,102 @@
+package main
+
+type villagerSong uint8
+
+type villagersSong struct {
+	Song *villagerSong
+}
+
+const (
+	villagerSongAgentKK villagerSong = iota
+	villagerSongAlohaKK
+	villagerSongAnimalCity
+	villagerSongBubblegumKK
+	villagerSongCafeKK
+	villagerSongComradeKK
+	villagerSongDJKK
+	villagerSongForestLife
+	villagerSongGoKKRider
+	villagerSongHypnoKK
+	villagerSongILoveYou
+	villagerSongImperialKK
+	villagerSongKKAdventure
+	villagerSongKKAria
+	villagerSongKKBallad
+	villagerSongKKBazaar
+	villagerSongKKBirthday
+	villagerSongKKBlues
+	villagerSongKKBossa
+	villagerSongKKCalypso
+	villagerSongKKCasbah
+	villagerSongKKChorale
+	villagerSongKKCondor
+	villagerSongKKCountry
+	villagerSongKKCruisin
+	villagerSongKKDAndB
+	villagerSongKKDirge
+	villagerSongKKDisco
+	villagerSongKKDixie
+	villagerSongKKFaire
+	villagerSongKKFlamenco
+	villagerSongKKFolk
+	villagerSongKKFusion
+	villagerSongKKGroove
+	villagerSongKKGumbo
+	villagerSongKKHouse
+	villagerSongKKIsland
+	villagerSongKKJazz
+	villagerSongKKJongara
+	villagerSongKKLament
+	villagerSongKKLoveSong
+	villagerSongKKLullaby
+	villagerSongKKMambo
+	villagerSongKKMarathon
+	villagerSongKKMarch
+	villagerSongKKMariachi
+	villagerSongKKMetal
+	villagerSongKKMilonga
+	villagerSongKKMoody
+	villagerSongKKOasis
+	villagerSongKKParade
+	villagerSongKKRagtime
+	villagerSongKKRally
+	villagerSongKKReggae
+	villagerSongKKRock
+	villagerSongKKRockabilly
+	villagerSongKKSafari
+	villagerSongKKSalsa
+	villagerSongKKSamba
+	villagerSongKKSka
+	villagerSongKKSonata
+	villagerSongKKSong
+	villagerSongKKSoul
+	villagerSongKKSteppe
+	villagerSongKKStroll
+	villagerSongKKSwing
+	villagerSongKKSynth
+	villagerSongKKTango
+	villagerSongKKTechnopop
+	villagerSongKKWaltz
+	villagerSongKKWestern
+	villagerSongKKEtude
+	villagerSongKingKK
+	villagerSongLuckyKK
+	villagerSongMarineSong2001
+	villagerSongMountainSong
+	villagerSongMrKK
+	villagerSongMyPlace
+	villagerSongNeapolitan
+	villagerSongOnlyMe
+	villagerSongPondering
+	villagerSongRockinKK
+	villagerSongSoulfulKK
+	villagerSongSpaceKK
+	villagerSongSpringBlossoms
+	villagerSongStaleCupcakes
+	villagerSongSteepHill
+	villagerSongSurfinKK
+	villagerSongTheKFunk
+	villagerSongTotheEdge
+	villagerSongTwoDaysAgo
+	villagerSongWandering
+)
