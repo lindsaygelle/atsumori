@@ -7,21 +7,10 @@ type villagersStyle struct {
 }
 
 const (
-	villagerStyleActive villagerStyle = iota
-	villagerStyleBasic
-	villagerStyleCivic
-	villagerStyleCool
-	villagerStyleCute
-	villagerStyleElegant
-	villagerStyleFlashy
-	villagerStyleGorgeous
-	villagerStyleHistorical
-	villagerStyleIconic
-	villagerStyleModern
-	villagerStyleOfficial
-	villagerStyleOrnate
-	villagerStyleRockNRoll
-	villagerStyleRustic
-	villagerStyleSimple
-	villagerStyleSporty
+	Active villagerStyle = iota
+	Cool
+	Cute
+	Elegant
+	Gorgeous
+	Simple
 )

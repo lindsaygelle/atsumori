@@ -7,12 +7,12 @@ type villagersPersonality struct {
 }
 
 const (
-	villagerPersonalityCranky villagerPersonality = iota
+	villagerPersonalityBigSister villagerPersonality = iota
+	villagerPersonalityCranky
 	villagerPersonalityJock
 	villagerPersonalityLazy
 	villagerPersonalityNormal
 	villagerPersonalityPeppy
-	villagerPersonalitySisterly
 	villagerPersonalitySmug
 	villagerPersonalitySnooty
 )

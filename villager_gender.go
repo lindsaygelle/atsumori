@@ -7,6 +7,6 @@ type villagersGender struct {
 }
 
 const (
-	villagerGenderFemale villagerGender = iota
-	villagerGenderMale
+	Female villagerGender = iota
+	Male
 )
