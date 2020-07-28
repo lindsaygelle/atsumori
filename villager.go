@@ -1,5 +1,7 @@
 package main
 
+import "image"
+
 type villager struct {
 	villagersAmiiboCard
 	villagersAspiration
@@ -24,5 +26,6 @@ type villager struct {
 	villagersStyle
 
 	Description string
-	ID          string
+	Icon        image.Image
+	Image       image.Image
 }
