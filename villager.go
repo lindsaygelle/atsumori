@@ -19,6 +19,7 @@ type villager struct {
 	villagersIntlNames
 	villagersIntlPhrases
 	villagersName
+	villagersNameJPN
 	villagersPersonality
 	villagersSkill
 	villagersSong
