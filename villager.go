@@ -19,14 +19,16 @@ type villager struct {
 	villagersIntlNames
 	villagersIntlPhrases
 	villagersName
-	villagersNameJPN
+	villagersNameAlternative
 	villagersPersonality
 	villagersSkill
 	villagersSong
 	villagersSpecies
 	villagersStyle
 
+	Debut       *villagerGame
 	Description string
 	Icon        image.Image
 	Image       image.Image
+	Poster      image.Image
 }
