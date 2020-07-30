@@ -7,15 +7,15 @@ type villagersTheme struct {
 }
 
 const (
-	villagersThemeCivic villagersTheme = iota
-	villagersThemeCool
-	villagersThemeCute
-	villagersThemeElegant
-	villagersThemeHarmonious
-	villagersThemeHip
-	villagersThemeHistorical
-	villagersThemeModern
-	villagersThemeNatural
-	villagersThemeRustic
-	villagersThemeSporty
+	villagerThemeCivic villagerTheme = iota
+	villagerThemeCool
+	villagerThemeCute
+	villagerThemeElegant
+	villagerThemeHarmonious
+	villagerThemeHip
+	villagerThemeHistorical
+	villagerThemeModern
+	villagerThemeNatural
+	villagerThemeRustic
+	villagerThemeSporty
 )
