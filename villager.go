@@ -25,6 +25,7 @@ type villager struct {
 	villagersSong
 	villagersSpecies
 	villagersStyle
+	villagersTheme
 
 	Debut       *villagerGame
 	Description string
