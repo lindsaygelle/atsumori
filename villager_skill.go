@@ -54,6 +54,7 @@ const (
 	villagerSkillJuggling
 	villagerSkillJumpingRope
 	villagerSkillKaraoke
+	villagerSkillLiftingWeights
 	villagerSkillLimboing
 	villagerSkillMagicTricks
 	villagerSkillMakingBudgets
