@@ -7,6 +7,7 @@ type villagerAmiiboCard struct {
 	villagersClothes
 	villagersHome
 	villagersHomeRequest
+	villagersID
 	villagersRoll
 	villagersSign
 }
