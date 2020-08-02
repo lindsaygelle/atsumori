@@ -5,7 +5,7 @@ type villagerECard struct {
 
 	Description string
 	Letter      string
-	Password    string
+	Password    []string
 	Phrase      string
 }
 

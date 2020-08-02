@@ -1,0 +1,64 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+	"sync"
+
+	"github.com/PuerkitoBio/goquery"
+)
+
+func main() {
+	var wg sync.WaitGroup
+	var skill = map[string]int{}
+	var fear = map[string]int{}
+	var d, _ = goquery.NewDocument("https://nookipedia.com/wiki/List_of_villagers")
+	d.Find("#mw-content-text > div > table > tbody tr").Each(func(_ int, s *goquery.Selection) {
+		var u = s.Find("th:nth-child(2) a").AttrOr("href", "")
+		if len(u) == 0 {
+			return
+		}
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			var d, _ = goquery.NewDocument("https://nookipedia.com" + u)
+			if d == nil {
+				return
+			}
+			s = d.Find("#mw-content-text > div > div:nth-child(26) > div:nth-child(1) > table")
+			if s.Length() == 0 {
+				return
+			}
+			fmt.Println(u, s.Length())
+			s = s.Find("table")
+			s.Each(func(_ int, s *goquery.Selection) {
+				s = s.Find("tr")
+				if s.Length() == 0 {
+					return
+				}
+				s.Each(func(_ int, s *goquery.Selection) {
+					var k = s.Find("th").First().Text()
+					var v = s.Find("td").First().Text()
+					k = strings.ToUpper(k)
+					k = strings.TrimSpace(k)
+					v = strings.TrimSpace(v)
+					fmt.Println(k, v)
+
+					if k == "SKILL" {
+						if _, ok := skill[v]; !ok {
+							skill[v] = 1
+						}
+					} else if k == "FEAR" {
+						if _, ok := fear[v]; !ok {
+							fear[v] = 1
+						}
+					}
+				})
+			})
+		}()
+	})
+	wg.Wait()
+	fmt.Println(skill)
+	fmt.Println("")
+	fmt.Println(fear)
+}
