@@ -7,10 +7,11 @@ type villagerAmiiboCard struct {
 	villagersClothes
 	villagersHome
 	villagersHomeRequest
+	villagersID
 	villagersRoll
 	villagersSign
 }
 
 type villagersAmiiboCard struct {
-	AmiiboCard *villagerAmiiboCard
+	AmiiboCard villagerAmiiboCard
 }

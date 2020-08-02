@@ -3,7 +3,7 @@ package main
 type villagerSpecies uint8
 
 type villagersSpecies struct {
-	Species *villagerSpecies
+	Species villagerSpecies
 }
 
 const (

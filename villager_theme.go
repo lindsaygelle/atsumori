@@ -3,7 +3,7 @@ package main
 type villagerTheme uint8
 
 type villagersTheme struct {
-	Theme *villagerTheme
+	Theme villagerTheme
 }
 
 const (

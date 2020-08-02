@@ -28,7 +28,7 @@ type villager struct {
 	villagersStyle
 	villagersTheme
 
-	Debut  *villagerGame
+	Debut  villagerGame
 	Icon   image.Image
 	Image  image.Image
 	Poster image.Image

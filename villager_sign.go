@@ -3,7 +3,7 @@ package main
 type villagerSign uint8
 
 type villagersSign struct {
-	Sign *villagerSign
+	Sign villagerSign
 }
 
 const (
