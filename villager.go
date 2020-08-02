@@ -10,6 +10,7 @@ type villager struct {
 	villagersClothes
 	villagersCoffee
 	villagersColor
+	villagersDescription
 	villagersECard
 	villagersGames
 	villagersGender
@@ -27,9 +28,8 @@ type villager struct {
 	villagersStyle
 	villagersTheme
 
-	Debut       *villagerGame
-	Description string
-	Icon        image.Image
-	Image       image.Image
-	Poster      image.Image
+	Debut  *villagerGame
+	Icon   image.Image
+	Image  image.Image
+	Poster image.Image
 }

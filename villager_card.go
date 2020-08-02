@@ -4,6 +4,7 @@ import "image"
 
 type villagerCard struct {
 	villagersAspiration
+	villagersAstrology
 	villagersID
 	villagersName
 	villagersSpecies
