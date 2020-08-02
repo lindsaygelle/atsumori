@@ -3,7 +3,7 @@ package main
 type villagerName uint16
 
 type villagersName struct {
-	Name *villagerName
+	Name villagerName
 }
 
 const (

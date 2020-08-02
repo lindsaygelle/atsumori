@@ -10,5 +10,5 @@ type villagerECard struct {
 }
 
 type villagersECard struct {
-	ECard *villagerECard
+	ECard villagerECard
 }

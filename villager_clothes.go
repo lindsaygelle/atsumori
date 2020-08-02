@@ -3,7 +3,7 @@ package main
 type villagerClothes uint16
 
 type villagersClothes struct {
-	Clothes []*villagerClothes
+	Clothes []villagerClothes
 }
 
 const (

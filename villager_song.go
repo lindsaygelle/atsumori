@@ -3,7 +3,7 @@ package main
 type villagerSong uint8
 
 type villagersSong struct {
-	Song *villagerSong
+	Song villagerSong
 }
 
 const (

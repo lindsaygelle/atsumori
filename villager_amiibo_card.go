@@ -12,5 +12,5 @@ type villagerAmiiboCard struct {
 }
 
 type villagersAmiiboCard struct {
-	AmiiboCard *villagerAmiiboCard
+	AmiiboCard villagerAmiiboCard
 }

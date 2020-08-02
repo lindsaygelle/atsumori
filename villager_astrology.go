@@ -3,7 +3,7 @@ package main
 type villagerAstrology uint8
 
 type villagersAstrology struct {
-	Astrology *villagerAstrology
+	Astrology villagerAstrology
 }
 
 const (

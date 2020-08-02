@@ -3,7 +3,7 @@ package main
 type villagerCoffeeSugar uint8
 
 type villagersCoffeeSugar struct {
-	Sugar *villagerCoffeeSugar
+	Sugar villagerCoffeeSugar
 }
 
 const (

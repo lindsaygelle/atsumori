@@ -3,7 +3,7 @@ package main
 type villagerGender uint8
 
 type villagersGender struct {
-	Gender *villagerGender
+	Gender villagerGender
 }
 
 const (

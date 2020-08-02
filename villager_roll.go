@@ -3,7 +3,7 @@ package main
 type villagerRoll uint8
 
 type villagersRoll struct {
-	Roll *villagerRoll
+	Roll villagerRoll
 }
 
 const (

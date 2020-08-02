@@ -3,8 +3,8 @@ package main
 type villagerColor uint8
 
 type villagersColor struct {
-	Primary   *villagerColor
-	Secondary *villagerColor
+	Primary   villagerColor
+	Secondary villagerColor
 }
 
 const (
