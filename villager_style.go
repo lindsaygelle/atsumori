@@ -1,16 +1,5 @@
-package main
+package atsumori
 
-type villagerStyle uint8
-
-type villagersStyle struct {
-	Style villagerStyle
+type VillagerStyler interface {
+	Style() string
 }
-
-const (
-	villagerStyleActive villagerStyle = iota
-	villagerStyleCool
-	villagerStyleCute
-	villagerStyleElegant
-	villagerStyleGorgeous
-	villagerStyleSimple
-)

@@ -1,18 +1,30 @@
-package main
+package atsumori
 
-type villagerPersonality uint8
+import "fmt"
 
-type villagersPersonality struct {
-	Personality villagerPersonality
+var _ fmt.Stringer = VillagerPersonality(0)
+
+type VillagerPersonalitier interface {
+	Personality() string
 }
 
+type VillagerPersonality uint8
+
+func (v VillagerPersonality) String() string {
+	return _villagerPersonalities[v]
+}
+
+type villagerPersonality struct {
+	VillagerPersonality VillagerPersonality `json:"personality"`
+}
+
+func (v villagerPersonality) Personality() string { return v.VillagerPersonality.String() }
+
 const (
-	villagerPersonalityBigSister villagerPersonality = iota
-	villagerPersonalityCranky
-	villagerPersonalityJock
-	villagerPersonalityLazy
-	villagerPersonalityNormal
-	villagerPersonalityPeppy
-	villagerPersonalitySmug
-	villagerPersonalitySnooty
+	villagerPersonalityJock VillagerPersonality = iota
+)
+
+var (
+	_villagerPersonalities = [...]string{
+		"Jock"}
 )

@@ -1,78 +1,30 @@
-package main
+package atsumori
 
-type villagerSpecies uint8
+import "fmt"
 
-type villagersSpecies struct {
-	Species villagerSpecies
+var _ fmt.Stringer = VillagerSpecies(0)
+
+type VillagerSpecieser interface {
+	Species() string
 }
 
+type VillagerSpecies uint8
+
+func (v VillagerSpecies) String() string {
+	return _villagerSpecies[v]
+}
+
+type villagerSpecies struct {
+	VillagerSpecies VillagerSpecies `json:"species"`
+}
+
+func (v villagerSpecies) Species() string { return v.VillagerSpecies.String() }
+
 const (
-	villagerSpeciesAlligator villagerSpecies = iota
-	villagerSpeciesAlpaca
-	villagerSpeciesAnteater
-	villagerSpeciesAxolotl
-	villagerSpeciesBear
-	villagerSpeciesBird
-	villagerSpeciesBoar
-	villagerSpeciesBull
-	villagerSpeciesCamel
-	villagerSpeciesCat
-	villagerSpeciesChameleon
-	villagerSpeciesChicken
-	villagerSpeciesCow
-	villagerSpeciesCub
-	villagerSpeciesDeer
-	villagerSpeciesDodo
-	villagerSpeciesDog
-	villagerSpeciesDuck
-	villagerSpeciesEagle
-	villagerSpeciesElephant
-	villagerSpeciesFox
-	villagerSpeciesFrog
-	villagerSpeciesGeaver
-	villagerSpeciesGiraffe
-	villagerSpeciesGoat
-	villagerSpeciesGorilla
-	villagerSpeciesHamster
-	villagerSpeciesHedgehog
-	villagerSpeciesHippo
-	villagerSpeciesHorse
-	villagerSpeciesKangaroo
-	villagerSpeciesKappa
-	villagerSpeciesKitsune
-	villagerSpeciesKoala
-	villagerSpeciesLion
-	villagerSpeciesMole
-	villagerSpeciesMonkey
-	villagerSpeciesMouse
-	villagerSpeciesOctopus
-	villagerSpeciesOstrich
-	villagerSpeciesOtter
-	villagerSpeciesOwl
-	villagerSpeciesPanther
-	villagerSpeciesPeacock
-	villagerSpeciesPelican
-	villagerSpeciesPenguin
-	villagerSpeciesPig
-	villagerSpeciesPigeon
-	villagerSpeciesPumpkin
-	villagerSpeciesRabbit
-	villagerSpeciesRaccoon
-	villagerSpeciesReindeer
-	villagerSpeciesRhino
-	villagerSpeciesSeaGull
-	villagerSpeciesSeaLion
-	villagerSpeciesSheep
-	villagerSpeciesSkunk
-	villagerSpeciesSloth
-	villagerSpeciesSpecies
-	villagerSpeciesSpirit
-	villagerSpeciesSquirrel
-	villagerSpeciesTanuki
-	villagerSpeciesTapir
-	villagerSpeciesTiger
-	villagerSpeciesTurkey
-	villagerSpeciesTurtle
-	villagerSpeciesWalrus
-	villagerSpeciesWolf
+	villagerSpeciesBird VillagerSpecies = iota
+)
+
+var (
+	_villagerSpecies = [...]string{
+		"Bird"}
 )
