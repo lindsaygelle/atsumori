@@ -4,6 +4,7 @@ var Ace Villager = villager{
 	villagersCategory{villagerCategory},
 	villagersColors{[2]VillagerColor{villagerColor, villagerColor}},
 	villagersGender{villagerGenderMale},
+	villagersInterest{villagerInterest},
 	villagersName{villagerNameAce},
 	villagersMusic{villagerMusic},
 	villagersPersonality{villagerPersonalityJock},
