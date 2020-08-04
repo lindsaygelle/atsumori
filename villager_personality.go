@@ -10,9 +10,7 @@ type VillagerPersonalitier interface {
 
 type VillagerPersonality uint8
 
-func (v VillagerPersonality) String() string {
-	return _villagerPersonalities[v]
-}
+func (v VillagerPersonality) String() string { return _villagerPersonalities[v] }
 
 type villagerPersonality struct {
 	VillagerPersonality VillagerPersonality `json:"personality"`

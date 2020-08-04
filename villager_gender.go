@@ -19,12 +19,14 @@ type villagerGender struct {
 func (v villagerGender) Gender() string { return v.VillagerGender.String() }
 
 const (
-	villagerGenderFemale VillagerGender = iota
+	_villagerGender VillagerGender = iota
+	villagerGenderFemale
 	villagerGenderMale
 )
 
 var (
 	_villagerGenders = [...]string{
+		"",
 		"Female",
 		"Male"}
 )
