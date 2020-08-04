@@ -10,7 +10,7 @@ type VillagerStyler interface {
 
 type VillagerStyle uint8
 
-func (v VillagerStyle) String() string { return _villagerStyles[v] }
+func (v VillagerStyle) String() string { return villagerStyleAll[v] }
 
 type villagerStyle struct {
 	VillagerStyle [2]VillagerStyle `json:"style"`
@@ -33,7 +33,7 @@ const (
 )
 
 var (
-	_villagerStyles = [...]string{
+	villagerStyleAll = [...]string{
 		"",
 		"Cool",
 		"Active",

@@ -10,7 +10,7 @@ type VillagerColorer interface {
 
 type VillagerColor uint8
 
-func (v VillagerColor) String() string { return _villagerColors[v] }
+func (v VillagerColor) String() string { return villagerColorAll[v] }
 
 type villagerColors struct {
 	VillagerColor [2]VillagerColor `json:"colors"`
@@ -41,7 +41,7 @@ const (
 )
 
 var (
-	_villagerColors = [...]string{
+	villagerColorAll = [...]string{
 		"",
 		"Beige",
 		"Black",

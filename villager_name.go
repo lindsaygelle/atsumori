@@ -10,7 +10,7 @@ type VillagerNamer interface {
 
 type VillagerName uint16
 
-func (v VillagerName) String() string { return _villagerNames[v] }
+func (v VillagerName) String() string { return villagerNameAll[v] }
 
 type villagerName struct {
 	VillagerName VillagerName `json:"name"`
@@ -24,7 +24,7 @@ const (
 )
 
 var (
-	_villagerNames = [...]string{
+	villagerNameAll = [...]string{
 		"",
 		"Ace"}
 )

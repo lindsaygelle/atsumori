@@ -10,9 +10,7 @@ type VillagerSpecieser interface {
 
 type VillagerSpecies uint8
 
-func (v VillagerSpecies) String() string {
-	return _villagerSpecies[v]
-}
+func (v VillagerSpecies) String() string { return villagerSpeciesAll[v] }
 
 type villagerSpecies struct {
 	VillagerSpecies VillagerSpecies `json:"species"`
@@ -21,10 +19,12 @@ type villagerSpecies struct {
 func (v villagerSpecies) Species() string { return v.VillagerSpecies.String() }
 
 const (
-	villagerSpeciesBird VillagerSpecies = iota
+	_villagerSpecies VillagerSpecies = iota
+	villagerSpeciesBird
 )
 
 var (
-	_villagerSpecies = [...]string{
+	villagerSpeciesAll = [...]string{
+		"",
 		"Bird"}
 )

@@ -10,7 +10,7 @@ type VillagerGenderer interface {
 
 type VillagerGender uint8
 
-func (v VillagerGender) String() string { return _villagerGenders[v] }
+func (v VillagerGender) String() string { return villagerGenderAll[v] }
 
 type villagerGender struct {
 	VillagerGender VillagerGender `json:"gender"`
@@ -25,7 +25,7 @@ const (
 )
 
 var (
-	_villagerGenders = [...]string{
+	villagerGenderAll = [...]string{
 		"",
 		"Female",
 		"Male"}

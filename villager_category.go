@@ -10,7 +10,7 @@ type VillagerCategorizer interface {
 
 type VillagerCategory uint8
 
-func (v VillagerCategory) String() string { return _villagerCategories[v] }
+func (v VillagerCategory) String() string { return villagerCategoryAll[v] }
 
 type villagerCategory struct {
 	VillagerCategory VillagerCategory `json:"category"`
@@ -25,7 +25,7 @@ const (
 )
 
 var (
-	_villagerCategories = [...]string{
+	villagerCategoryAll = [...]string{
 		"",
 		"A",
 		"B"}
