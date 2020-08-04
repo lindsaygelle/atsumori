@@ -4,6 +4,8 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerMusic(0)
 
+var _ VillagerMusicer = villagerMusic{}
+
 type VillagerMusicer interface {
 	Music() string
 }
