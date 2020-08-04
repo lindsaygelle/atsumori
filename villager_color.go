@@ -23,6 +23,23 @@ func (v villagerColors) Colors() [2]string {
 }
 
 const (
+	_villagerColorBeige     string = "Beige"
+	_villagerColorBlack     string = "Black"
+	_villagerColorBlue      string = "Blue"
+	_villagerColorBrown     string = "Brown"
+	_villagerColorColorful  string = "Colorful"
+	_villagerColorGray      string = "Gray"
+	_villagerColorGreen     string = "Green"
+	_villagerColorLightblue string = "Lightblue"
+	_villagerColorOrange    string = "Orange"
+	_villagerColorPink      string = "Pink"
+	_villagerColorPurple    string = "Purple"
+	_villagerColorRed       string = "Red"
+	_villagerColorWhite     string = "White"
+	_villagerColorYellow    string = "Yellow"
+)
+
+const (
 	_villagerColor VillagerColor = iota
 	villagerColorBeige
 	villagerColorBlack
@@ -43,18 +60,18 @@ const (
 var (
 	villagerColorAll = [...]string{
 		"",
-		"Beige",
-		"Black",
-		"Blue",
-		"Brown",
-		"Colorful",
-		"Gray",
-		"Green",
-		"Lightblue",
-		"Orange",
-		"Pink",
-		"Purple",
-		"Red",
-		"White",
-		"Yellow"}
+		_villagerColorBeige,
+		_villagerColorBlack,
+		_villagerColorBlue,
+		_villagerColorBrown,
+		_villagerColorColorful,
+		_villagerColorGray,
+		_villagerColorGreen,
+		_villagerColorLightblue,
+		_villagerColorOrange,
+		_villagerColorPink,
+		_villagerColorPurple,
+		_villagerColorRed,
+		_villagerColorWhite,
+		_villagerColorYellow}
 )

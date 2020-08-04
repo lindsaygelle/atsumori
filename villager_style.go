@@ -23,6 +23,15 @@ func (v villagerStyle) Style() [2]string {
 }
 
 const (
+	_villagerStyleCool     string = "Cool"
+	_villagerStyleActive   string = "Active"
+	_villagerStyleSimple   string = "Simple"
+	_villagerStyleCute     string = "Cute"
+	_villagerStyleGorgeous string = "Gorgeous"
+	_villagerStyleElegant  string = "Elegant"
+)
+
+const (
 	_villagerStyle VillagerStyle = iota
 	villagerStyleCool
 	villagerStyleActive
@@ -35,10 +44,10 @@ const (
 var (
 	villagerStyleAll = [...]string{
 		"",
-		"Cool",
-		"Active",
-		"Simple",
-		"Cute",
-		"Gorgeous",
-		"Elegant"}
+		_villagerStyleCool,
+		_villagerStyleActive,
+		_villagerStyleSimple,
+		_villagerStyleCute,
+		_villagerStyleGorgeous,
+		_villagerStyleElegant}
 )

@@ -19,6 +19,10 @@ type villagerPersonality struct {
 func (v villagerPersonality) Personality() string { return v.VillagerPersonality.String() }
 
 const (
+	_villagerPersonalityJock string = "Jock"
+)
+
+const (
 	_villagerPersonality VillagerPersonality = iota
 	villagerPersonalityJock
 )
@@ -26,5 +30,5 @@ const (
 var (
 	villagerPersonalityAll = [...]string{
 		"",
-		"Jock"}
+		_villagerPersonalityJock}
 )
