@@ -3,6 +3,7 @@ package atsumori
 var _ Villager = villager{}
 
 type Villager interface {
+	VillagerCategorizer
 	VillagerColorer
 	VillagerGenderer
 	VillagerNamer
@@ -12,6 +13,7 @@ type Villager interface {
 }
 
 type villager struct {
+	villagerCategory
 	villagerColors
 	villagerGender
 	villagerName

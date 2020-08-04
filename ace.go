@@ -1,6 +1,7 @@
 package atsumori
 
 var Ace Villager = villager{
+	villagerCategory{_villagerCategory},
 	villagerColors{[2]VillagerColor{_villagerColor, _villagerColor}},
 	villagerGender{villagerGenderMale},
 	villagerName{villagerNameAce},
