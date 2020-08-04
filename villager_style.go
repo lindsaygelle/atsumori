@@ -12,17 +12,18 @@ type VillagerStyle uint8
 
 func (v VillagerStyle) String() string { return villagerStyleAll[v] }
 
-type villagerStyle struct {
+type villagersStyle struct {
 	VillagerStyle [2]VillagerStyle `json:"style"`
 }
 
-func (v villagerStyle) Style() [2]string {
+func (v villagersStyle) Style() [2]string {
 	return [2]string{
 		v.VillagerStyle[0].String(),
 		v.VillagerStyle[1].String()}
 }
 
 const (
+	_villagerStyle         string = ""
 	_villagerStyleCool     string = "Cool"
 	_villagerStyleActive   string = "Active"
 	_villagerStyleSimple   string = "Simple"
@@ -32,7 +33,7 @@ const (
 )
 
 const (
-	_villagerStyle VillagerStyle = iota
+	villagerStyle VillagerStyle = iota
 	villagerStyleCool
 	villagerStyleActive
 	villagerStyleSimple
@@ -43,7 +44,7 @@ const (
 
 var (
 	villagerStyleAll = [...]string{
-		"",
+		_villagerStyle,
 		_villagerStyleCool,
 		_villagerStyleActive,
 		_villagerStyleSimple,

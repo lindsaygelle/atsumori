@@ -14,12 +14,12 @@ type Villager interface {
 }
 
 type villager struct {
-	villagerCategory
-	villagerColors
-	villagerGender
-	villagerName
-	villagerMusic
-	villagerPersonality
-	villagerSpecies
-	villagerStyle
+	villagersCategory
+	villagersColors
+	villagersGender
+	villagersName
+	villagersMusic
+	villagersPersonality
+	villagersSpecies
+	villagersStyle
 }

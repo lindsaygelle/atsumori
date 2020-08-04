@@ -1,11 +1,11 @@
 package atsumori
 
 var Ace Villager = villager{
-	villagerCategory{_villagerCategory},
-	villagerColors{[2]VillagerColor{_villagerColor, _villagerColor}},
-	villagerGender{villagerGenderMale},
-	villagerName{villagerNameAce},
-	villagerMusic{_villagerMusic},
-	villagerPersonality{villagerPersonalityJock},
-	villagerSpecies{villagerSpeciesBird},
-	villagerStyle{[2]VillagerStyle{_villagerStyle, _villagerStyle}}}
+	villagersCategory{villagerCategory},
+	villagersColors{[2]VillagerColor{villagerColor, villagerColor}},
+	villagersGender{villagerGenderMale},
+	villagersName{villagerNameAce},
+	villagersMusic{villagerMusic},
+	villagersPersonality{villagerPersonalityJock},
+	villagersSpecies{villagerSpeciesBird},
+	villagersStyle{[2]VillagerStyle{villagerStyle, villagerStyle}}}

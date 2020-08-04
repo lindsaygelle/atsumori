@@ -4,7 +4,7 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerGame(0)
 
-var _ VillagerGamer = villagerGames{}
+var _ VillagerGamer = villagersGames{}
 
 type VillagerGamer interface {
 	Games() []string
@@ -14,11 +14,11 @@ type VillagerGame uint8
 
 func (v VillagerGame) String() string { return villagerGamesAll[v] }
 
-type villagerGames struct {
+type villagersGames struct {
 	VillagerGames []VillagerGame `json:"games"`
 }
 
-func (v villagerGames) Games() []string {
+func (v villagersGames) Games() []string {
 	var games = make([]string, len(v.VillagerGames))
 	var i int
 	var villagerGame VillagerGame
@@ -29,16 +29,17 @@ func (v villagerGames) Games() []string {
 }
 
 const (
+	_villagerGame               string = ""
 	_villagerGameAnimalCrossing string = "Animal Crossing"
 )
 
 const (
-	_villagerGame VillagerGame = iota
+	villagerGame VillagerGame = iota
 	villagerGameAnimalCrossing
 )
 
 var (
 	villagerGamesAll = [...]string{
-		"",
+		_villagerGame,
 		_villagerGameAnimalCrossing}
 )
