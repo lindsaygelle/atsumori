@@ -4,6 +4,8 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerCategory(0)
 
+var _ VillagerCategorizer = villagerCategory{}
+
 type VillagerCategorizer interface {
 	Category() string
 }
@@ -19,6 +21,11 @@ type villagerCategory struct {
 func (v villagerCategory) Category() string { return v.VillagerCategory.String() }
 
 const (
+	_villagerCategoryA string = "A"
+	_villagerCategoryB string = "B"
+)
+
+const (
 	_villagerCategory VillagerCategory = iota
 	villagerCategoryA
 	villagerCategoryB
@@ -27,6 +34,6 @@ const (
 var (
 	villagerCategoryAll = [...]string{
 		"",
-		"A",
-		"B"}
+		_villagerCategoryA,
+		_villagerCategoryB}
 )
