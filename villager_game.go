@@ -7,7 +7,7 @@ var _ fmt.Stringer = VillagerGame(0)
 var _ VillagerGamer = villagersGames{}
 
 type VillagerGamer interface {
-	Games() []string
+	Games() [9]string
 }
 
 type VillagerGame uint8
@@ -15,18 +15,20 @@ type VillagerGame uint8
 func (v VillagerGame) String() string { return villagerGameAll[v] }
 
 type villagersGames struct {
-	VillagerGames []VillagerGame `json:"games"`
+	VillagerGames [9]VillagerGame `json:"games"`
 }
 
-func (v villagersGames) Games() []string {
-	var games = make([]string, len(v.VillagerGames))
-	var i int
-	var villagerGame VillagerGame
-	for i, villagerGame = range v.VillagerGames {
-		fmt.Printf("%v\n", villagerGame)
-		games[i] = villagerGame.String()
-	}
-	return games
+func (v villagersGames) Games() [9]string {
+	return [9]string{
+		v.VillagerGames[0].String(),
+		v.VillagerGames[1].String(),
+		v.VillagerGames[2].String(),
+		v.VillagerGames[3].String(),
+		v.VillagerGames[4].String(),
+		v.VillagerGames[5].String(),
+		v.VillagerGames[6].String(),
+		v.VillagerGames[7].String(),
+		v.VillagerGames[8].String()}
 }
 
 const (

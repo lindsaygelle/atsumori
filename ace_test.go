@@ -8,9 +8,7 @@ import (
 	"github.com/lindsaygelle/atsumori"
 )
 
-func x(...string) {}
-
 func TestAce(t *testing.T) {
-	var b, _ = json.Marshal(&atsumori.Ace)
+	var b, _ = json.Marshal(atsumori.Ace)
 	fmt.Println(string(b))
 }
