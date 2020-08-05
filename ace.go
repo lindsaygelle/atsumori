@@ -6,6 +6,7 @@ var Ace Villager = villager{
 	villagersCategory{villagerCategory},
 	villagersClothes{villagerClothes},
 	villagersColors{[2]VillagerColor{villagerColor, villagerColor}},
+	villagersFlooring{villagerFlooring},
 	villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}},
 	villagersGender{villagerGenderMale},
 	villagersInterest{villagerInterest},
@@ -14,4 +15,5 @@ var Ace Villager = villager{
 	villagersMusic{villagerMusic},
 	villagersPersonality{villagerPersonalityJock},
 	villagersSpecies{villagerSpeciesBird},
-	villagersStyle{[2]VillagerStyle{villagerStyle, villagerStyle}}}
+	villagersStyle{[2]VillagerStyle{villagerStyle, villagerStyle}},
+	villagersWallpaper{villagerWallpaper}}
