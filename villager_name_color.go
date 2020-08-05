@@ -44,6 +44,10 @@ const (
 	_villagerNameColorFFF2BB string = "#FFF2BB"
 	_villagerNameColorFFFAD4 string = "#FFFAD4"
 	_villagerNameColorFFFCE9 string = "#FFFCE9"
+	_villagerNameColor080800 string = "#080800"
+	_villagerNameColor0EA8C7 string = "#0EA8C7"
+	_villagerNameColor333333 string = "#333333"
+	_villagerNameColor38889E string = "#38889E"
 )
 
 const (

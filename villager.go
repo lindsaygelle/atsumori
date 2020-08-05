@@ -4,6 +4,7 @@ var _ Villager = villager{}
 
 type Villager interface {
 	VillagerAstrologizer
+	VillagerBubbleColorer
 	VillagerCategorizer
 	VillagerClotheser
 	VillagerColorer
@@ -20,6 +21,7 @@ type Villager interface {
 
 type villager struct {
 	villagersAstrology
+	villagersBubbleColors
 	villagersCategory
 	villagersClothes
 	villagersColors
