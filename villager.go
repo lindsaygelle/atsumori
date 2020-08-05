@@ -10,6 +10,7 @@ type Villager interface {
 	VillagerGamer
 	VillagerGenderer
 	VillagerInterester
+	VillagerNameColorer
 	VillagerNamer
 	VillagerMusicer
 	VillagerPersonalitier
@@ -26,6 +27,7 @@ type villager struct {
 	villagersGender
 	villagersInterest
 	villagersName
+	villagersNameColors
 	villagersMusic
 	villagersPersonality
 	villagersSpecies
