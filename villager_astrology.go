@@ -21,50 +21,50 @@ type villagersAstrology struct {
 func (v villagersAstrology) Astrology() string { return v.VillagerAstrology.String() }
 
 const (
-	_villagersAstrology            string = ""
-	_villagersAstrologyAquarius    string = "Aquarius"
-	_villagersAstrologyAries       string = "Aries"
-	_villagersAstrologyCancer      string = "Cancer"
-	_villagersAstrologyCapricorn   string = "Capricorn"
-	_villagersAstrologyGemini      string = "Gemini"
-	_villagersAstrologyLeo         string = "Leo"
-	_villagersAstrologyLibra       string = "Libra"
-	_villagersAstrologyPisces      string = "Pisces"
-	_villagersAstrologySagittarius string = "Sagittarius"
-	_villagersAstrologyScorpio     string = "Scorpio"
-	_villagersAstrologyTaurus      string = "Taurus"
-	_villagersAstrologyVirgo       string = "Virgo"
+	_villagerAstrology            string = ""
+	_villagerAstrologyAquarius    string = "Aquarius"
+	_villagerAstrologyAries       string = "Aries"
+	_villagerAstrologyCancer      string = "Cancer"
+	_villagerAstrologyCapricorn   string = "Capricorn"
+	_villagerAstrologyGemini      string = "Gemini"
+	_villagerAstrologyLeo         string = "Leo"
+	_villagerAstrologyLibra       string = "Libra"
+	_villagerAstrologyPisces      string = "Pisces"
+	_villagerAstrologySagittarius string = "Sagittarius"
+	_villagerAstrologyScorpio     string = "Scorpio"
+	_villagerAstrologyTaurus      string = "Taurus"
+	_villagerAstrologyVirgo       string = "Virgo"
 )
 
 const (
 	villagerAstrology VillagerAstrology = iota
-	villagersAstrologyAquarius
-	villagersAstrologyAries
-	villagersAstrologyCancer
-	villagersAstrologyCapricorn
-	villagersAstrologyGemini
-	villagersAstrologyLeo
-	villagersAstrologyLibra
-	villagersAstrologyPisces
-	villagersAstrologySagittarius
-	villagersAstrologyScorpio
-	villagersAstrologyTaurus
-	villagersAstrologyVirgo
+	villagerAstrologyAquarius
+	villagerAstrologyAries
+	villagerAstrologyCancer
+	villagerAstrologyCapricorn
+	villagerAstrologyGemini
+	villagerAstrologyLeo
+	villagerAstrologyLibra
+	villagerAstrologyPisces
+	villagerAstrologySagittarius
+	villagerAstrologyScorpio
+	villagerAstrologyTaurus
+	villagerAstrologyVirgo
 )
 
 var (
 	villagerAstrologyAll = [...]string{
-		_villagersAstrology,
-		_villagersAstrologyAquarius,
-		_villagersAstrologyAries,
-		_villagersAstrologyCancer,
-		_villagersAstrologyCapricorn,
-		_villagersAstrologyGemini,
-		_villagersAstrologyLeo,
-		_villagersAstrologyLibra,
-		_villagersAstrologyPisces,
-		_villagersAstrologySagittarius,
-		_villagersAstrologyScorpio,
-		_villagersAstrologyTaurus,
-		_villagersAstrologyVirgo}
+		_villagerAstrology,
+		_villagerAstrologyAquarius,
+		_villagerAstrologyAries,
+		_villagerAstrologyCancer,
+		_villagerAstrologyCapricorn,
+		_villagerAstrologyGemini,
+		_villagerAstrologyLeo,
+		_villagerAstrologyLibra,
+		_villagerAstrologyPisces,
+		_villagerAstrologySagittarius,
+		_villagerAstrologyScorpio,
+		_villagerAstrologyTaurus,
+		_villagerAstrologyVirgo}
 )
