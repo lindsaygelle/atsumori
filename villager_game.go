@@ -7,7 +7,7 @@ var _ fmt.Stringer = VillagerGame(0)
 var _ VillagerGamer = villagersGames{}
 
 type VillagerGamer interface {
-	Games() [9]string
+	Games() [12]string
 }
 
 type VillagerGame uint8
@@ -15,11 +15,11 @@ type VillagerGame uint8
 func (v VillagerGame) String() string { return villagerGameAll[v] }
 
 type villagersGames struct {
-	VillagerGames [9]VillagerGame `json:"games"`
+	VillagerGames [12]VillagerGame `json:"games"`
 }
 
-func (v villagersGames) Games() [9]string {
-	return [9]string{
+func (v villagersGames) Games() [12]string {
+	return [12]string{
 		v.VillagerGames[0].String(),
 		v.VillagerGames[1].String(),
 		v.VillagerGames[2].String(),
@@ -28,28 +28,35 @@ func (v villagersGames) Games() [9]string {
 		v.VillagerGames[5].String(),
 		v.VillagerGames[6].String(),
 		v.VillagerGames[7].String(),
-		v.VillagerGames[8].String()}
+		v.VillagerGames[8].String(),
+		v.VillagerGames[9].String(),
+		v.VillagerGames[10].String(),
+		v.VillagerGames[11].String()}
 }
 
 const (
-	_villagerGame                  string = ""
-	_villagerGameAnimalCrossing    string = "Animal Crossing"
-	_villagerGameCityFolk          string = _villagerGameAnimalCrossing + ":" + " " + "City Folk"
-	_villagerGameDoubutsuNoMori    string = "Doubutsu no Mori"
-	_villagerGameDoubutsuNoMoriE   string = _villagerGameDoubutsuNoMori + " " + "e+"
-	_villagerGameHappyHomeDesigner string = _villagerGameAnimalCrossing + ":" + " " + "Happy Home Designer"
-	_villagerGameNewHorizons       string = _villagerGameAnimalCrossing + ":" + " " + "New Horizons"
-	_villagerGameNewLeaf           string = _villagerGameAnimalCrossing + ":" + " " + "New Leaf"
-	_villagerGamePocketCamp        string = _villagerGameAnimalCrossing + ":" + " " + "Pocket Camp"
-	_villagerGameWildWorld         string = _villagerGameAnimalCrossing + ":" + " " + "Wild World"
+	_villagerGame                             string = ""
+	_villagerGameAnimalCrossing               string = "Animal Crossing"
+	_villagerGameAnimalCrossingAmiiboFestival string = _villagerGameAnimalCrossing + ":" + " " + "Amiibo Festival"
+	_villagerGameCityFolk                     string = _villagerGameAnimalCrossing + ":" + " " + "City Folk"
+	_villagerGameDoubutsuNoMori               string = "Doubutsu no Mori"
+	_villagerGameDoubutsuNoMoriE              string = _villagerGameDoubutsuNoMori + " " + "e+"
+	_villagerGameDoubutsuNoMoriFilm           string = _villagerGameDoubutsuNoMori + " " + "Film"
+	_villagerGameHappyHomeDesigner            string = _villagerGameAnimalCrossing + ":" + " " + "Happy Home Designer"
+	_villagerGameNewHorizons                  string = _villagerGameAnimalCrossing + ":" + " " + "New Horizons"
+	_villagerGameNewLeaf                      string = _villagerGameAnimalCrossing + ":" + " " + "New Leaf"
+	_villagerGamePocketCamp                   string = _villagerGameAnimalCrossing + ":" + " " + "Pocket Camp"
+	_villagerGameWildWorld                    string = _villagerGameAnimalCrossing + ":" + " " + "Wild World"
 )
 
 const (
 	villagerGame VillagerGame = iota
 	villagerGameAnimalCrossing
+	villagerGameAnimalCrossingAmiiboFestival
 	villagerGameCityFolk
 	villagerGameDoubutsuNoMori
 	villagerGameDoubutsunoMoriE
+	villagerGameDoubutsuNoMoriFilm
 	villagerGameHappyHomeDesigner
 	villagerGameNewHorizons
 	villagerGameNewLeaf
@@ -61,9 +68,11 @@ var (
 	villagerGameAll = [...]string{
 		_villagerGame,
 		_villagerGameAnimalCrossing,
+		_villagerGameAnimalCrossingAmiiboFestival,
 		_villagerGameCityFolk,
 		_villagerGameDoubutsuNoMori,
 		_villagerGameDoubutsuNoMoriE,
+		_villagerGameDoubutsuNoMoriFilm,
 		_villagerGameHappyHomeDesigner,
 		_villagerGameNewHorizons,
 		_villagerGameNewLeaf,
