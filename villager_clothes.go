@@ -4,9 +4,9 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerClothes(0)
 
-var _ VillagerClotheser = villagersClothes{}
+var _ villagerClothes = villagersClothes{}
 
-type VillagerClotheser interface {
+type villagerClothes interface {
 	Clothes() string
 }
 
