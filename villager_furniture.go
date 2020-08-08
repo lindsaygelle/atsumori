@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerFurniture(0)
 
 var _ villagerFurniture = villagersFurniture{}
 
+// VillagerFurniture is an Animal Crossing villagers home furniture.
 type VillagerFurniture int16
 
 func (v VillagerFurniture) String() string { return villagerFurnitureAll[v] }
