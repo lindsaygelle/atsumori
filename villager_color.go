@@ -25,21 +25,21 @@ func (v villagersColors) Colors() [2]string {
 }
 
 const (
-	_villagerColor          string = ""
-	_villagerColorBeige     string = "Beige"
-	_villagerColorBlack     string = "Black"
-	_villagerColorBlue      string = "Blue"
-	_villagerColorBrown     string = "Brown"
-	_villagerColorColorful  string = "Colorful"
-	_villagerColorGray      string = "Gray"
-	_villagerColorGreen     string = "Green"
-	_villagerColorLightblue string = "Lightblue"
-	_villagerColorOrange    string = "Orange"
-	_villagerColorPink      string = "Pink"
-	_villagerColorPurple    string = "Purple"
-	_villagerColorRed       string = "Red"
-	_villagerColorWhite     string = "White"
-	_villagerColorYellow    string = "Yellow"
+	_villagerColor          string = ""           //
+	_villagerColorBeige     string = "Beige"      // #F5F5DC
+	_villagerColorBlack     string = "Black"      // #000000
+	_villagerColorBlue      string = "Blue"       // #0000FF
+	_villagerColorBrown     string = "Brown"      // #A52A2A
+	_villagerColorColorful  string = "Colorful"   //
+	_villagerColorGray      string = "Gray"       // #808080
+	_villagerColorGreen     string = "Green"      // #008000
+	_villagerColorLightblue string = "Light Blue" // #ADD8E6
+	_villagerColorOrange    string = "Orange"     // #FFA500
+	_villagerColorPink      string = "Pink"       // #FFC0CB
+	_villagerColorPurple    string = "Purple"     // #800080
+	_villagerColorRed       string = "Red"        // #FF0000
+	_villagerColorWhite     string = "White"      // #FFFFFF
+	_villagerColorYellow    string = "Yellow"     // #FFFF00
 )
 
 const (
