@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerFlooring(0)
 
 var _ villagerFlooring = villagersFlooring{}
 
+// VillagerFlooring is an Animal Crossings villagers home flooring pattern.
 type VillagerFlooring uint16
 
 func (v VillagerFlooring) String() string { return villagerFlooringAll[v] }
