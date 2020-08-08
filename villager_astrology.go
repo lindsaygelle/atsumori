@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerAstrology(0)
 
 var _ villagerAstrology = villagersAstrology{}
 
+// VillagerAstrology is an Animal Crossing villagers astrological star sign.
 type VillagerAstrology uint8
 
 func (v VillagerAstrology) String() string { return villagerAstrologyAll[v] }
