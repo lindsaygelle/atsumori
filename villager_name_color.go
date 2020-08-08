@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerNameColor(0)
 
 var _ villagerNameColor = villagersNameColors{}
 
+// VillagerNameColor is an Animal Crossing villagers names color.
 type VillagerNameColor uint8
 
 func (v VillagerNameColor) String() string { return villagerNameColorAll[v] }
