@@ -1,35 +1,44 @@
-package main
+package atsumori
 
-import "image"
+var _ Villager = villager{}
+
+// Villager is an Animal Crossing villager.
+type Villager interface {
+	villagerAstrology
+	villagerBubbleColor
+	villagerCategory
+	villagerClothes
+	villagerClothesColor
+	villagerFlooring
+	villagerFurniture
+	villagerGame
+	villagerGender
+	villagerInterest
+	villagerNameColor
+	villagerName
+	villagerMusic
+	villagerPersonality
+	villagerSpecies
+	villagerStyle
+	villagerWallpaper
+}
 
 type villager struct {
-	villagersAmiiboCard
-	villagersAspiration
 	villagersAstrology
-	villagersBirthday
+	villagersBubbleColors
+	villagersCategory
 	villagersClothes
-	villagersCoffee
-	villagersColor
-	villagersDescription
-	villagersECard
+	villagersClothesColors
+	villagersFlooring
+	villagersFurniture
 	villagersGames
 	villagersGender
-	villagersHomeRequest
-	villagersID
 	villagersInterest
-	villagersIntlNames
-	villagersIntlPhrases
 	villagersName
-	villagersNameAlternative
+	villagersNameColors
+	villagersMusic
 	villagersPersonality
-	villagersSkill
-	villagersSong
 	villagersSpecies
 	villagersStyle
-	villagersTheme
-
-	Debut  villagerGame
-	Icon   image.Image
-	Image  image.Image
-	Poster image.Image
+	villagersWallpaper
 }

@@ -1,12 +1,40 @@
-package main
+package atsumori
 
-type villagerGender uint8
+import "fmt"
 
-type villagersGender struct {
-	Gender villagerGender
+var _ fmt.Stringer = VillagerGender(0)
+
+var _ villagerGender = villagersGender{}
+
+// VillagerGender is an Animal Crossing villagers gender.
+type VillagerGender uint8
+
+func (v VillagerGender) String() string { return villagerGenderAll[v] }
+
+type villagerGender interface {
+	Gender() string
 }
 
+type villagersGender struct {
+	VillagerGender VillagerGender `json:"gender"`
+}
+
+func (v villagersGender) Gender() string { return v.VillagerGender.String() }
+
 const (
-	villagerGenderFemale villagerGender = iota
+	_villagerGender       string = ""
+	_villagerGenderFemale string = "Female"
+	_villagerGenderMale   string = "Male"
+)
+
+const (
+	villagerGenderFemale VillagerGender = iota + 1
 	villagerGenderMale
+)
+
+var (
+	villagerGenderAll = [...]string{
+		_villagerGender,
+		_villagerGenderFemale,
+		_villagerGenderMale}
 )
