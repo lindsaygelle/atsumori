@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerWallpaper(0)
 
 var _ villagerWallpaper = villagersWallpaper{}
 
+// VillagerWallpaper is an Animal Crossings villagers home wallpaper pattern.
 type VillagerWallpaper uint16
 
 func (v VillagerWallpaper) String() string { return villagerWallpaperAll[v] }
