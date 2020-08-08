@@ -1,8 +1,12 @@
 package atsumori
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerAstrology(0)
+
+// var _ json.Marshaler = VillagerAstrology(0)
 
 var _ villagerAstrology = villagersAstrology{}
 
@@ -10,6 +14,10 @@ var _ villagerAstrology = villagersAstrology{}
 type VillagerAstrology uint8
 
 func (v VillagerAstrology) String() string { return villagerAstrologyAll[v] }
+
+// func (v VillagerAstrology) MarshalJSON() ([]byte, error) {
+//	return json.Marshal(v.String())
+// }
 
 type villagerAstrology interface {
 	Astrology() string

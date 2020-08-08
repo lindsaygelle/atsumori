@@ -42,3 +42,10 @@ type villager struct {
 	villagersStyle
 	villagersWallpaper
 }
+
+var (
+	// Villagers is a collection of Animal Crossing villagers.
+	Villagers = [...]Villager{
+		Ace,
+		Admiral}
+)

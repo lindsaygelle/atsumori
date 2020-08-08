@@ -22,16 +22,19 @@ type villagersName struct {
 func (v villagersName) Name() string { return v.VillagerName.String() }
 
 const (
-	_villagerName    string = ""
-	_villagerNameAce string = "Ace"
+	_villagerName        string = ""
+	_villagerNameAce     string = "Ace"
+	_villagerNameAdmiral string = "Admiral"
 )
 
 const (
-	villagerNameAce VillagerName = iota
+	villagerNameAce VillagerName = iota + 1
+	villagerNameAdmiral
 )
 
 var (
 	villagerNameAll = [...]string{
 		_villagerName,
-		_villagerNameAce}
+		_villagerNameAce,
+		_villagerNameAdmiral}
 )
