@@ -10,7 +10,7 @@ var Admiral Villager = villager{
 	villagersFlooring{villagerFlooringTatami},
 	villagersFurniture{[23]VillagerFurniture{}},
 	villagersGames{[12]VillagerGame{}},
-	villagersGender{villagerGenderMale},
+	villagersGender{[2]VillagerGender{villagerGenderMale}},
 	villagersInterest{villagerInterestNature},
 	villagersName{villagerNameAdmiral},
 	villagersNameColors{villagerNameColorFFFCE9},

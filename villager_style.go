@@ -1,13 +1,25 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerStyle(0)
+
+var _ json.Marshaler = VillagerStyle(0)
+
+var _ villagerStyle = villagersStyle{}
 
 // VillagerStyle is an Animal Crossing villagers fashion style.
 type VillagerStyle uint8
 
 func (v VillagerStyle) String() string { return villagerStyleAll[v] }
+
+// MarshalJSON returns the encoding of VillagerStyle.
+func (v VillagerStyle) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerStyle interface {
 	Style() [2]string
@@ -24,7 +36,7 @@ func (v villagersStyle) Style() [2]string {
 }
 
 const (
-	_villagerStyle         string = ""
+	_villagerStyle         string = _nil
 	_villagerStyleCool     string = "Cool"
 	_villagerStyleActive   string = "Active"
 	_villagerStyleSimple   string = "Simple"

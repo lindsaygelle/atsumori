@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerClothesColor(0)
+
+var _ json.Marshaler = VillagerClothesColor(0)
 
 var _ villagerClothesColor = villagersClothesColors{}
 
@@ -10,6 +15,11 @@ var _ villagerClothesColor = villagersClothesColors{}
 type VillagerClothesColor uint8
 
 func (v VillagerClothesColor) String() string { return villagerClothesColorAll[v] }
+
+// MarshalJSON returns the encoding of VillagerClothesColor.
+func (v VillagerClothesColor) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerClothesColor interface {
 	ClothesColors() [2]string
@@ -26,7 +36,7 @@ func (v villagersClothesColors) ClothesColors() [2]string {
 }
 
 const (
-	_villagerClothesColor          string = ""           //
+	_villagerClothesColor          string = _nil
 	_villagerClothesColorBeige     string = "Beige"      // #F5F5DC
 	_villagerClothesColorBlack     string = "Black"      // #000000
 	_villagerClothesColorBlue      string = "Blue"       // #0000FF

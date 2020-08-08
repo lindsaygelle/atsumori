@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerSpecies(0)
+
+var _ json.Marshaler = VillagerSpecies(0)
 
 var _ villagerSpecies = villagersSpecies{}
 
@@ -10,6 +15,11 @@ var _ villagerSpecies = villagersSpecies{}
 type VillagerSpecies uint8
 
 func (v VillagerSpecies) String() string { return villagerSpeciesAll[v] }
+
+// MarshalJSON returns the encoding of VillagerSpecies.
+func (v VillagerSpecies) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerSpecies interface {
 	Species() [2]string
@@ -26,7 +36,7 @@ func (v villagersSpecies) Species() [2]string {
 }
 
 const (
-	_villagerSpecies          string = ""
+	_villagerSpecies          string = _nil
 	_villagerSpeciesAlligator string = "Alligator"
 	_villagerSpeciesAlpaca    string = "Alpaca"
 	_villagerSpeciesAnteater  string = "Anteater"

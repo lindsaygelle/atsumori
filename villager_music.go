@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerMusic(0)
+
+var _ json.Marshaler = VillagerInterest(0)
 
 var _ villagerMusic = villagersMusic{}
 
@@ -10,6 +15,11 @@ var _ villagerMusic = villagersMusic{}
 type VillagerMusic uint16
 
 func (v VillagerMusic) String() string { return villagerMusicAll[v] }
+
+// MarshalJSON returns the encoding of VillagerMusic.
+func (v VillagerMusic) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerMusic interface {
 	Music() string
@@ -21,7 +31,7 @@ type villagersMusic struct {
 func (v villagersMusic) Music() string { return v.VillagerMusic.String() }
 
 const (
-	_villagerMusic string = ""
+	_villagerMusic string = _nil
 )
 
 const ()
