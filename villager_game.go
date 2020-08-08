@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerGame(0)
 
 var _ villagerGame = villagersGames{}
 
+// VillagerGame is an Animal Crossing villagers video game and media appearances.
 type VillagerGame uint8
 
 func (v VillagerGame) String() string { return villagerGameAll[v] }
