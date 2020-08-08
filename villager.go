@@ -19,7 +19,7 @@ type Villager interface {
 	villagerPersonality
 	villagerSpecies
 	villagerStyle
-	VillagerWallpaperer
+	villagerWallpaper
 }
 
 type villager struct {

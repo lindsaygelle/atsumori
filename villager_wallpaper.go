@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerWallpaper(0)
 
-var _ VillagerWallpaperer = villagersWallpaper{}
-
-type VillagerWallpaperer interface {
-	Wallpaper() string
-}
+var _ villagerWallpaper = villagersWallpaper{}
 
 type VillagerWallpaper uint16
 
 func (v VillagerWallpaper) String() string { return villagerWallpaperAll[v] }
+
+type villagerWallpaper interface {
+	Wallpaper() string
+}
 
 type villagersWallpaper struct {
 	VillagerWallpaper VillagerWallpaper `json:"wallpaper"`
@@ -179,8 +179,7 @@ const (
 )
 
 const (
-	villagerWallpaper VillagerWallpaper = iota
-	villagerWallpaperAbstractWall
+	villagerWallpaperAbstractWall VillagerWallpaper = iota
 	villagerWallpaperAncientWall
 	villagerWallpaperAppleWall
 	villagerWallpaperAquaTileWall
