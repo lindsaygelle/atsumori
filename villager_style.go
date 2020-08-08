@@ -4,13 +4,13 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerStyle(0)
 
-type VillagerStyler interface {
-	Style() [2]string
-}
-
 type VillagerStyle uint8
 
 func (v VillagerStyle) String() string { return villagerStyleAll[v] }
+
+type villagerStyle interface {
+	Style() [2]string
+}
 
 type villagersStyle struct {
 	VillagerStyle [2]VillagerStyle `json:"style"`
@@ -33,8 +33,7 @@ const (
 )
 
 const (
-	villagerStyle VillagerStyle = iota
-	villagerStyleCool
+	villagerStyleCool VillagerStyle = iota + 1
 	villagerStyleActive
 	villagerStyleSimple
 	villagerStyleCute

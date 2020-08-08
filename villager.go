@@ -18,7 +18,7 @@ type Villager interface {
 	villagerMusic
 	villagerPersonality
 	villagerSpecies
-	VillagerStyler
+	villagerStyle
 	VillagerWallpaperer
 }
 
