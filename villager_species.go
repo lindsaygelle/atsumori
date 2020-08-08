@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerSpecies(0)
 
 var _ villagerSpecies = villagersSpecies{}
 
+// VillagerSpecies is an Animal Crossing villager species.
 type VillagerSpecies uint8
 
 func (v VillagerSpecies) String() string { return villagerSpeciesAll[v] }
