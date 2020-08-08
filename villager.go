@@ -9,6 +9,7 @@ type Villager interface {
 	VillagerClotheser
 	VillagerColorer
 	VillagerFlooringer
+	VillagerFurniturer
 	VillagerGamer
 	VillagerGenderer
 	VillagerInterester
@@ -28,6 +29,7 @@ type villager struct {
 	villagersClothes
 	villagersColors
 	villagersFlooring
+	villagersFurniture
 	villagersGames
 	villagersGender
 	villagersInterest

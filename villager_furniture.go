@@ -15,12 +15,12 @@ type VillagerFurniture int16
 func (v VillagerFurniture) String() string { return villagerFurnitureAll[v] }
 
 type villagersFurniture struct {
-	VillagerFurniture []VillagerFurniture `json:"furniture"`
+	VillagerFurniture [23]VillagerFurniture `json:"furniture"`
 }
 
 func (v villagersFurniture) Furniture() []string {
 	var s = make([]string, len(v.VillagerFurniture))
-	var i int 
+	var i int
 	var villagerFurniture VillagerFurniture
 	for i, villagerFurniture = range v.VillagerFurniture {
 		s[i] = villagerFurniture.String()
