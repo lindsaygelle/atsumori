@@ -4,16 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerMusic(0)
 
-var _ VillagerMusicer = villagersMusic{}
-
-type VillagerMusicer interface {
-	Music() string
-}
+var _ villagerMusic = villagersMusic{}
 
 type VillagerMusic uint16
 
 func (v VillagerMusic) String() string { return villagerMusicAll[v] }
 
+type villagerMusic interface {
+	Music() string
+}
 type villagersMusic struct {
 	VillagerMusic VillagerMusic `json:"music"`
 }
@@ -24,9 +23,7 @@ const (
 	_villagerMusic string = ""
 )
 
-const (
-	villagerMusic VillagerMusic = iota
-)
+const ()
 
 var (
 	villagerMusicAll = [...]string{
