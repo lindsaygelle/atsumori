@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerBubbleColor(0)
 
 var _ villagerBubbleColor = villagersBubbleColors{}
 
+// VillagerBubbleColor is an Animal Crossing villagers speech bubble color.
 type VillagerBubbleColor uint8
 
 func (v VillagerBubbleColor) String() string { return villagerBubbleColorAll[v] }
