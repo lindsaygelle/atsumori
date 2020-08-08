@@ -4,16 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerGame(0)
 
-var _ VillagerGamer = villagersGames{}
-
-type VillagerGamer interface {
-	Games() [12]string
-}
+var _ villagerGame = villagersGames{}
 
 type VillagerGame uint8
 
 func (v VillagerGame) String() string { return villagerGameAll[v] }
 
+type villagerGame interface {
+	Games() [12]string
+}
 type villagersGames struct {
 	VillagerGames [12]VillagerGame `json:"games"`
 }
@@ -50,8 +49,7 @@ const (
 )
 
 const (
-	villagerGame VillagerGame = iota
-	villagerGameAnimalCrossing
+	villagerGameAnimalCrossing VillagerGame = iota + 1
 	villagerGameAnimalCrossingAmiiboFestival
 	villagerGameCityFolk
 	villagerGameDoubutsuNoMori

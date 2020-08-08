@@ -10,7 +10,7 @@ type Villager interface {
 	villagerColor
 	villagerFlooring
 	villagerFurniture
-	VillagerGamer
+	villagerGame
 	VillagerGenderer
 	VillagerInterester
 	VillagerNameColorer
