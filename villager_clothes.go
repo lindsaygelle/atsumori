@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerClothes(0)
 
 var _ villagerClothes = villagersClothes{}
 
+// VillagerClothes is an Animal Crossing villagers default attire.
 type VillagerClothes uint16
 
 func (v VillagerClothes) String() string { return villagerClothesAll[v] }
