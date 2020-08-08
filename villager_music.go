@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerMusic(0)
 
 var _ villagerMusic = villagersMusic{}
 
+// VillagerMusic is an Animal Crossing villagers musical taste.
 type VillagerMusic uint16
 
 func (v VillagerMusic) String() string { return villagerMusicAll[v] }
