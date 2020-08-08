@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerBubbleColor(0)
+
+var _ json.Marshaler = VillagerBubbleColor(0)
 
 var _ villagerBubbleColor = villagersBubbleColors{}
 
@@ -10,6 +15,11 @@ var _ villagerBubbleColor = villagersBubbleColors{}
 type VillagerBubbleColor uint8
 
 func (v VillagerBubbleColor) String() string { return villagerBubbleColorAll[v] }
+
+// MarshalJSON returns the encoding of VillagerBubbleColor.
+func (v VillagerBubbleColor) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerBubbleColor interface {
 	BubbleColor() string
@@ -22,7 +32,7 @@ type villagersBubbleColors struct {
 func (v villagersBubbleColors) BubbleColor() string { return v.VillagerBubbleColor.String() }
 
 const (
-	_villagerBubbleColor       string = ""        //
+	_villagerBubbleColor       string = _nil
 	_villagerBubbleColor0A96AE string = "#0A96AE" // Bondi Blue
 	_villagerBubbleColor0CA54A string = "#0CA54A" // Salem
 	_villagerBubbleColor00D1BD string = "#00D1BD" // Robin's Egg Blue

@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerCategory(0)
+
+var _ json.Marshaler = VillagerCategory(0)
 
 var _ villagerCategory = villagersCategory{}
 
@@ -10,6 +15,11 @@ var _ villagerCategory = villagersCategory{}
 type VillagerCategory uint8
 
 func (v VillagerCategory) String() string { return villagerCategoryAll[v] }
+
+// MarshalJSON returns the encoding of VillagerCategory.
+func (v VillagerCategory) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerCategory interface {
 	Category() string
@@ -22,7 +32,7 @@ type villagersCategory struct {
 func (v villagersCategory) Category() string { return v.VillagerCategory.String() }
 
 const (
-	_villagerCategory  string = ""
+	_villagerCategory  string = _nil
 	_villagerCategoryA string = "A"
 	_villagerCategoryB string = "B"
 )
