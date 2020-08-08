@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerSpecies(0)
 
-var _ VillagerSpecieser = villagersSpecies{}
-
-type VillagerSpecieser interface {
-	Species() [2]string
-}
+var _ villagerSpecies = villagersSpecies{}
 
 type VillagerSpecies uint8
 
 func (v VillagerSpecies) String() string { return villagerSpeciesAll[v] }
+
+type villagerSpecies interface {
+	Species() [2]string
+}
 
 type villagersSpecies struct {
 	VillagerSpecies [2]VillagerSpecies `json:"species"`
@@ -93,12 +93,12 @@ const (
 	_villagerSpeciesTurkey    string = "Turkey"
 	_villagerSpeciesTurtle    string = "Turtle"
 	_villagerSpeciesWalrus    string = "Walrus"
+	_villagerSpeciesWisp      string = "Wisp"
 	_villagerSpeciesWolf      string = "Wolf"
 )
 
 const (
-	villagerSpecies VillagerSpecies = iota
-	villagerSpeciesAlligator
+	villagerSpeciesAlligator VillagerSpecies = iota
 	villagerSpeciesAlpaca
 	villagerSpeciesAnteater
 	villagerSpeciesAxolotl
@@ -165,6 +165,7 @@ const (
 	villagerSpeciesTurkey
 	villagerSpeciesTurtle
 	villagerSpeciesWalrus
+	villagerSpeciesWisp
 	villagerSpeciesWolf
 )
 
@@ -238,5 +239,6 @@ var (
 		_villagerSpeciesTurkey,
 		_villagerSpeciesTurtle,
 		_villagerSpeciesWalrus,
+		_villagerSpeciesWisp,
 		_villagerSpeciesWolf}
 )
