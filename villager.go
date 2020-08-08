@@ -6,7 +6,7 @@ type Villager interface {
 	villagerAstrology
 	villagerBubbleColor
 	villagerCategory
-	VillagerClotheser
+	villagerClothes
 	VillagerColorer
 	VillagerFlooringer
 	VillagerFurniturer

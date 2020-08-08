@@ -6,13 +6,13 @@ var _ fmt.Stringer = VillagerBubbleColor(0)
 
 var _ villagerBubbleColor = villagersBubbleColors{}
 
-type villagerBubbleColor interface {
-	BubbleColor() string
-}
-
 type VillagerBubbleColor uint8
 
 func (v VillagerBubbleColor) String() string { return villagerBubbleColorAll[v] }
+
+type villagerBubbleColor interface {
+	BubbleColor() string
+}
 
 type villagersBubbleColors struct {
 	VillagerBubbleColor VillagerBubbleColor `json:"bubble_color"`

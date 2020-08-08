@@ -6,13 +6,13 @@ var _ fmt.Stringer = VillagerCategory(0)
 
 var _ villagerCategory = villagersCategory{}
 
-type villagerCategory interface {
-	Category() string
-}
-
 type VillagerCategory uint8
 
 func (v VillagerCategory) String() string { return villagerCategoryAll[v] }
+
+type villagerCategory interface {
+	Category() string
+}
 
 type villagersCategory struct {
 	VillagerCategory VillagerCategory `json:"category"`

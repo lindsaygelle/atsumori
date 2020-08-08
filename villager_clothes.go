@@ -6,13 +6,13 @@ var _ fmt.Stringer = VillagerClothes(0)
 
 var _ villagerClothes = villagersClothes{}
 
-type villagerClothes interface {
-	Clothes() string
-}
-
 type VillagerClothes uint16
 
 func (v VillagerClothes) String() string { return villagerClothesAll[v] }
+
+type villagerClothes interface {
+	Clothes() string
+}
 
 type villagersClothes struct {
 	VillagerClothes VillagerClothes `json:"clothes"`
@@ -316,9 +316,7 @@ const (
 	_villagerClothesZigzagShirt               string = "Zigzag Shirt"
 )
 
-const (
-	villagerClothes VillagerClothes = iota
-)
+const ()
 
 var (
 	villagerClothesAll = [...]string{
