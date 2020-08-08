@@ -16,7 +16,7 @@ type Villager interface {
 	villagerNameColor
 	VillagerNamer
 	villagerMusic
-	VillagerPersonalitier
+	villagerPersonality
 	VillagerSpecieser
 	VillagerStyler
 	VillagerWallpaperer

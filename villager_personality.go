@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerPersonality(0)
 
-var _ VillagerPersonalitier = villagersPersonality{}
-
-type VillagerPersonalitier interface {
-	Personality() string
-}
+var _ villagerPersonality = villagersPersonality{}
 
 type VillagerPersonality uint8
 
 func (v VillagerPersonality) String() string { return villagerPersonalityAll[v] }
+
+type villagerPersonality interface {
+	Personality() string
+}
 
 type villagersPersonality struct {
 	VillagerPersonality VillagerPersonality `json:"personality"`
@@ -26,8 +26,7 @@ const (
 )
 
 const (
-	villagerPersonality VillagerPersonality = iota
-	villagerPersonalityJock
+	villagerPersonalityJock VillagerPersonality = iota + 1
 )
 
 var (
