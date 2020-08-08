@@ -3,7 +3,7 @@ package atsumori
 var Ace Villager = villager{
 	villagersAstrology{villagerAstrologyPisces},
 	villagersBubbleColors{},
-	villagersCategory{villagerCategory},
+	villagersCategory{},
 	villagersClothes{villagerClothes},
 	villagersColors{[2]VillagerColor{}},
 	villagersFlooring{villagerFlooring},
