@@ -14,7 +14,7 @@ type Villager interface {
 	villagerGender
 	villagerInterest
 	villagerNameColor
-	VillagerNamer
+	villagerName
 	villagerMusic
 	villagerPersonality
 	villagerSpecies
