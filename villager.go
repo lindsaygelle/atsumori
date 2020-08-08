@@ -13,7 +13,7 @@ type Villager interface {
 	villagerGame
 	villagerGender
 	villagerInterest
-	VillagerNameColorer
+	villagerNameColor
 	VillagerNamer
 	villagerMusic
 	VillagerPersonalitier

@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerNameColor(0)
 
-var _ VillagerNameColorer = villagersNameColors{}
-
-type VillagerNameColorer interface {
-	NameColor() string
-}
+var _ villagerNameColor = villagersNameColors{}
 
 type VillagerNameColor uint8
 
 func (v VillagerNameColor) String() string { return villagerNameColorAll[v] }
+
+type villagerNameColor interface {
+	NameColor() string
+}
 
 type villagersNameColors struct {
 	VillagerNameColor VillagerNameColor `json:"name_color"`
@@ -83,8 +83,7 @@ const (
 )
 
 const (
-	villagerNameColor VillagerNameColor = iota
-	villagerNameColor080800
+	villagerNameColor080800 VillagerNameColor = iota + 1
 	villagerNameColor0EA8C7
 	villagerNameColor219479
 	villagerNameColor28665A
