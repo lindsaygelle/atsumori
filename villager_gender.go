@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerGender(0)
 
 var _ villagerGender = villagersGender{}
 
+// VillagerGender is an Animal Crossing villagers gender.
 type VillagerGender uint8
 
 func (v VillagerGender) String() string { return villagerGenderAll[v] }
