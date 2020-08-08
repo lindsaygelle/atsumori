@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerName(0)
 
 var _ villagerName = villagersName{}
 
+// VillagerName is an Animal Crossing villagers English name.
 type VillagerName uint16
 
 func (v VillagerName) String() string { return villagerNameAll[v] }
