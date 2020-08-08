@@ -2,7 +2,7 @@ package atsumori
 
 var _ Villager = villager{}
 
-// Villager is an Animal Crossing villager.
+// Villager is a representation of an Animal Crossing villager as code.
 type Villager interface {
 	villagerAstrology
 	villagerBubbleColor
