@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerAstrology(0)
+
+var _ json.Marshaler = VillagerAstrology(0)
 
 var _ villagerAstrology = villagersAstrology{}
 
@@ -10,6 +15,11 @@ var _ villagerAstrology = villagersAstrology{}
 type VillagerAstrology uint8
 
 func (v VillagerAstrology) String() string { return villagerAstrologyAll[v] }
+
+// MarshalJSON returns the encoding of VillagerAstrology.
+func (v VillagerAstrology) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerAstrology interface {
 	Astrology() string
@@ -22,7 +32,7 @@ type villagersAstrology struct {
 func (v villagersAstrology) Astrology() string { return v.VillagerAstrology.String() }
 
 const (
-	_villagerAstrology            string = ""
+	_villagerAstrology            string = _nil
 	_villagerAstrologyAquarius    string = "Aquarius"
 	_villagerAstrologyAries       string = "Aries"
 	_villagerAstrologyCancer      string = "Cancer"

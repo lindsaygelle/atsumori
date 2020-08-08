@@ -1,5 +1,6 @@
 package atsumori
 
+// Ace is an Animal Crossing villager.
 var Ace Villager = villager{
 	villagersAstrology{villagerAstrologyPisces},
 	villagersBubbleColors{},
@@ -9,7 +10,7 @@ var Ace Villager = villager{
 	villagersFlooring{},
 	villagersFurniture{[23]VillagerFurniture{}},
 	villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}},
-	villagersGender{villagerGenderMale},
+	villagersGender{[2]VillagerGender{villagerGenderMale}},
 	villagersInterest{},
 	villagersName{villagerNameAce},
 	villagersNameColors{},

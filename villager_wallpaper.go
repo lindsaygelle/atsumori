@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerWallpaper(0)
+
+var _ json.Marshaler = VillagerWallpaper(0)
 
 var _ villagerWallpaper = villagersWallpaper{}
 
@@ -10,6 +15,11 @@ var _ villagerWallpaper = villagersWallpaper{}
 type VillagerWallpaper uint16
 
 func (v VillagerWallpaper) String() string { return villagerWallpaperAll[v] }
+
+// MarshalJSON returns the encoding of VillagerWallpaper.
+func (v VillagerWallpaper) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerWallpaper interface {
 	Wallpaper() string
@@ -22,7 +32,7 @@ type villagersWallpaper struct {
 func (v villagersWallpaper) Wallpaper() string { return v.VillagerWallpaper.String() }
 
 const (
-	_villagerWallpaper                         string = ""
+	_villagerWallpaper                         string = _nil
 	_villagerWallpaperAbstractWall             string = "Abstract Wall"
 	_villagerWallpaperAncientWall              string = "Ancient Wall"
 	_villagerWallpaperAppleWall                string = "Apple Wall"

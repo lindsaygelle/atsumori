@@ -2,7 +2,7 @@ package atsumori
 
 var _ Villager = villager{}
 
-// Villager is an Animal Crossing villager.
+// Villager is a representation of an Animal Crossing villager as code.
 type Villager interface {
 	villagerAstrology
 	villagerBubbleColor
@@ -42,3 +42,10 @@ type villager struct {
 	villagersStyle
 	villagersWallpaper
 }
+
+var (
+	// Villagers is a collection of Animal Crossing villagers.
+	Villagers = [...]Villager{
+		Ace,
+		Admiral}
+)

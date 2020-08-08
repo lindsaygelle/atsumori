@@ -1,8 +1,13 @@
 package atsumori
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 var _ fmt.Stringer = VillagerPersonality(0)
+
+var _ json.Marshaler = VillagerPersonality(0)
 
 var _ villagerPersonality = villagersPersonality{}
 
@@ -10,6 +15,11 @@ var _ villagerPersonality = villagersPersonality{}
 type VillagerPersonality uint8
 
 func (v VillagerPersonality) String() string { return villagerPersonalityAll[v] }
+
+// MarshalJSON returns the encoding of VillagerPersonality.
+func (v VillagerPersonality) MarshalJSON() ([]byte, error) {
+	return json.Marshal(v.String())
+}
 
 type villagerPersonality interface {
 	Personality() string
@@ -22,16 +32,37 @@ type villagersPersonality struct {
 func (v villagersPersonality) Personality() string { return v.VillagerPersonality.String() }
 
 const (
-	_villagerPersonality     string = ""
-	_villagerPersonalityJock string = "Jock"
+	_villagerPersonality          string = _nil
+	_villagerPersonalityBigSister string = "Big Sister"
+	_villagerPersonalityCranky    string = "Cranky"
+	_villagerPersonalityJock      string = "Jock"
+	_villagerPersonalityLazy      string = "Lazy"
+	_villagerPersonalityNormal    string = "Normal"
+	_villagerPersonalityPeppy     string = "Peppy"
+	_villagerPersonalitySmug      string = "Smug"
+	_villagerPersonalitySnooty    string = "Snooty"
 )
 
 const (
-	villagerPersonalityJock VillagerPersonality = iota + 1
+	villagerPersonalityBigSister VillagerPersonality = iota + 1
+	villagerPersonalityCranky
+	villagerPersonalityJock
+	villagerPersonalityLazy
+	villagerPersonalityNormal
+	villagerPersonalityPeppy
+	villagerPersonalitySmug
+	villagerPersonalitySnooty
 )
 
 var (
 	villagerPersonalityAll = [...]string{
 		_villagerPersonality,
-		_villagerPersonalityJock}
+		_villagerPersonalityBigSister,
+		_villagerPersonalityCranky,
+		_villagerPersonalityJock,
+		_villagerPersonalityLazy,
+		_villagerPersonalityNormal,
+		_villagerPersonalityPeppy,
+		_villagerPersonalitySmug,
+		_villagerPersonalitySnooty}
 )
