@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerFlooring(0)
 
-var _ VillagerFlooringer = villagersFlooring{}
-
-type VillagerFlooringer interface {
-	Flooring() string
-}
+var _ villagerFlooring = villagersFlooring{}
 
 type VillagerFlooring uint16
 
 func (v VillagerFlooring) String() string { return villagerFlooringAll[v] }
+
+type villagerFlooring interface {
+	Flooring() string
+}
 
 type villagersFlooring struct {
 	VillagerFlooring VillagerFlooring `json:"flooring"`
@@ -153,8 +153,7 @@ const (
 )
 
 const (
-	villagerFlooring VillagerFlooring = iota
-	villagerFlooringArabesqueFlooring
+	villagerFlooringArabesqueFlooring VillagerFlooring = iota + 1
 	villagerFlooringArtsyParquetFlooring
 	villagerFlooringBackyardLawn
 	villagerFlooringBambooFlooring
