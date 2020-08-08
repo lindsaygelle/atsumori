@@ -4,6 +4,7 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerStyle(0)
 
+// VillagerStyle is an Animal Crossing villagers fashion style.
 type VillagerStyle uint8
 
 func (v VillagerStyle) String() string { return villagerStyleAll[v] }
