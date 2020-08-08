@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerInterest(0)
 
 var _ villagerInterest = villagersInterest{}
 
+// VillagerInterest is an Animal Crossing villagers recreational interest.
 type VillagerInterest uint16
 
 func (v VillagerInterest) String() string { return villagerInterestAll[v] }
