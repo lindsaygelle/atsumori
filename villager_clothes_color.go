@@ -16,7 +16,7 @@ type villagerClothesColor interface {
 }
 
 type villagersClothesColors struct {
-	VillagerClothesColor [2]VillagerClothesColor `json:"colors"`
+	VillagerClothesColor [2]VillagerClothesColor `json:"clothes_color"`
 }
 
 func (v villagersClothesColors) ClothesColors() [2]string {
