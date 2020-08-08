@@ -3,8 +3,8 @@ package atsumori
 var _ Villager = villager{}
 
 type Villager interface {
-	VillagerAstrologizer
-	VillagerBubbleColorer
+	villagerAstrology
+	villagerBubbleColor
 	VillagerCategorizer
 	VillagerClotheser
 	VillagerColorer

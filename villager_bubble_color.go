@@ -4,9 +4,9 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerBubbleColor(0)
 
-var _ VillagerBubbleColorer = villagersBubbleColors{}
+var _ villagerBubbleColor = villagersBubbleColors{}
 
-type VillagerBubbleColorer interface {
+type villagerBubbleColor interface {
 	BubbleColor() string
 }
 
@@ -125,8 +125,7 @@ const (
 )
 
 const (
-	villagerBubbleColor VillagerBubbleColor = iota
-	villagerBubbleColor0A96AE
+	villagerBubbleColor0A96AE VillagerBubbleColor = iota + 1
 	villagerBubbleColor0CA54A
 	villagerBubbleColor00D1BD
 	villagerBubbleColor0073FF

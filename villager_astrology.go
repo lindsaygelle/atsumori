@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerAstrology(0)
 
-var _ VillagerAstrologizer = villagersAstrology{}
-
-type VillagerAstrologizer interface {
-	Astrology() string
-}
+var _ villagerAstrology = villagersAstrology{}
 
 type VillagerAstrology uint8
 
 func (v VillagerAstrology) String() string { return villagerAstrologyAll[v] }
+
+type villagerAstrology interface {
+	Astrology() string
+}
 
 type villagersAstrology struct {
 	VillagerAstrology VillagerAstrology `json:"astrology"`
@@ -37,8 +37,7 @@ const (
 )
 
 const (
-	villagerAstrology VillagerAstrology = iota
-	villagerAstrologyAquarius
+	villagerAstrologyAquarius VillagerAstrology = iota + 1
 	villagerAstrologyAries
 	villagerAstrologyCancer
 	villagerAstrologyCapricorn
