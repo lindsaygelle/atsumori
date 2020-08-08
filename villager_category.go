@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerCategory(0)
 
 var _ villagerCategory = villagersCategory{}
 
+// VillagerCategory is an Animal Crossing villagers category.
 type VillagerCategory uint8
 
 func (v VillagerCategory) String() string { return villagerCategoryAll[v] }
