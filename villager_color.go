@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerColor(0)
 
 var _ villagerColor = villagersColors{}
 
+// VillagerColor is an Animal Crossing villagers outfit color.
 type VillagerColor uint8
 
 func (v VillagerColor) String() string { return villagerColorAll[v] }
