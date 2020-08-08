@@ -6,6 +6,7 @@ var _ fmt.Stringer = VillagerPersonality(0)
 
 var _ villagerPersonality = villagersPersonality{}
 
+// VillagerPersonality is an Animal Crossing villagers personality.
 type VillagerPersonality uint8
 
 func (v VillagerPersonality) String() string { return villagerPersonalityAll[v] }
