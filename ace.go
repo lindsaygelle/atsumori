@@ -4,7 +4,7 @@ var Ace Villager = villager{
 	villagersAstrology{villagerAstrologyPisces},
 	villagersBubbleColors{},
 	villagersCategory{},
-	villagersClothes{villagerClothes},
+	villagersClothes{},
 	villagersColors{[2]VillagerColor{}},
 	villagersFlooring{villagerFlooring},
 	villagersFurniture{[23]VillagerFurniture{}},
