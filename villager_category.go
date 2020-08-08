@@ -4,9 +4,9 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerCategory(0)
 
-var _ VillagerCategorizer = villagersCategory{}
+var _ villagerCategory = villagersCategory{}
 
-type VillagerCategorizer interface {
+type villagerCategory interface {
 	Category() string
 }
 
@@ -27,8 +27,7 @@ const (
 )
 
 const (
-	villagerCategory VillagerCategory = iota
-	villagerCategoryA
+	villagerCategoryA VillagerCategory = iota + 1
 	villagerCategoryB
 )
 

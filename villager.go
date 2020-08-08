@@ -5,7 +5,7 @@ var _ Villager = villager{}
 type Villager interface {
 	villagerAstrology
 	villagerBubbleColor
-	VillagerCategorizer
+	villagerCategory
 	VillagerClotheser
 	VillagerColorer
 	VillagerFlooringer
