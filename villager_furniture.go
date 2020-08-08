@@ -4,15 +4,15 @@ import "fmt"
 
 var _ fmt.Stringer = VillagerFurniture(0)
 
-var _ VillagerFurniturer = villagersFurniture{}
-
-type VillagerFurniturer interface {
-	Furniture() []string
-}
+var _ villagerFurniture = villagersFurniture{}
 
 type VillagerFurniture int16
 
 func (v VillagerFurniture) String() string { return villagerFurnitureAll[v] }
+
+type villagerFurniture interface {
+	Furniture() []string
+}
 
 type villagersFurniture struct {
 	VillagerFurniture [23]VillagerFurniture `json:"furniture"`
@@ -789,7 +789,7 @@ const (
 )
 
 const (
-	villagerFurnitureAquariusUrn VillagerFurniture = iota
+	villagerFurnitureAquariusUrn VillagerFurniture = iota + 1
 	villagerFurnitureAriesRockingChair
 	villagerFurnitureBabyBear
 	villagerFurnitureBabyPanda
