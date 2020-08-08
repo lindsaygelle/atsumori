@@ -14,6 +14,6 @@ var Ace Villager = villager{
 	villagersNameColors{villagerNameColor},
 	villagersMusic{villagerMusic},
 	villagersPersonality{villagerPersonalityJock},
-	villagersSpecies{villagerSpeciesBird},
+	villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird, villagerSpecies}},
 	villagersStyle{[2]VillagerStyle{villagerStyle, villagerStyle}},
 	villagersWallpaper{villagerWallpaper}}
