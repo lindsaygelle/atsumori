@@ -5,7 +5,7 @@ var Ace Villager = villager{
 	villagersBubbleColors{},
 	villagersCategory{},
 	villagersClothes{},
-	villagersColors{[2]VillagerColor{}},
+	villagersClothesColors{[2]VillagerClothesColor{}},
 	villagersFlooring{},
 	villagersFurniture{[23]VillagerFurniture{}},
 	villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}},

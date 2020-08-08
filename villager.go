@@ -7,7 +7,7 @@ type Villager interface {
 	villagerBubbleColor
 	villagerCategory
 	villagerClothes
-	villagerColor
+	villagerClothesColor
 	villagerFlooring
 	villagerFurniture
 	villagerGame
@@ -27,7 +27,7 @@ type villager struct {
 	villagersBubbleColors
 	villagersCategory
 	villagersClothes
-	villagersColors
+	villagersClothesColors
 	villagersFlooring
 	villagersFurniture
 	villagersGames
