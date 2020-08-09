@@ -54,5 +54,6 @@ var (
 		Admiral,
 		AgentS,
 		Agnes,
-		Aisle}
+		Aisle,
+		Al}
 )

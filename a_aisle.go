@@ -1,5 +1,6 @@
 package atsumori
 
+// Aisle is an Animal Crossing villager.
 var Aisle Villager = villager{
 	aisleAstrology,
 	aisleBirthDay,
