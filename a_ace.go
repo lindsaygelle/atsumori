@@ -3,6 +3,8 @@ package atsumori
 // Ace is an Animal Crossing villager.
 var Ace Villager = villager{
 	aceAstrology,
+	aceBirthDay,
+	aceBirthMonth,
 	aceBubbleColor,
 	aceCategory,
 	aceClothes,
@@ -22,6 +24,8 @@ var Ace Villager = villager{
 
 var (
 	aceAstrology     = villagersAstrology{villagerAstrologyPisces}
+	aceBirthDay      = villagersBirthDay{}
+	aceBirthMonth    = villagersBirthMonth{}
 	aceBubbleColor   = villagersBubbleColor{}
 	aceCategory      = villagersCategory{}
 	aceClothes       = villagersClothes{}

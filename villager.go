@@ -5,6 +5,8 @@ var _ Villager = villager{}
 // Villager is a representation of an Animal Crossing villager as code.
 type Villager interface {
 	villagerAstrology
+	villagerBirthDay
+	villagerBirthMonth
 	villagerBubbleColor
 	villagerCategory
 	villagerClothes
@@ -25,6 +27,8 @@ type Villager interface {
 
 type villager struct {
 	villagersAstrology
+	villagersBirthDay
+	villagersBirthMonth
 	villagersBubbleColor
 	villagersCategory
 	villagersClothes

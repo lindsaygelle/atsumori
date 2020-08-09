@@ -1,8 +1,12 @@
 package atsumori
 
+import "time"
+
 // Admiral is an Animal Crossing villager.
 var Admiral Villager = villager{
 	admiralAstrology,
+	admiralBirthDay,
+	admiralBirthMonth,
 	admiralBubbleColor,
 	admiralCategory,
 	admiralClothes,
@@ -22,6 +26,8 @@ var Admiral Villager = villager{
 
 var (
 	admiralAstrology     = villagersAstrology{villagerAstrologyAquarius}
+	admiralBirthDay      = villagersBirthDay{27}
+	admiralBirthMonth    = villagersBirthMonth{time.January}
 	admiralBubbleColor   = villagersBubbleColor{villagerBubbleColor0CA54A}
 	admiralCategory      = villagersCategory{villagerCategoryA}
 	admiralClothes       = villagersClothes{villagerClothesHantenJacket}
