@@ -47,5 +47,6 @@ var (
 	// Villagers is a collection of Animal Crossing villagers.
 	Villagers = [...]Villager{
 		Ace,
-		Admiral}
+		Admiral,
+		AgentS}
 )

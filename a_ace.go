@@ -27,8 +27,8 @@ var (
 	aceClothes       = villagersClothes{}
 	aceClothesColors = villagersClothesColors{[2]VillagerClothesColor{}}
 	aceFlooring      = villagersFlooring{}
-	aceFurniture     = villagersFurniture{[23]VillagerFurniture{}}
-	aceGames         = villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}}
+	aceFurniture     = villagersFurniture{[]VillagerFurniture{}}
+	aceGames         = villagersGames{[12]VillagerGame{}} // TBD
 	aceGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
 	aceInterest      = villagersInterest{}
 	aceName          = villagersName{villagerNameAce}

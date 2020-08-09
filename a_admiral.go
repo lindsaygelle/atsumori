@@ -27,8 +27,8 @@ var (
 	admiralClothes       = villagersClothes{villagerClothesHantenJacket}
 	admiralClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlack, villagerClothesColorBlue}}
 	admiralFlooring      = villagersFlooring{villagerFlooringTatami}
-	admiralFurniture     = villagersFurniture{[23]VillagerFurniture{}}
-	admiralGames         = villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}}
+	admiralFurniture     = villagersFurniture{[]VillagerFurniture{}}
+	admiralGames         = villagersGames{[12]VillagerGame{}} // TBD
 	admiralGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
 	admiralInterest      = villagersInterest{villagerInterestNature}
 	admiralName          = villagersName{villagerNameAdmiral}
