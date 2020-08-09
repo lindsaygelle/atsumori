@@ -28,7 +28,7 @@ var (
 	agentSClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlue, villagerClothesColorBlack}}
 	agentSFlooring      = villagersFlooring{villagerFlooringColorfulTileFlooring}
 	agentSFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureBeachTowel, villagerFurnitureBlueCorner, villagerFurnitureBrownWoodenDeckRug, villagerFurnitureCassettePlayer, villagerFurnitureDryingRack, villagerFurnitureImperialPartition, villagerFurniturePullUpBarStand, villagerFurnitureThrowbackWallClock, villagerFurnitureThrowbackWrestlingFigure, villagerFurnitureLongBathtub, villagerFurnitureTreadmill, villagerFurnitureWoodenChest, villagerFurnitureWoodenStool}}
-	agentSGames         = villagersGames{[12]VillagerGame{}} // TBD
+	agentSGames         = villagersGames{[]VillagerGame{}} // TBD
 	agentSGender        = villagersGender{[2]VillagerGender{villagerGenderFemale}}
 	agentSInterest      = villagersInterest{villagerInterestFitness}
 	agentSName          = villagersName{villagerNameAgentS}
