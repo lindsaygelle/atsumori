@@ -2,20 +2,40 @@ package atsumori
 
 // Admiral is an Animal Crossing villager.
 var Admiral Villager = villager{
-	villagersAstrology{villagerAstrologyAquarius},
-	villagersBubbleColors{villagerBubbleColor0CA54A},
-	villagersCategory{villagerCategoryA},
-	villagersClothes{villagerClothesHantenJacket},
-	villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlack, villagerClothesColorBlue}},
-	villagersFlooring{villagerFlooringTatami},
-	villagersFurniture{[23]VillagerFurniture{}},
-	villagersGames{[12]VillagerGame{}},
-	villagersGender{[2]VillagerGender{villagerGenderMale}},
-	villagersInterest{villagerInterestNature},
-	villagersName{villagerNameAdmiral},
-	villagersNameColors{villagerNameColorFFFCE9},
-	villagersMusic{},
-	villagersPersonality{villagerPersonalityCranky},
-	villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}},
-	villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleCool}},
-	villagersWallpaper{villagerWallpaperDirtClodWall}}
+	admiralAstrology,
+	admiralBubbleColor,
+	admiralCategory,
+	admiralClothes,
+	admiralClothesColors,
+	admiralFlooring,
+	admiralFurniture,
+	admiralGames,
+	admiralGender,
+	admiralInterest,
+	admiralName,
+	admiralNameColor,
+	admiralMusic,
+	admiralPersonality,
+	admiralSpecies,
+	admiralStyle,
+	admiralWallpaper}
+
+var (
+	admiralAstrology     = villagersAstrology{villagerAstrologyAquarius}
+	admiralBubbleColor   = villagersBubbleColor{villagerBubbleColor0CA54A}
+	admiralCategory      = villagersCategory{villagerCategoryA}
+	admiralClothes       = villagersClothes{villagerClothesHantenJacket}
+	admiralClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlack, villagerClothesColorBlue}}
+	admiralFlooring      = villagersFlooring{villagerFlooringTatami}
+	admiralFurniture     = villagersFurniture{[]VillagerFurniture{}}
+	admiralGames         = villagersGames{[]VillagerGame{}} // TBD
+	admiralGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
+	admiralInterest      = villagersInterest{villagerInterestNature}
+	admiralName          = villagersName{villagerNameAdmiral}
+	admiralNameColor     = villagersNameColor{villagerNameColorFFFCE9}
+	admiralMusic         = villagersMusic{}
+	admiralPersonality   = villagersPersonality{villagerPersonalityCranky}
+	admiralSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}}
+	admiralStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleCool}}
+	admiralWallpaper     = villagersWallpaper{villagerWallpaperDirtClodWall}
+)

@@ -25,7 +25,7 @@ type villagerGame interface {
 	Games() [12]string
 }
 type villagersGames struct {
-	VillagerGames [12]VillagerGame `json:"games"`
+	VillagerGames []VillagerGame `json:"games"`
 }
 
 func (v villagersGames) Games() [12]string {

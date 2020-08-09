@@ -25,7 +25,7 @@ type Villager interface {
 
 type villager struct {
 	villagersAstrology
-	villagersBubbleColors
+	villagersBubbleColor
 	villagersCategory
 	villagersClothes
 	villagersClothesColors
@@ -35,7 +35,7 @@ type villager struct {
 	villagersGender
 	villagersInterest
 	villagersName
-	villagersNameColors
+	villagersNameColor
 	villagersMusic
 	villagersPersonality
 	villagersSpecies
@@ -47,5 +47,6 @@ var (
 	// Villagers is a collection of Animal Crossing villagers.
 	Villagers = [...]Villager{
 		Ace,
-		Admiral}
+		Admiral,
+		AgentS}
 )

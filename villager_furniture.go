@@ -26,7 +26,7 @@ type villagerFurniture interface {
 }
 
 type villagersFurniture struct {
-	VillagerFurniture [23]VillagerFurniture `json:"furniture"`
+	VillagerFurniture []VillagerFurniture `json:"furniture"`
 }
 
 func (v villagersFurniture) Furniture() []string {

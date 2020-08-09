@@ -9,7 +9,7 @@ var _ fmt.Stringer = VillagerBubbleColor(0)
 
 var _ json.Marshaler = VillagerBubbleColor(0)
 
-var _ villagerBubbleColor = villagersBubbleColors{}
+var _ villagerBubbleColor = villagersBubbleColor{}
 
 // VillagerBubbleColor is an Animal Crossing villagers speech bubble color.
 type VillagerBubbleColor uint8
@@ -25,11 +25,11 @@ type villagerBubbleColor interface {
 	BubbleColor() string
 }
 
-type villagersBubbleColors struct {
+type villagersBubbleColor struct {
 	VillagerBubbleColor VillagerBubbleColor `json:"bubble_color"`
 }
 
-func (v villagersBubbleColors) BubbleColor() string { return v.VillagerBubbleColor.String() }
+func (v villagersBubbleColor) BubbleColor() string { return v.VillagerBubbleColor.String() }
 
 const (
 	_villagerBubbleColor       string = _nil

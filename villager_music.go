@@ -7,7 +7,7 @@ import (
 
 var _ fmt.Stringer = VillagerMusic(0)
 
-var _ json.Marshaler = VillagerInterest(0)
+var _ json.Marshaler = VillagerMusic(0)
 
 var _ villagerMusic = villagersMusic{}
 

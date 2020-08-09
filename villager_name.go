@@ -35,16 +35,19 @@ const (
 	_villagerName        string = _nil
 	_villagerNameAce     string = "Ace"
 	_villagerNameAdmiral string = "Admiral"
+	_villagerNameAgentS  string = "Agent S"
 )
 
 const (
 	villagerNameAce VillagerName = iota + 1
 	villagerNameAdmiral
+	villagerNameAgentS
 )
 
 var (
 	villagerNameAll = [...]string{
 		_villagerName,
 		_villagerNameAce,
-		_villagerNameAdmiral}
+		_villagerNameAdmiral,
+		_villagerNameAgentS}
 )

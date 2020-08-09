@@ -95,7 +95,6 @@ const (
 	_villagerSpeciesSheep     string = "Sheep"
 	_villagerSpeciesSkunk     string = "Skunk"
 	_villagerSpeciesSloth     string = "Sloth"
-	_villagerSpeciesSpecies   string = "Species"
 	_villagerSpeciesSpirit    string = "Spirit"
 	_villagerSpeciesSquirrel  string = "Squirrel"
 	_villagerSpeciesTanuki    string = "Tanuki"
@@ -167,7 +166,6 @@ const (
 	villagerSpeciesSheep
 	villagerSpeciesSkunk
 	villagerSpeciesSloth
-	villagerSpeciesSpecies
 	villagerSpeciesSpirit
 	villagerSpeciesSquirrel
 	villagerSpeciesTanuki
@@ -241,7 +239,6 @@ var (
 		_villagerSpeciesSheep,
 		_villagerSpeciesSkunk,
 		_villagerSpeciesSloth,
-		_villagerSpeciesSpecies,
 		_villagerSpeciesSpirit,
 		_villagerSpeciesSquirrel,
 		_villagerSpeciesTanuki,

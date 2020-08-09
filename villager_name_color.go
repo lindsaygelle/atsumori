@@ -9,7 +9,7 @@ var _ fmt.Stringer = VillagerNameColor(0)
 
 var _ json.Marshaler = VillagerNameColor(0)
 
-var _ villagerNameColor = villagersNameColors{}
+var _ villagerNameColor = villagersNameColor{}
 
 // VillagerNameColor is an Animal Crossing villagers names color.
 type VillagerNameColor uint8
@@ -25,11 +25,11 @@ type villagerNameColor interface {
 	NameColor() string
 }
 
-type villagersNameColors struct {
+type villagersNameColor struct {
 	VillagerNameColor VillagerNameColor `json:"name_color"`
 }
 
-func (v villagersNameColors) NameColor() string { return v.VillagerNameColor.String() }
+func (v villagersNameColor) NameColor() string { return v.VillagerNameColor.String() }
 
 const (
 	_villagerNameColor       string = _nil
