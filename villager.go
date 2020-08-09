@@ -52,5 +52,6 @@ var (
 	Villagers = [...]Villager{
 		Ace,
 		Admiral,
-		AgentS}
+		AgentS,
+		Agnes}
 )
