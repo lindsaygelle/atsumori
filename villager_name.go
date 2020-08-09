@@ -37,6 +37,7 @@ const (
 	_villagerNameAdmiral string = "Admiral"
 	_villagerNameAgentS  string = "Agent S"
 	_villagerNameAgnes   string = "Agnes"
+	_villagerNameAisle   string = "Aisle"
 )
 
 const (
@@ -44,6 +45,7 @@ const (
 	villagerNameAdmiral
 	villagerNameAgentS
 	villagerNameAgnes
+	villagerNameAisle
 )
 
 var (
@@ -52,5 +54,6 @@ var (
 		_villagerNameAce,
 		_villagerNameAdmiral,
 		_villagerNameAgentS,
-		_villagerNameAgnes}
+		_villagerNameAgnes,
+		_villagerNameAisle}
 )

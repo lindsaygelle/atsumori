@@ -108,7 +108,7 @@ const (
 )
 
 const (
-	villagerSpeciesAlligator VillagerSpecies = iota
+	villagerSpeciesAlligator VillagerSpecies = iota + 1
 	villagerSpeciesAlpaca
 	villagerSpeciesAnteater
 	villagerSpeciesAxolotl

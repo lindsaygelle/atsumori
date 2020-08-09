@@ -53,5 +53,7 @@ var (
 		Ace,
 		Admiral,
 		AgentS,
-		Agnes}
+		Agnes,
+		Aisle,
+		Al}
 )

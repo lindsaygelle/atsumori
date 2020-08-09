@@ -156,6 +156,7 @@ const (
 
 var (
 	villagerNameColorAll = [...]string{
+		_villagerNameColor,
 		_villagerNameColor080800,
 		_villagerNameColor0EA8C7,
 		_villagerNameColor219479,
