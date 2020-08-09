@@ -9,7 +9,7 @@ type villagerBirthMonth interface {
 }
 
 type villagersBirthMonth struct {
-	VillagerBirthMonth time.Month
+	VillagerBirthMonth time.Month `json:"birth_month"`
 }
 
 func (v villagersBirthMonth) BirthMonth() uint8 { return uint8(v.VillagerBirthMonth) }

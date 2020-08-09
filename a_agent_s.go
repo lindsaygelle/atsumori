@@ -1,8 +1,12 @@
 package atsumori
 
+import "time"
+
 // AgentS is an Animal Crossing villager.
 var AgentS Villager = villager{
 	agentSAstrology,
+	agentSBirthDay,
+	agentSBirthMonth,
 	agentSBubbleColor,
 	agentSCategory,
 	agentSClothes,
@@ -22,6 +26,8 @@ var AgentS Villager = villager{
 
 var (
 	agentSAstrology     = villagersAstrology{villagerAstrologyCancer}
+	agentSBirthDay      = villagersBirthDay{2}
+	agentSBirthMonth    = villagersBirthMonth{time.July}
 	agentSBubbleColor   = villagersBubbleColor{villagerBubbleColor0961F6}
 	agentSCategory      = villagersCategory{villagerCategoryB}
 	agentSClothes       = villagersClothes{villagerClothesNo2Shirt}
