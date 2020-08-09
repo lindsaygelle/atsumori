@@ -3,7 +3,7 @@ package atsumori
 // Admiral is an Animal Crossing villager.
 var Admiral Villager = villager{
 	villagersAstrology{villagerAstrologyAquarius},
-	villagersBubbleColors{villagerBubbleColor0CA54A},
+	villagersBubbleColor{villagerBubbleColor0CA54A},
 	villagersCategory{villagerCategoryA},
 	villagersClothes{villagerClothesHantenJacket},
 	villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlack, villagerClothesColorBlue}},

@@ -25,7 +25,7 @@ type Villager interface {
 
 type villager struct {
 	villagersAstrology
-	villagersBubbleColors
+	villagersBubbleColor
 	villagersCategory
 	villagersClothes
 	villagersClothesColors
