@@ -33,7 +33,7 @@ var (
 	agnesClothes       = villagersClothes{} // TBD
 	agnesClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorPink, villagerClothesColorWhite}}
 	agnesFlooring      = villagersFlooring{villagerFlooringArabesqueFlooring}
-	agnesFurniture     = villagersFurniture{[]VillagerFurniture{}}
+	agnesFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureAntiqueConsoleTable, villagerFurnitureAntiqueMiniTable, villagerFurnitureCatGrass, villagerFurnitureCatTower, villagerFurnitureFloralSwag, villagerFurnitureIvoryMediumRoundMat, villagerFurnitureLilyRecordPlayer, villagerFurnitureMonstera, villagerFurniturePetBed, villagerFurniturePetFoodBowl, villagerFurnitureRoseBed, villagerFurnitureTerrarium, villagerFurnitureLCDTV50In}}
 	agnesGames         = villagersGames{[]VillagerGame{}} // TBD
 	agnesGender        = villagersGender{[2]VillagerGender{villagerGenderFemale}}
 	agnesInterest      = villagersInterest{villagerInterestPlay}
