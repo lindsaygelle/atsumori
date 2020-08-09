@@ -13,7 +13,7 @@ var Admiral Villager = villager{
 	villagersGender{[2]VillagerGender{villagerGenderMale}},
 	villagersInterest{villagerInterestNature},
 	villagersName{villagerNameAdmiral},
-	villagersNameColors{villagerNameColorFFFCE9},
+	villagersNameColor{villagerNameColorFFFCE9},
 	villagersMusic{},
 	villagersPersonality{villagerPersonalityCranky},
 	villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}},

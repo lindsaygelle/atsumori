@@ -35,7 +35,7 @@ type villager struct {
 	villagersGender
 	villagersInterest
 	villagersName
-	villagersNameColors
+	villagersNameColor
 	villagersMusic
 	villagersPersonality
 	villagersSpecies

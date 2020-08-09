@@ -2,20 +2,40 @@ package atsumori
 
 // Ace is an Animal Crossing villager.
 var Ace Villager = villager{
-	villagersAstrology{villagerAstrologyPisces},
-	villagersBubbleColor{},
-	villagersCategory{},
-	villagersClothes{},
-	villagersClothesColors{[2]VillagerClothesColor{}},
-	villagersFlooring{},
-	villagersFurniture{[23]VillagerFurniture{}},
-	villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}},
-	villagersGender{[2]VillagerGender{villagerGenderMale}},
-	villagersInterest{},
-	villagersName{villagerNameAce},
-	villagersNameColors{},
-	villagersMusic{},
-	villagersPersonality{villagerPersonalityJock},
-	villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}},
-	villagersStyle{[2]VillagerStyle{}},
-	villagersWallpaper{}}
+	aceAstrology,
+	aceBubbleColor,
+	aceCategory,
+	aceClothes,
+	aceClothesColors,
+	aceFlooring,
+	aceFurniture,
+	aceGames,
+	aceGender,
+	aceInterest,
+	aceName,
+	aceNameColor,
+	aceMusic,
+	acePersonality,
+	aceSpecies,
+	aceStyle,
+	aceWallpaper}
+
+var (
+	aceAstrology     = villagersAstrology{villagerAstrologyPisces}
+	aceBubbleColor   = villagersBubbleColor{}
+	aceCategory      = villagersCategory{}
+	aceClothes       = villagersClothes{}
+	aceClothesColors = villagersClothesColors{[2]VillagerClothesColor{}}
+	aceFlooring      = villagersFlooring{}
+	aceFurniture     = villagersFurniture{[23]VillagerFurniture{}}
+	aceGames         = villagersGames{[12]VillagerGame{villagerGameAnimalCrossing, villagerGameDoubutsuNoMori, villagerGameDoubutsunoMoriE}}
+	aceGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
+	aceInterest      = villagersInterest{}
+	aceName          = villagersName{villagerNameAce}
+	aceNameColor     = villagersNameColor{}
+	aceMusic         = villagersMusic{}
+	acePersonality   = villagersPersonality{villagerPersonalityJock}
+	aceSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}}
+	aceStyle         = villagersStyle{[2]VillagerStyle{}}
+	aceWallpaper     = villagersWallpaper{}
+)
