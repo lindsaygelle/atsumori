@@ -33,8 +33,8 @@ var (
 	admiralClothes       = villagersClothes{villagerClothesHantenJacket}
 	admiralClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorBlack, villagerClothesColorBlue}}
 	admiralFlooring      = villagersFlooring{villagerFlooringTatami}
-	admiralFurniture     = villagersFurniture{[]VillagerFurniture{}}
-	admiralGames         = villagersGames{[]VillagerGame{}} // TBD
+	admiralFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureClayFurnace, villagerFurnitureFirewood, villagerFurnitureFloorSeat, villagerFurnitureKotatsu, villagerFurniturePendulumClock, villagerFurniturePineBonsaiTree, villagerFurnitureRetroFan, villagerFurnitureRotaryPhone, villagerFurnitureTapeDeck, villagerFurnitureWoodenEndTable, villagerFurnitureWoodenStool, villagerFurnitureZenCushion}} // TBD
+	admiralGames         = villagersGames{[]VillagerGame{}}                                                                                                                                                                                                                                                                                                                                                                        // TBD
 	admiralGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
 	admiralInterest      = villagersInterest{villagerInterestNature}
 	admiralName          = villagersName{villagerNameAdmiral}
