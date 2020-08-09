@@ -36,12 +36,14 @@ const (
 	_villagerNameAce     string = "Ace"
 	_villagerNameAdmiral string = "Admiral"
 	_villagerNameAgentS  string = "Agent S"
+	_villagerNameAgnes   string = "Agnes"
 )
 
 const (
 	villagerNameAce VillagerName = iota + 1
 	villagerNameAdmiral
 	villagerNameAgentS
+	villagerNameAgnes
 )
 
 var (
@@ -49,5 +51,6 @@ var (
 		_villagerName,
 		_villagerNameAce,
 		_villagerNameAdmiral,
-		_villagerNameAgentS}
+		_villagerNameAgentS,
+		_villagerNameAgnes}
 )
