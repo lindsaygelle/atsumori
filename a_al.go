@@ -33,7 +33,7 @@ var (
 	alClothes       = villagersClothes{villagerClothesAthleticJacket}
 	alClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorRed, villagerClothesColorWhite}}
 	alFlooring      = villagersFlooring{villagerFlooringGreenRubberFlooring}
-	alFurniture     = villagersFurniture{} // TBD
+	alFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureBarbell, villagerFurnitureDigitalScale, villagerFurnitureHandyWaterCooler, villagerFurnitureOutdoorTable, villagerFurniturePortableRadio, villagerFurnitureProteinShakerBottle, villagerFurniturePullUpBarStand, villagerFurniturePunchingBag, villagerFurnitureUprightLocker, villagerFurnitureWeightBench, villagerFurnitureWhiteboard}}
 	alGames         = villagersGames{[]VillagerGame{villagerGameDoubutsuNoMori}}
 	alGender        = villagersGender{[2]VillagerGender{villagerGenderMale}}
 	alInterest      = villagersInterest{villagerInterestFitness}
