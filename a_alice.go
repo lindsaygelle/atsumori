@@ -1,5 +1,7 @@
 package atsumori
 
+import "time"
+
 // Alice is an Animal Crossing villager
 var Alice = villager{
 	aliceAstrology,
@@ -23,9 +25,9 @@ var Alice = villager{
 	aliceWallpaper}
 
 var (
-	aliceAstrology     = villagersAstrology{}
-	aliceBirthDay      = villagersBirthDay{}
-	aliceBirthMonth    = villagersBirthMonth{}
+	aliceAstrology     = villagersAstrology{villagerAstrologyLeo}
+	aliceBirthDay      = villagersBirthDay{19}
+	aliceBirthMonth    = villagersBirthMonth{time.August}
 	aliceBubbleColor   = villagersBubbleColor{villagerBubbleColorE8B010}
 	aliceCategory      = villagersCategory{villagerCategoryB}
 	aliceClothes       = villagersClothes{} // 4729

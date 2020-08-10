@@ -56,5 +56,6 @@ var (
 		Agnes,
 		Aisle,
 		Al,
-		Alfonso}
+		Alfonso,
+		Alice}
 )

@@ -26,8 +26,8 @@ var Alfonso Villager = villager{
 
 var (
 	alfonsoAstrology     = villagersAstrology{villagerAstrologyGemini}
-	alfonsoBirthDay      = villagersBirthDay{9}
-	alfonsoBirthMonth    = villagersBirthMonth{time.June}
+	alfonsoBirthDay      = villagersBirthDay{6}
+	alfonsoBirthMonth    = villagersBirthMonth{time.September}
 	alfonsoBubbleColor   = villagersBubbleColor{villagerBubbleColorE8B010}
 	alfonsoCategory      = villagersCategory{villagerCategoryB}
 	alfonsoClothes       = villagersClothes{villagerClothesSimpleParka}
