@@ -1,5 +1,7 @@
 package atsumori
 
+import "time"
+
 // Alfonso is an Animal Crossing villager.
 var Alfonso Villager = villager{
 	alfonsoAstrology,
@@ -23,9 +25,9 @@ var Alfonso Villager = villager{
 	alfonsoWallpaper}
 
 var (
-	alfonsoAstrology     = villagersAstrology{}
-	alfonsoBirthDay      = villagersBirthDay{}
-	alfonsoBirthMonth    = villagersBirthMonth{}
+	alfonsoAstrology     = villagersAstrology{villagerAstrologyGemini}
+	alfonsoBirthDay      = villagersBirthDay{9}
+	alfonsoBirthMonth    = villagersBirthMonth{time.June}
 	alfonsoBubbleColor   = villagersBubbleColor{villagerBubbleColorE8B010}
 	alfonsoCategory      = villagersCategory{villagerCategoryB}
 	alfonsoClothes       = villagersClothes{villagerClothesSimpleParka}
