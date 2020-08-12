@@ -27,7 +27,7 @@ var Anabelle = villager{
 	anabelleWallpaper}
 
 var (
-	anabelleAstrology     = villagersAstrology{}
+	anabelleAstrology     = villagersAstrology{villagerAstrologyAquarius}
 	anabelleBirthDay      = villagersBirthDay{16}
 	anabelleBirthMonth    = villagersBirthMonth{time.February}
 	anabelleBubbleColor   = villagersBubbleColor{villagerBubbleColorFF791F}
