@@ -70,5 +70,6 @@ var (
 		Antonio,
 		Apollo,
 		Apple,
-		Astrid}
+		Astrid,
+		Audie}
 )
