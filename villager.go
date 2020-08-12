@@ -64,5 +64,6 @@ var (
 		Anchovy,
 		Angus,
 		Anicotti,
-		Ankha}
+		Ankha,
+		Annalisa}
 )
