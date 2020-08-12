@@ -69,5 +69,6 @@ var (
 		Annalise,
 		Antonio,
 		Apollo,
-		Apple}
+		Apple,
+		Astrid}
 )
