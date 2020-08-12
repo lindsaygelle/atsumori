@@ -65,5 +65,6 @@ var (
 		Angus,
 		Anicotti,
 		Ankha,
-		Annalisa}
+		Annalisa,
+		Annalise}
 )
