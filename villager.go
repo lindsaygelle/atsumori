@@ -67,5 +67,6 @@ var (
 		Ankha,
 		Annalisa,
 		Annalise,
-		Antonio}
+		Antonio,
+		Apollo}
 )
