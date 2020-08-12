@@ -62,5 +62,6 @@ var (
 		Amelia,
 		Anabelle,
 		Anchovy,
-		Angus}
+		Angus,
+		Anicotti}
 )
