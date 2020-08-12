@@ -66,5 +66,6 @@ var (
 		Anicotti,
 		Ankha,
 		Annalisa,
-		Annalise}
+		Annalise,
+		Antonio}
 )
