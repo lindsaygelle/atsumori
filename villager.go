@@ -59,5 +59,17 @@ var (
 		Alfonso,
 		Alice,
 		Alli,
-		Amelia}
+		Amelia,
+		Anabelle,
+		Anchovy,
+		Angus,
+		Anicotti,
+		Ankha,
+		Annalisa,
+		Annalise,
+		Antonio,
+		Apollo,
+		Apple,
+		Astrid,
+		Audie}
 )
