@@ -71,5 +71,6 @@ var (
 		Apollo,
 		Apple,
 		Astrid,
-		Audie}
+		Audie,
+		Aurora}
 )
