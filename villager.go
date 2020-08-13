@@ -83,5 +83,6 @@ var (
 		Bangle,
 		Barold,
 		Bea,
-		Beardo}
+		Beardo,
+		Beau}
 )
