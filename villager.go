@@ -84,5 +84,6 @@ var (
 		Barold,
 		Bea,
 		Beardo,
-		Beau}
+		Beau,
+		Becky}
 )
