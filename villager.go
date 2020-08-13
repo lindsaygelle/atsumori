@@ -78,5 +78,6 @@ var (
 		Avery,
 		Axel,
 		// B
-		Baabara}
+		Baabara,
+		Bam}
 )
