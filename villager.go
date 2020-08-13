@@ -50,6 +50,7 @@ type villager struct {
 var (
 	// Villagers is a collection of Animal Crossing villagers.
 	Villagers = [...]Villager{
+		// A
 		Ace,
 		Admiral,
 		AgentS,
@@ -75,5 +76,7 @@ var (
 		Aurora,
 		Ava,
 		Avery,
-		Axel}
+		Axel,
+		// B
+		Baabara}
 )
