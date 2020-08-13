@@ -73,5 +73,6 @@ var (
 		Astrid,
 		Audie,
 		Aurora,
-		Ava}
+		Ava,
+		Avery}
 )
