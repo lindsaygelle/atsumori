@@ -33,7 +33,7 @@ var (
 	bangleClothes       = villagersClothes{} // 2687
 	bangleClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorYellow, villagerClothesColorGreen}}
 	bangleFlooring      = villagersFlooring{villagerFlooringBlueFloralFlooring}
-	bangleFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureWoodenFull - LengthMirror, villagerFurnitureWoodenLowTable, villagerFurnitureCuteMusicPlayer, villagerFurnitureDouble - DoorRefrigerator, villagerFurnitureAirConditioner, villagerFurnitureDoubleSofa, villagerFurnitureWoodenDoubleBed, villagerFurnitureWoodenEndTable, villagerFurnitureMagneticKnifeRack, villagerFurnitureWoodenChest, villagerFurnitureAromaPot, villagerFurnitureIronwoodKitchenette, villagerFurnitureDish - DryingRack, villagerFurnitureBabyBear}}
+	bangleFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureWoodenFullLengthMirror, villagerFurnitureWoodenLowTable, villagerFurnitureCuteMusicPlayer, villagerFurnitureDoubleDoorRefrigerator, villagerFurnitureAirConditioner, villagerFurnitureDoubleSofa, villagerFurnitureWoodenDoubleBed, villagerFurnitureWoodenEndTable, villagerFurnitureMagneticKnifeRack, villagerFurnitureWoodenChest, villagerFurnitureAromaPot, villagerFurnitureIronwoodKitchenette, villagerFurnitureDishDryingRack, villagerFurnitureBabyBear}}
 	bangleGames         = villagersGames{[]VillagerGame{}} // TBD
 	bangleGender        = villagersGender{[2]VillagerGender{villagerGenderFemale}}
 	bangleInterest      = villagersInterest{villagerInterestFashion}
