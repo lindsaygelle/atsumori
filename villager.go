@@ -79,5 +79,6 @@ var (
 		Axel,
 		// B
 		Baabara,
-		Bam}
+		Bam,
+		Bangle}
 )
