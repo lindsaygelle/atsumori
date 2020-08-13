@@ -81,5 +81,6 @@ var (
 		Baabara,
 		Bam,
 		Bangle,
-		Barold}
+		Barold,
+		Bea}
 )
