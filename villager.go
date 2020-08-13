@@ -72,5 +72,6 @@ var (
 		Apple,
 		Astrid,
 		Audie,
-		Aurora}
+		Aurora,
+		Ava}
 )
