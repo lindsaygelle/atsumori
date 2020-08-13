@@ -80,5 +80,6 @@ var (
 		// B
 		Baabara,
 		Bam,
-		Bangle}
+		Bangle,
+		Barold}
 )
