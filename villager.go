@@ -87,5 +87,6 @@ var (
 		Beau,
 		Becky,
 		Bella,
-		Benedict}
+		Benedict,
+		Benjamin}
 )
