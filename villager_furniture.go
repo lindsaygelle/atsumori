@@ -805,7 +805,7 @@ const (
 	villagerFurnitureAriesRockingChair
 	villagerFurnitureBabyBear
 	villagerFurnitureBabyPanda
-	villagerFurnitureBigTopSPhoto
+	villagerFurnitureBigTopsPhoto
 	villagerFurnitureBubblegumKK
 	villagerFurnitureCancerTable
 	villagerFurnitureCapricornOrnament
