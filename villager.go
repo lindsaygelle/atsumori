@@ -94,5 +94,6 @@ var (
 		Bianca,
 		Biff,
 		BigTop,
-		Bill}
+		Bill,
+		Billy}
 )
