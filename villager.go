@@ -93,5 +93,6 @@ var (
 		Bettina,
 		Bianca,
 		Biff,
-		BigTop}
+		BigTop,
+		Bill}
 )
