@@ -86,5 +86,15 @@ var (
 		Beardo,
 		Beau,
 		Becky,
-		Bella}
+		Bella,
+		Benedict,
+		Benjamin,
+		Bertha,
+		Bettina,
+		Bianca,
+		Biff,
+		BigTop,
+		Bill,
+		Billy,
+		Biskit}
 )
