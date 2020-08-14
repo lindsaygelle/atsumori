@@ -92,5 +92,6 @@ var (
 		Bertha,
 		Bettina,
 		Bianca,
-		Biff}
+		Biff,
+		BigTop}
 )
