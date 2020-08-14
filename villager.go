@@ -86,5 +86,6 @@ var (
 		Beardo,
 		Beau,
 		Becky,
-		Bella}
+		Bella,
+		Benedict}
 )
