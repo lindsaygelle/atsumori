@@ -89,5 +89,6 @@ var (
 		Bella,
 		Benedict,
 		Benjamin,
-		Bertha}
+		Bertha,
+		Bettina}
 )
