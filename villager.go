@@ -95,5 +95,6 @@ var (
 		Biff,
 		BigTop,
 		Bill,
-		Billy}
+		Billy,
+		Biskit}
 )
