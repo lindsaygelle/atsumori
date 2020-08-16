@@ -98,5 +98,6 @@ var (
 		Billy,
 		Biskit,
 		Bitty,
-		Blaire}
+		Blaire,
+		Blanche}
 )
