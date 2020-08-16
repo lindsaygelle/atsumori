@@ -115,5 +115,6 @@ var (
 		Bruce,
 		Bubbles,
 		Buck,
-		Bud}
+		Bud,
+		Bunnie}
 )
