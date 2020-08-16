@@ -104,5 +104,21 @@ var (
 		Bob,
 		Bonbon,
 		Bones,
-		Boomer}
+		Boomer,
+		Boone,
+		Boots,
+		Boris,
+		Boyd,
+		Bree,
+		Broccolo,
+		Broffina,
+		Bruce,
+		Bubbles,
+		Buck,
+		Bud,
+		Bunnie,
+		Butch,
+		Buzz,
+		// C
+		Cally}
 )
