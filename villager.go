@@ -112,5 +112,6 @@ var (
 		Bree,
 		Broccolo,
 		Broffina,
-		Bruce}
+		Bruce,
+		Bubbles}
 )
