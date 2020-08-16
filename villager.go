@@ -100,5 +100,6 @@ var (
 		Bitty,
 		Blaire,
 		Blanche,
-		Bluebear}
+		Bluebear,
+		Bob}
 )
