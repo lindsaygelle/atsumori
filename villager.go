@@ -101,5 +101,6 @@ var (
 		Blaire,
 		Blanche,
 		Bluebear,
-		Bob}
+		Bob,
+		Bonbon}
 )
