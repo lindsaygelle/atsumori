@@ -111,5 +111,6 @@ var (
 		Boyd,
 		Bree,
 		Broccolo,
-		Broffina}
+		Broffina,
+		Bruce}
 )
