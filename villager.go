@@ -103,5 +103,6 @@ var (
 		Bluebear,
 		Bob,
 		Bonbon,
-		Bones}
+		Bones,
+		Boomer}
 )
