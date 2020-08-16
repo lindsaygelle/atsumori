@@ -104,5 +104,6 @@ var (
 		Bob,
 		Bonbon,
 		Bones,
-		Boomer}
+		Boomer,
+		Boone}
 )
