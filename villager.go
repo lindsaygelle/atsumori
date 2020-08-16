@@ -116,5 +116,6 @@ var (
 		Bubbles,
 		Buck,
 		Bud,
-		Bunnie}
+		Bunnie,
+		Butch}
 )
