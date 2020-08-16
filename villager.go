@@ -96,5 +96,13 @@ var (
 		BigTop,
 		Bill,
 		Billy,
-		Biskit}
+		Biskit,
+		Bitty,
+		Blaire,
+		Blanche,
+		Bluebear,
+		Bob,
+		Bonbon,
+		Bones,
+		Boomer}
 )
