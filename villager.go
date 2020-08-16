@@ -99,5 +99,6 @@ var (
 		Biskit,
 		Bitty,
 		Blaire,
-		Blanche}
+		Blanche,
+		Bluebear}
 )
