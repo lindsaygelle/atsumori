@@ -113,5 +113,6 @@ var (
 		Broccolo,
 		Broffina,
 		Bruce,
-		Bubbles}
+		Bubbles,
+		Buck}
 )
