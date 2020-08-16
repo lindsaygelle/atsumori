@@ -106,5 +106,6 @@ var (
 		Bones,
 		Boomer,
 		Boone,
-		Boots}
+		Boots,
+		Boris}
 )
