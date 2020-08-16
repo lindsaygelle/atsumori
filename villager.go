@@ -114,5 +114,6 @@ var (
 		Broffina,
 		Bruce,
 		Bubbles,
-		Buck}
+		Buck,
+		Bud}
 )
