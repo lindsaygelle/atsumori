@@ -97,5 +97,6 @@ var (
 		Bill,
 		Billy,
 		Biskit,
-		Bitty}
+		Bitty,
+		Blaire}
 )
