@@ -25,12 +25,12 @@ var Broccolo = villager{
 	broccoloWallpaper}
 
 var (
-	broccoloAstrology     = villagersAstrology{} // villagerAstrology
+	broccoloAstrology     = villagersAstrology{villagerAstrologyCancer}
 	broccoloBirthDay      = villagersBirthDay{30}
 	broccoloBirthMonth    = villagersBirthMonth{time.June} // 6
 	broccoloBubbleColor   = villagersBubbleColor{villagerBubbleColor55CFFF}
 	broccoloCategory      = villagersCategory{villagerCategoryB}
-	broccoloClothes       = villagersClothes{} // 2674
+	broccoloClothes       = villagersClothes{villagerClothesRaglanShirt} // 2674
 	broccoloClothesColors = villagersClothesColors{[2]VillagerClothesColor{villagerClothesColorColorful, villagerClothesColorYellow}}
 	broccoloFlooring      = villagersFlooring{villagerFlooringPastelPuzzleFlooring}
 	broccoloFurniture     = villagersFurniture{[]VillagerFurniture{villagerFurnitureWoodenSimpleBed, villagerFurnitureWoodenLowTable, villagerFurnitureBlueDottedRug, villagerFurniturePaintingSet, villagerFurnitureWoodenBlockBench, villagerFurnitureToyBox, villagerFurnitureWoodenBlockstool, villagerFurnitureWoodenBlockWallClock, villagerFurnitureMomsPlushie, villagerFurnitureWoodenBlockChest, villagerFurnitureElephantSlide, villagerFurnitureMomsCushion, villagerFurnitureCuteMusicPlayer}}
