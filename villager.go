@@ -117,5 +117,6 @@ var (
 		Buck,
 		Bud,
 		Bunnie,
-		Butch}
+		Butch,
+		Buzz}
 )
