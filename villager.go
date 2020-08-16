@@ -102,5 +102,6 @@ var (
 		Blanche,
 		Bluebear,
 		Bob,
-		Bonbon}
+		Bonbon,
+		Bones}
 )
