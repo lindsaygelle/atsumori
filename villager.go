@@ -107,5 +107,6 @@ var (
 		Boomer,
 		Boone,
 		Boots,
-		Boris}
+		Boris,
+		Boyd}
 )
