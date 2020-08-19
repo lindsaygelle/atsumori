@@ -120,5 +120,6 @@ var (
 		Butch,
 		Buzz,
 		// C
-		Cally}
+		Cally,
+		Camofrog}
 )
