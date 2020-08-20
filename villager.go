@@ -138,5 +138,6 @@ var (
 		Chester,
 		Chevre,
 		Chief,
-		Chops}
+		Chops,
+		Chow}
 )
