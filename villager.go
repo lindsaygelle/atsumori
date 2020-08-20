@@ -134,5 +134,6 @@ var (
 		Chadder,
 		Charlise,
 		Cheri,
-		Cherry}
+		Cherry,
+		Chester}
 )
