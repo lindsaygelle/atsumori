@@ -143,5 +143,6 @@ var (
 		Chrissy,
 		Claude,
 		Claudia,
-		Clay}
+		Clay,
+		Cleo}
 )
