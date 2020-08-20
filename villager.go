@@ -136,5 +136,6 @@ var (
 		Cheri,
 		Cherry,
 		Chester,
-		Chevre}
+		Chevre,
+		Chief}
 )
