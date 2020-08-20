@@ -146,5 +146,6 @@ var (
 		Clay,
 		Cleo,
 		Clyde,
-		Coach}
+		Coach,
+		Cobb}
 )
