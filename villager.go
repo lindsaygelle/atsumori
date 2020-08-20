@@ -123,5 +123,7 @@ var (
 		Cally,
 		Camofrog,
 		Canberra,
-		Candi}
+		Candi,
+		// CarmenMouse,
+		CarmenRabbit}
 )
