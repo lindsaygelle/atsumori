@@ -145,5 +145,6 @@ var (
 		Claudia,
 		Clay,
 		Cleo,
-		Clyde}
+		Clyde,
+		Coach}
 )
