@@ -126,5 +126,6 @@ var (
 		Candi,
 		// CarmenMouse,
 		CarmenRabbit,
-		Caroline}
+		Caroline,
+		Carrie}
 )
