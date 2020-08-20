@@ -148,5 +148,6 @@ var (
 		Clyde,
 		Coach,
 		Cobb,
-		Coco}
+		Coco,
+		Cole}
 )
