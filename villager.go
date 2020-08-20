@@ -144,5 +144,6 @@ var (
 		Claude,
 		Claudia,
 		Clay,
-		Cleo}
+		Cleo,
+		Clyde}
 )
