@@ -141,5 +141,6 @@ var (
 		Chops,
 		Chow,
 		Chrissy,
-		Claude}
+		Claude,
+		Claudia}
 )
