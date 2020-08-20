@@ -150,5 +150,6 @@ var (
 		Cobb,
 		Coco,
 		Cole,
-		Colton}
+		Colton,
+		Cookie}
 )
