@@ -142,5 +142,6 @@ var (
 		Chow,
 		Chrissy,
 		Claude,
-		Claudia}
+		Claudia,
+		Clay}
 )
