@@ -127,5 +127,6 @@ var (
 		// CarmenMouse,
 		CarmenRabbit,
 		Caroline,
-		Carrie}
+		Carrie,
+		Cashmere}
 )
