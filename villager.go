@@ -147,5 +147,6 @@ var (
 		Cleo,
 		Clyde,
 		Coach,
-		Cobb}
+		Cobb,
+		Coco}
 )
