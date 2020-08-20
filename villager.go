@@ -139,5 +139,6 @@ var (
 		Chevre,
 		Chief,
 		Chops,
-		Chow}
+		Chow,
+		Chrissy}
 )
