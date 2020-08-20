@@ -224,7 +224,7 @@ const (
 	_villagerClothesPomPomSweater             string = "Pom-pom Sweater"
 	_villagerClothesPonchoCoat                string = "Poncho Coat"
 	_villagerClothesPonchoStyleSweater        string = "Poncho-style Sweater"
-	_villagerClothesPrinceSTunic              string = "Prince's Tunic"
+	_villagerClothesPrincesTunic              string = "Prince's Tunic"
 	_villagerClothesPrintedFleeceSweater      string = "Printed Fleece Sweater"
 	_villagerClothesPrintedLayeredShirt       string = "Printed Layered Shirt"
 	_villagerClothesPrintedSleeveSweater      string = "Printed-sleeve Sweater"
@@ -519,7 +519,7 @@ const (
 	villagerClothesPomPomSweater
 	villagerClothesPonchoCoat
 	villagerClothesPonchoStyleSweater
-	villagerClothesPrinceSTunic
+	villagerClothesPrincesTunic
 	villagerClothesPrintedFleeceSweater
 	villagerClothesPrintedLayeredShirt
 	villagerClothesPrintedSleeveSweater
@@ -816,7 +816,7 @@ var (
 		_villagerClothesPomPomSweater,
 		_villagerClothesPonchoCoat,
 		_villagerClothesPonchoStyleSweater,
-		_villagerClothesPrinceSTunic,
+		_villagerClothesPrincesTunic,
 		_villagerClothesPrintedFleeceSweater,
 		_villagerClothesPrintedLayeredShirt,
 		_villagerClothesPrintedSleeveSweater,

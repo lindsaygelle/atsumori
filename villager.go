@@ -149,5 +149,6 @@ var (
 		Coach,
 		Cobb,
 		Coco,
-		Cole}
+		Cole,
+		Colton}
 )
