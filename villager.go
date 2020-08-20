@@ -140,5 +140,6 @@ var (
 		Chief,
 		Chops,
 		Chow,
-		Chrissy}
+		Chrissy,
+		Claude}
 )
