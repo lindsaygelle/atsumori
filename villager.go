@@ -128,5 +128,6 @@ var (
 		CarmenRabbit,
 		Caroline,
 		Carrie,
-		Cashmere}
+		Cashmere,
+		Celia}
 )
