@@ -121,5 +121,6 @@ var (
 		Buzz,
 		// C
 		Cally,
-		Camofrog}
+		Camofrog,
+		Canberra}
 )
