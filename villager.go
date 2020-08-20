@@ -151,5 +151,6 @@ var (
 		Coco,
 		Cole,
 		Colton,
-		Cookie}
+		Cookie,
+		Cousteau}
 )
