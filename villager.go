@@ -122,5 +122,6 @@ var (
 		// C
 		Cally,
 		Camofrog,
-		Canberra}
+		Canberra,
+		Candi}
 )
