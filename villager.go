@@ -158,5 +158,6 @@ var (
 		Cube,
 		Curlos,
 		Curly,
-		Curt}
+		Curt,
+		Cyd}
 )
