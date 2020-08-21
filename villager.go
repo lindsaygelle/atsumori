@@ -160,5 +160,7 @@ var (
 		Curly,
 		Curt,
 		Cyd,
-		Cyrano}
+		Cyrano,
+		// D
+		Daisy}
 )
