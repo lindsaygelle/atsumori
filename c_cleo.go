@@ -39,7 +39,7 @@ var (
 	cleoInterest      = villagersInterest{villagerInterestEducation}
 	cleoName          = villagersName{villagerNameCleo}
 	cleoNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	cleoMusic         = villagersMusic{} // K.K. Fusion
+	cleoMusic         = villagersMusic{villagerMusicKKFusion}
 	cleoPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	cleoSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHorse}}
 	cleoStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

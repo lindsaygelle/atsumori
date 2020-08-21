@@ -39,7 +39,7 @@ var (
 	beardoInterest      = villagersInterest{villagerInterestEducation}
 	beardoName          = villagersName{villagerNameBeardo}
 	beardoNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	beardoMusic         = villagersMusic{} // K.K. Milonga
+	beardoMusic         = villagersMusic{villagerMusicKKMilonga}
 	beardoPersonality   = villagersPersonality{villagerPersonalitySmug}
 	beardoSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBear}}
 	beardoStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleElegant}}

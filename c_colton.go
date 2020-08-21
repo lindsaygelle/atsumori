@@ -39,7 +39,7 @@ var (
 	coltonInterest      = villagersInterest{villagerInterestNature}
 	coltonName          = villagersName{villagerNameColton}
 	coltonNameColor     = villagersNameColor{villagerNameColor848484}
-	coltonMusic         = villagersMusic{} // K.K. Chorale
+	coltonMusic         = villagersMusic{villagerMusicKKChorale}
 	coltonPersonality   = villagersPersonality{villagerPersonalitySmug}
 	coltonSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHorse}}
 	coltonStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleElegant}}

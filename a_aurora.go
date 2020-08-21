@@ -39,7 +39,7 @@ var (
 	auroraInterest      = villagersInterest{villagerInterestEducation}
 	auroraName          = villagersName{villagerNameAurora}
 	auroraNameColor     = villagersNameColor{villagerNameColor848484}
-	auroraMusic         = villagersMusic{} // Stale Cupcakes
+	auroraMusic         = villagersMusic{villagerMusicStaleCupcakes}
 	auroraPersonality   = villagersPersonality{villagerPersonalityNormal}
 	auroraSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesPenguin}}
 	auroraStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

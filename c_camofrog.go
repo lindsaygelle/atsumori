@@ -39,7 +39,7 @@ var (
 	camofrogInterest      = villagersInterest{villagerInterestMusic}
 	camofrogName          = villagersName{villagerNameCamofrog}
 	camofrogNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	camofrogMusic         = villagersMusic{} // K.K. Safari
+	camofrogMusic         = villagersMusic{villagerMusicKKSafari}
 	camofrogPersonality   = villagersPersonality{villagerPersonalityCranky}
 	camofrogSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesFrog}}
 	camofrogStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleActive}}

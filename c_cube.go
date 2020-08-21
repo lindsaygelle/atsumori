@@ -39,7 +39,7 @@ var (
 	cubeInterest      = villagersInterest{villagerInterestPlay}
 	cubeName          = villagersName{villagerNameCube}
 	cubeNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	cubeMusic         = villagersMusic{} // Farewell
+	cubeMusic         = villagersMusic{villagerMusicFarewell}
 	cubePersonality   = villagersPersonality{villagerPersonalityLazy}
 	cubeSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesPenguin}}
 	cubeStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

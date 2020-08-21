@@ -39,7 +39,7 @@ var (
 	booneInterest      = villagersInterest{villagerInterestFitness}
 	booneName          = villagersName{villagerNameBoone}
 	booneNameColor     = villagersNameColor{villagerNameColor874C25}
-	booneMusic         = villagersMusic{} // Mountain Song
+	booneMusic         = villagersMusic{villagerMusicMountainSong}
 	boonePersonality   = villagersPersonality{villagerPersonalityJock}
 	booneSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesGorilla}}
 	booneStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleCool}}

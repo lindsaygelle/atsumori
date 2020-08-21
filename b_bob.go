@@ -39,7 +39,7 @@ var (
 	bobInterest      = villagersInterest{villagerInterestPlay}
 	bobName          = villagersName{villagerNameBob}
 	bobNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	bobMusic         = villagersMusic{} // Neapolitan
+	bobMusic         = villagersMusic{villagerMusicNeapolitan}
 	bobPersonality   = villagersPersonality{villagerPersonalityLazy}
 	bobSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCat}}
 	bobStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

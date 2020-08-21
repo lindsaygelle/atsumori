@@ -39,7 +39,7 @@ var (
 	bittyInterest      = villagersInterest{villagerInterestEducation}
 	bittyName          = villagersName{villagerNameBitty}
 	bittyNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	bittyMusic         = villagersMusic{} // K.K. Disco
+	bittyMusic         = villagersMusic{villagerMusicKKDisco}
 	bittyPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	bittySpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHippo}}
 	bittyStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

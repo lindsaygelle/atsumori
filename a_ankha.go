@@ -39,7 +39,7 @@ var (
 	ankhaInterest      = villagersInterest{villagerInterestNature}
 	ankhaName          = villagersName{villagerNameAnkha}
 	ankhaNameColor     = villagersNameColor{villagerNameColor9B8986}
-	ankhaMusic         = villagersMusic{} // K.K. Bazaar
+	ankhaMusic         = villagersMusic{villagerMusicKKBazaar}
 	ankhaPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	ankhaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCat}}
 	ankhaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleSimple}}

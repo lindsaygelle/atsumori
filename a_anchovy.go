@@ -39,7 +39,7 @@ var (
 	anchovyInterest      = villagersInterest{villagerInterestPlay}
 	anchovyName          = villagersName{villagerNameAnchovy}
 	anchovyNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	anchovyMusic         = villagersMusic{} // K.K. Ragtime
+	anchovyMusic         = villagersMusic{villagerMusicKKRagtime}
 	anchovyPersonality   = villagersPersonality{villagerPersonalityLazy}
 	anchovySpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}}
 	anchovyStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleSimple}}

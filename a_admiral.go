@@ -39,7 +39,7 @@ var (
 	admiralInterest      = villagersInterest{villagerInterestNature}
 	admiralName          = villagersName{villagerNameAdmiral}
 	admiralNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	admiralMusic         = villagersMusic{}
+	admiralMusic         = villagersMusic{villagerMusicSteepHill}
 	admiralPersonality   = villagersPersonality{villagerPersonalityCranky}
 	admiralSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBird}}
 	admiralStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleCool}}

@@ -39,7 +39,7 @@ var (
 	bangleInterest      = villagersInterest{villagerInterestFashion}
 	bangleName          = villagersName{villagerNameBangle}
 	bangleNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	bangleMusic         = villagersMusic{} // K.K. Soul
+	bangleMusic         = villagersMusic{villagerMusicKKSoul}
 	banglePersonality   = villagersPersonality{villagerPersonalityPeppy}
 	bangleSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesTiger}}
 	bangleStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleCute}}

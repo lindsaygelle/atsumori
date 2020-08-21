@@ -39,7 +39,7 @@ var (
 	audieInterest      = villagersInterest{villagerInterestFitness}
 	audieName          = villagersName{villagerNameAudie}
 	audieNameColor     = villagersNameColor{villagerNameColorFFF2BB}
-	audieMusic         = villagersMusic{} // K.K. Island
+	audieMusic         = villagersMusic{villagerMusicKKIsland}
 	audiePersonality   = villagersPersonality{villagerPersonalityPeppy}
 	audieSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesWolf}}
 	audieStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleActive}}

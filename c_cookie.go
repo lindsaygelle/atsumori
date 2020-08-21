@@ -39,7 +39,7 @@ var (
 	cookieInterest      = villagersInterest{villagerInterestFashion}
 	cookieName          = villagersName{villagerNameCookie}
 	cookieNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	cookieMusic         = villagersMusic{} // Bubblegum K.K.
+	cookieMusic         = villagersMusic{villagerMusicBubblegumKK}
 	cookiePersonality   = villagersPersonality{villagerPersonalityPeppy}
 	cookieSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesDog}}
 	cookieStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleCute}}

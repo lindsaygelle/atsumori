@@ -39,7 +39,7 @@ var (
 	cheriInterest      = villagersInterest{villagerInterestFashion}
 	cheriName          = villagersName{villagerNameCheri}
 	cheriNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	cheriMusic         = villagersMusic{} // K.K. Disco
+	cheriMusic         = villagersMusic{villagerMusicKKDisco}
 	cheriPersonality   = villagersPersonality{villagerPersonalityPeppy}
 	cheriSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCub}}
 	cheriStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

@@ -39,7 +39,7 @@ var (
 	cobbInterest      = villagersInterest{villagerInterestEducation}
 	cobbName          = villagersName{villagerNameCobb}
 	cobbNameColor     = villagersNameColor{villagerNameColor878E86}
-	cobbMusic         = villagersMusic{} // Pondering
+	cobbMusic         = villagersMusic{villagerMusicPondering}
 	cobbPersonality   = villagersPersonality{villagerPersonalityJock}
 	cobbSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesPig}}
 	cobbStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleActive}}

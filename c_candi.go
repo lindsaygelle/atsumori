@@ -39,7 +39,7 @@ var (
 	candiInterest      = villagersInterest{villagerInterestPlay}
 	candiName          = villagersName{villagerNameCandi}
 	candiNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	candiMusic         = villagersMusic{} // Neapolitan
+	candiMusic         = villagersMusic{villagerMusicNeapolitan}
 	candiPersonality   = villagersPersonality{villagerPersonalityPeppy}
 	candiSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesMouse}}
 	candiStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

@@ -39,7 +39,7 @@ var (
 	blancheInterest      = villagersInterest{villagerInterestNature}
 	blancheName          = villagersName{villagerNameBlanche}
 	blancheNameColor     = villagersNameColor{villagerNameColor848484}
-	blancheMusic         = villagersMusic{} // K.K. Jongara
+	blancheMusic         = villagersMusic{villagerMusicKKJongara}
 	blanchePersonality   = villagersPersonality{villagerPersonalitySnooty}
 	blancheSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesOstrich}}
 	blancheStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleGorgeous}}

@@ -124,7 +124,7 @@ var (
 		Camofrog,
 		Canberra,
 		Candi,
-		// CarmenMouse,
+		CarmenMouse,
 		CarmenRabbit,
 		Caroline,
 		Carrie,
@@ -158,5 +158,9 @@ var (
 		Cube,
 		Curlos,
 		Curly,
-		Curt}
+		Curt,
+		Cyd,
+		Cyrano,
+		// D
+		Daisy}
 )

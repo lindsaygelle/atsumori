@@ -39,7 +39,7 @@ var (
 	bigTopInterest      = villagersInterest{villagerInterestPlay}
 	bigTopName          = villagersName{villagerNameBigTop}
 	bigTopNameColor     = villagersNameColor{villagerNameColor28665A}
-	bigTopMusic         = villagersMusic{} // Go K.K. Rider
+	bigTopMusic         = villagersMusic{villagerMusicGoKKRider}
 	bigTopPersonality   = villagersPersonality{villagerPersonalityLazy}
 	bigTopSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesElephant}}
 	bigTopStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleActive}}

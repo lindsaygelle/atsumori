@@ -39,7 +39,7 @@ var (
 	axelInterest      = villagersInterest{villagerInterestFitness}
 	axelName          = villagersName{villagerNameAxel}
 	axelNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	axelMusic         = villagersMusic{} // K.K. Dixie
+	axelMusic         = villagersMusic{villagerMusicKKDixie}
 	axelPersonality   = villagersPersonality{villagerPersonalityJock}
 	axelSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesElephant}}
 	axelStyle         = villagersStyle{[2]VillagerStyle{villagerStyleActive, villagerStyleSimple}}

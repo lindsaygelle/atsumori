@@ -39,7 +39,7 @@ var (
 	canberraInterest      = villagersInterest{villagerInterestPlay}
 	canberraName          = villagersName{villagerNameCanberra}
 	canberraNameColor     = villagersNameColor{villagerNameColorFFF2BB}
-	canberraMusic         = villagersMusic{} // K.K. Island
+	canberraMusic         = villagersMusic{villagerMusicKKIsland}
 	canberraPersonality   = villagersPersonality{villagerPersonalityBigSister}
 	canberraSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesKoala}}
 	canberraStyle         = villagersStyle{[2]VillagerStyle{villagerStyleActive, villagerStyleCool}}

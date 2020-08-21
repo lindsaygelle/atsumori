@@ -39,7 +39,7 @@ var (
 	curlyInterest      = villagersInterest{villagerInterestFitness}
 	curlyName          = villagersName{villagerNameCurly}
 	curlyNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	curlyMusic         = villagersMusic{} // K.K. Reggae
+	curlyMusic         = villagersMusic{villagerMusicKKReggae}
 	curlyPersonality   = villagersPersonality{villagerPersonalityJock}
 	curlySpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesPig}}
 	curlyStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleActive}}

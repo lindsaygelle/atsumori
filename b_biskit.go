@@ -39,7 +39,7 @@ var (
 	biskitInterest      = villagersInterest{villagerInterestPlay}
 	biskitName          = villagersName{villagerNameBiskit}
 	biskitNameColor     = villagersNameColor{villagerNameColor874C25}
-	biskitMusic         = villagersMusic{} // K.K. Mambo
+	biskitMusic         = villagersMusic{villagerMusicKKMambo}
 	biskitPersonality   = villagersPersonality{villagerPersonalityLazy}
 	biskitSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesDog}}
 	biskitStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleSimple}}

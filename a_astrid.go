@@ -41,7 +41,7 @@ var (
 	astridInterest      = villagersInterest{villagerInterestMusic}
 	astridName          = villagersName{villagerNameAstrid}
 	astridNameColor     = villagersNameColor{villagerNameColor848484}
-	astridMusic         = villagersMusic{} // K.K. Gumbo
+	astridMusic         = villagersMusic{villagerMusicKKGumbo}
 	astridPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	astridSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesKangaroo}}
 	astridStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleActive}}

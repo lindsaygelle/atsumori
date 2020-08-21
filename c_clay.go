@@ -39,7 +39,7 @@ var (
 	clayInterest      = villagersInterest{villagerInterestNature}
 	clayName          = villagersName{villagerNameClay}
 	clayNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	clayMusic         = villagersMusic{} // K.K. Safari
+	clayMusic         = villagersMusic{villagerMusicKKSafari}
 	clayPersonality   = villagersPersonality{villagerPersonalityLazy}
 	claySpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHamster}}
 	clayStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleSimple}}

@@ -39,7 +39,7 @@ var (
 	budInterest      = villagersInterest{villagerInterestFitness}
 	budName          = villagersName{villagerNameBud}
 	budNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	budMusic         = villagersMusic{} // Aloha K.K.
+	budMusic         = villagersMusic{villagerMusicAlohaKK}
 	budPersonality   = villagersPersonality{villagerPersonalityJock}
 	budSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesLion}}
 	budStyle         = villagersStyle{[2]VillagerStyle{villagerStyleActive, villagerStyleSimple}}

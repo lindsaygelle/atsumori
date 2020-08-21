@@ -39,7 +39,7 @@ var (
 	chevreInterest      = villagersInterest{villagerInterestEducation}
 	chevreName          = villagersName{villagerNameChevre}
 	chevreNameColor     = villagersNameColor{villagerNameColor848484}
-	chevreMusic         = villagersMusic{} // K.K. Chorale
+	chevreMusic         = villagersMusic{villagerMusicKKChorale}
 	chevrePersonality   = villagersPersonality{villagerPersonalityNormal}
 	chevreSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesGoat}}
 	chevreStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

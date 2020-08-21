@@ -39,7 +39,7 @@ var (
 	baabaraInterest      = villagersInterest{villagerInterestFashion}
 	baabaraName          = villagersName{villagerNameBaabara}
 	baabaraNameColor     = villagersNameColor{villagerNameColorFFFAD4}
-	baabaraMusic         = villagersMusic{} // K.K. Cruisin'
+	baabaraMusic         = villagersMusic{villagerMusicKKCruisin}
 	baabaraPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	baabaraSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesSheep}}
 	baabaraStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleElegant}}
