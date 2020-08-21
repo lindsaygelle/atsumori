@@ -155,5 +155,6 @@ var (
 		Cousteau,
 		Cranston,
 		Croque,
-		Cube}
+		Cube,
+		Curlos}
 )
