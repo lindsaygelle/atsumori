@@ -153,5 +153,6 @@ var (
 		Colton,
 		Cookie,
 		Cousteau,
-		Cranston}
+		Cranston,
+		Croque}
 )
