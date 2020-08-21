@@ -152,5 +152,11 @@ var (
 		Cole,
 		Colton,
 		Cookie,
-		Cousteau}
+		Cousteau,
+		Cranston,
+		Croque,
+		Cube,
+		Curlos,
+		Curly,
+		Curt}
 )
