@@ -159,5 +159,6 @@ var (
 		Curlos,
 		Curly,
 		Curt,
-		Cyd}
+		Cyd,
+		Cyrano}
 )
