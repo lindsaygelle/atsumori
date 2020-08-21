@@ -125,7 +125,7 @@ const (
 )
 
 const (
-	villagerMusicAgentKK villagerMusic = iota + 1
+	villagerMusicAgentKK VillagerMusic = iota + 1
 	villagerMusicAlohaKK
 	villagerMusicAnimalCity
 	villagerMusicBubblegumKK
