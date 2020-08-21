@@ -39,7 +39,7 @@ var (
 	celiaInterest      = villagersInterest{villagerInterestNature}
 	celiaName          = villagersName{villagerNameCelia}
 	celiaNameColor     = villagersNameColor{villagerNameColor848484}
-	celiaMusic         = villagersMusic{} // K.K. Soul
+	celiaMusic         = villagersMusic{villagerMusicKKSoul}
 	celiaPersonality   = villagersPersonality{villagerPersonalityNormal}
 	celiaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesEagle}}
 	celiaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleCute}}

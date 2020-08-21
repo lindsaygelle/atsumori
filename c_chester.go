@@ -39,7 +39,7 @@ var (
 	chesterInterest      = villagersInterest{villagerInterestPlay}
 	chesterName          = villagersName{villagerNameChester}
 	chesterNameColor     = villagersNameColor{villagerNameColor848484}
-	chesterMusic         = villagersMusic{} // Imperial K.K.
+	chesterMusic         = villagersMusic{villagerMusicImperialKK}
 	chesterPersonality   = villagersPersonality{villagerPersonalityLazy}
 	chesterSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCub}}
 	chesterStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleSimple}}

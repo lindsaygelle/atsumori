@@ -39,7 +39,7 @@ var (
 	broffinaInterest      = villagersInterest{villagerInterestMusic}
 	broffinaName          = villagersName{villagerNameBroffina}
 	broffinaNameColor     = villagersNameColor{villagerNameColorFFF2BB}
-	broffinaMusic         = villagersMusic{} // K.K. Flamenco
+	broffinaMusic         = villagersMusic{villagerMusicKKFlamenco}
 	broffinaPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	broffinaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesChicken}}
 	broffinaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleElegant}}

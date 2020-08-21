@@ -39,7 +39,7 @@ var (
 	alInterest      = villagersInterest{villagerInterestFitness}
 	alName          = villagersName{villagerNameAisle}
 	alNameColor     = villagersNameColor{villagerNameColorFFFAD4}
-	alMusic         = villagersMusic{}
+	alMusic         = villagersMusic{villagerMusicGoKKRider}
 	alPersonality   = villagersPersonality{villagerPersonalityLazy}
 	alSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCub}}
 	alStyle         = villagersStyle{[2]VillagerStyle{villagerStyleActive, villagerStyleActive}}

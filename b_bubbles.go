@@ -39,7 +39,7 @@ var (
 	bubblesInterest      = villagersInterest{villagerInterestFashion}
 	bubblesName          = villagersName{villagerNameBubbles}
 	bubblesNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	bubblesMusic         = villagersMusic{} // K.K. Stroll
+	bubblesMusic         = villagersMusic{villagerMusicKKStroll}
 	bubblesPersonality   = villagersPersonality{villagerPersonalityPeppy}
 	bubblesSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHippo}}
 	bubblesStyle         = villagersStyle{[2]VillagerStyle{villagerStyleActive, villagerStyleCute}}

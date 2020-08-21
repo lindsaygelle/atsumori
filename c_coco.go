@@ -39,7 +39,7 @@ var (
 	cocoInterest      = villagersInterest{villagerInterestEducation}
 	cocoName          = villagersName{villagerNameCoco}
 	cocoNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	cocoMusic         = villagersMusic{} // K.K. Jongara
+	cocoMusic         = villagersMusic{villagerMusicKKJongara}
 	cocoPersonality   = villagersPersonality{villagerPersonalityNormal}
 	cocoSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesRabbit}}
 	cocoStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

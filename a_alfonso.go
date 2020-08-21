@@ -39,7 +39,7 @@ var (
 	alfonsoInterest      = villagersInterest{villagerInterestPlay}
 	alfonsoName          = villagersName{villagerNameAlfonso}
 	alfonsoNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	alfonsoMusic         = villagersMusic{}
+	alfonsoMusic         = villagersMusic{villagerMusicForestLife}
 	alfonsoPersonality   = villagersPersonality{villagerPersonalityLazy}
 	alfonsoSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesAlligator}}
 	alfonsoStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleSimple}}

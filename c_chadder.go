@@ -39,7 +39,7 @@ var (
 	chadderInterest      = villagersInterest{villagerInterestFitness}
 	chadderName          = villagersName{villagerNameChadder}
 	chadderNameColor     = villagersNameColor{villagerNameColor9B553A}
-	chadderMusic         = villagersMusic{} // K.K. Soul
+	chadderMusic         = villagersMusic{villagerMusicKKSoul}
 	chadderPersonality   = villagersPersonality{villagerPersonalitySmug}
 	chadderSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesMouse}}
 	chadderStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleGorgeous}}

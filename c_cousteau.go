@@ -39,7 +39,7 @@ var (
 	cousteauInterest      = villagersInterest{villagerInterestFitness}
 	cousteauName          = villagersName{villagerNameCousteau}
 	cousteauNameColor     = villagersNameColor{villagerNameColor9B553A}
-	cousteauMusic         = villagersMusic{} // Imperial K.K.
+	cousteauMusic         = villagersMusic{villagerMusicImperialKK}
 	cousteauPersonality   = villagersPersonality{villagerPersonalityJock}
 	cousteauSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesFrog}}
 	cousteauStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleGorgeous}}

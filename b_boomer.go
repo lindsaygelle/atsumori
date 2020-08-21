@@ -39,7 +39,7 @@ var (
 	boomerInterest      = villagersInterest{villagerInterestFitness}
 	boomerName          = villagersName{villagerNameBoomer}
 	boomerNameColor     = villagersNameColor{villagerNameColorFFFAD4}
-	boomerMusic         = villagersMusic{} // Farewell
+	boomerMusic         = villagersMusic{villagerMusicFarewell}
 	boomerPersonality   = villagersPersonality{villagerPersonalityLazy}
 	boomerSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesPenguin}}
 	boomerStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCool}}

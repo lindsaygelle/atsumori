@@ -39,7 +39,7 @@ var (
 	bonbonInterest      = villagersInterest{villagerInterestPlay}
 	bonbonName          = villagersName{villagerNameBonbon}
 	bonbonNameColor     = villagersNameColor{villagerNameColorEAC113}
-	bonbonMusic         = villagersMusic{} // Bubblegum K.K.
+	bonbonMusic         = villagersMusic{villagerMusicBubblegumKK}
 	bonbonPersonality   = villagersPersonality{villagerPersonalityPeppy}
 	bonbonSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesRabbit}}
 	bonbonStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

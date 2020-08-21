@@ -41,7 +41,7 @@ var (
 	anabelleInterest      = villagersInterest{villagerInterestFashion}
 	anabelleName          = villagersName{villagerNameAnabelle}
 	anabelleNameColor     = villagersNameColor{villagerNameColorFFF2BB}
-	anabelleMusic         = villagersMusic{} // Aloha K.K.
+	anabelleMusic         = villagersMusic{villagerMusicAlohaKK}
 	anabellePersonality   = villagersPersonality{villagerPersonalityPeppy}
 	anabelleSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesAnteater}}
 	anabelleStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleSimple}}

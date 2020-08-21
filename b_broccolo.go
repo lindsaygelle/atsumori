@@ -39,7 +39,7 @@ var (
 	broccoloInterest      = villagersInterest{villagerInterestPlay}
 	broccoloName          = villagersName{villagerNameBroccolo}
 	broccoloNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	broccoloMusic         = villagersMusic{} // I Love You
+	broccoloMusic         = villagersMusic{villagerMusicILoveYou}
 	broccoloPersonality   = villagersPersonality{villagerPersonalityLazy}
 	broccoloSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesMouse}}
 	broccoloStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

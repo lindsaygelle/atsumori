@@ -39,7 +39,7 @@ var (
 	biffInterest      = villagersInterest{villagerInterestFitness}
 	biffName          = villagersName{villagerNameBiff}
 	biffNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	biffMusic         = villagersMusic{} // The K. Funk
+	biffMusic         = villagersMusic{villagerMusicTheKFunk}
 	biffPersonality   = villagersPersonality{villagerPersonalityJock}
 	biffSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesHippo}}
 	biffStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleActive}}

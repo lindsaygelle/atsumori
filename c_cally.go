@@ -39,7 +39,7 @@ var (
 	callyInterest      = villagersInterest{villagerInterestNature}
 	callyName          = villagersName{villagerNameCally}
 	callyNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	callyMusic         = villagersMusic{} // K.K. Stroll
+	callyMusic         = villagersMusic{villagerMusicKKStroll}
 	callyPersonality   = villagersPersonality{villagerPersonalityNormal}
 	callySpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesSquirrel}}
 	callyStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleElegant}}

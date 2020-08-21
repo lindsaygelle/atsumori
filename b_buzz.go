@@ -39,7 +39,7 @@ var (
 	buzzInterest      = villagersInterest{villagerInterestNature}
 	buzzName          = villagersName{villagerNameBuzz}
 	buzzNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	buzzMusic         = villagersMusic{} // Drivin'
+	buzzMusic         = villagersMusic{villagerMusicDrivin}
 	buzzPersonality   = villagersPersonality{villagerPersonalityCranky}
 	buzzSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesEagle}}
 	buzzStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleActive}}

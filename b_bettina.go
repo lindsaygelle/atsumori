@@ -39,7 +39,7 @@ var (
 	bettinaInterest      = villagersInterest{villagerInterestEducation}
 	bettinaName          = villagersName{villagerNameBettina}
 	bettinaNameColor     = villagersNameColor{villagerNameColorFFF2BB}
-	bettinaMusic         = villagersMusic{} // Animal City
+	bettinaMusic         = villagersMusic{villagerMusicAnimalCity}
 	bettinaPersonality   = villagersPersonality{villagerPersonalityNormal}
 	bettinaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesMouse}}
 	bettinaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleElegant}}

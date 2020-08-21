@@ -39,7 +39,7 @@ var (
 	avaInterest      = villagersInterest{villagerInterestMusic}
 	avaName          = villagersName{villagerNameAva}
 	avaNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	avaMusic         = villagersMusic{} // K.K. Love Song
+	avaMusic         = villagersMusic{villagerMusicKKLoveSong}
 	avaPersonality   = villagersPersonality{villagerPersonalityNormal}
 	avaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesChicken}}
 	avaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleElegant, villagerStyleCute}}

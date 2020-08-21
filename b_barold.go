@@ -39,7 +39,7 @@ var (
 	baroldInterest      = villagersInterest{villagerInterestPlay}
 	baroldName          = villagersName{villagerNameBarold}
 	baroldNameColor     = villagersNameColor{villagerNameColor5E5E5E}
-	baroldMusic         = villagersMusic{} // K.K. Song
+	baroldMusic         = villagersMusic{villagerMusicKKSong}
 	baroldPersonality   = villagersPersonality{villagerPersonalityLazy}
 	baroldSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCub}}
 	baroldStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCool}}

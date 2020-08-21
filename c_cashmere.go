@@ -39,7 +39,7 @@ var (
 	cashmereInterest      = villagersInterest{villagerInterestFashion}
 	cashmereName          = villagersName{villagerNameCashmere}
 	cashmereNameColor     = villagersNameColor{villagerNameColor85A2AF}
-	cashmereMusic         = villagersMusic{} // Farewell
+	cashmereMusic         = villagersMusic{villagerMusicFarewell}
 	cashmerePersonality   = villagersPersonality{villagerPersonalitySnooty}
 	cashmereSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesSheep}}
 	cashmereStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleElegant}}

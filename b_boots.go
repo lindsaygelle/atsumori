@@ -39,7 +39,7 @@ var (
 	bootsInterest      = villagersInterest{villagerInterestPlay}
 	bootsName          = villagersName{villagerNameBoots}
 	bootsNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	bootsMusic         = villagersMusic{} // Wandering
+	bootsMusic         = villagersMusic{villagerMusicWandering}
 	bootsPersonality   = villagersPersonality{villagerPersonalityJock}
 	bootsSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesAlligator}}
 	bootsStyle         = villagersStyle{[2]VillagerStyle{villagerStyleGorgeous, villagerStyleActive}}

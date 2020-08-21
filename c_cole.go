@@ -39,7 +39,7 @@ var (
 	coleInterest      = villagersInterest{villagerInterestNature}
 	coleName          = villagersName{villagerNameCole}
 	coleNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	coleMusic         = villagersMusic{} // K.K. Faire
+	coleMusic         = villagersMusic{villagerMusicKKFaire}
 	colePersonality   = villagersPersonality{villagerPersonalityLazy}
 	coleSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesRabbit}}
 	coleStyle         = villagersStyle{[2]VillagerStyle{villagerStyleSimple, villagerStyleCute}}

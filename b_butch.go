@@ -39,7 +39,7 @@ var (
 	butchInterest      = villagersInterest{villagerInterestMusic}
 	butchName          = villagersName{villagerNameButch}
 	butchNameColor     = villagersNameColor{villagerNameColor874C25}
-	butchMusic         = villagersMusic{} // K.K. Western
+	butchMusic         = villagersMusic{villagerMusicKKWestern}
 	butchPersonality   = villagersPersonality{villagerPersonalityCranky}
 	butchSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesDog}}
 	butchStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleSimple}}
