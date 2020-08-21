@@ -156,5 +156,6 @@ var (
 		Cranston,
 		Croque,
 		Cube,
-		Curlos}
+		Curlos,
+		Curly}
 )
