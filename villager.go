@@ -157,5 +157,6 @@ var (
 		Croque,
 		Cube,
 		Curlos,
-		Curly}
+		Curly,
+		Curt}
 )
