@@ -124,7 +124,7 @@ var (
 		Camofrog,
 		Canberra,
 		Candi,
-		// CarmenMouse,
+		CarmenMouse,
 		CarmenRabbit,
 		Caroline,
 		Carrie,
