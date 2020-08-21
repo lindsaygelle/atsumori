@@ -154,5 +154,6 @@ var (
 		Cookie,
 		Cousteau,
 		Cranston,
-		Croque}
+		Croque,
+		Cube}
 )
