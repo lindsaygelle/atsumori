@@ -165,5 +165,6 @@ var (
 		Daisy,
 		Deena,
 		Deirdre,
-		Del}
+		Del,
+		Deli}
 )
