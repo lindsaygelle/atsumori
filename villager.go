@@ -166,5 +166,6 @@ var (
 		Deena,
 		Deirdre,
 		Del,
-		Deli}
+		Deli,
+		Derwin}
 )
