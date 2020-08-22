@@ -176,5 +176,6 @@ var (
 		Dom,
 		Dora,
 		Dotty,
-		Drago}
+		Drago,
+		Drake}
 )
