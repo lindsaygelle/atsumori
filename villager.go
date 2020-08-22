@@ -184,5 +184,6 @@ var (
 		Egbert,
 		Elise,
 		Ellie,
-		Elmer}
+		Elmer,
+		Eloise}
 )
