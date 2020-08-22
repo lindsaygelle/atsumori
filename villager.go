@@ -187,5 +187,6 @@ var (
 		Elmer,
 		Eloise,
 		Elvis,
-		Erik}
+		Erik,
+		Eugene}
 )
