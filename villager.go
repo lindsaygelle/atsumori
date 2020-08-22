@@ -162,5 +162,23 @@ var (
 		Cyd,
 		Cyrano,
 		// D
-		Daisy}
+		Daisy,
+		Deena,
+		Deirdre,
+		Del,
+		Deli,
+		Derwin,
+		Diana,
+		Diva,
+		Dizzy,
+		Dobie,
+		Doc,
+		Dom,
+		Dora,
+		Dotty,
+		Drago,
+		Drake,
+		Drift,
+		//
+		Ed}
 )
