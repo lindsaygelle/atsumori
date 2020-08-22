@@ -179,6 +179,17 @@ var (
 		Drago,
 		Drake,
 		Drift,
-		//
-		Ed}
+		// E
+		Ed,
+		Egbert,
+		Elise,
+		Ellie,
+		Elmer,
+		Eloise,
+		Elvis,
+		Erik,
+		Eugene,
+		Eunice,
+		// F
+		Fang}
 )
