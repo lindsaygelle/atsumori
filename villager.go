@@ -170,5 +170,6 @@ var (
 		Derwin,
 		Diana,
 		Diva,
-		Dizzy}
+		Dizzy,
+		Dobie}
 )
