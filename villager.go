@@ -185,5 +185,6 @@ var (
 		Elise,
 		Ellie,
 		Elmer,
-		Eloise}
+		Eloise,
+		Elvis}
 )
