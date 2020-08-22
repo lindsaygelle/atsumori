@@ -173,5 +173,6 @@ var (
 		Dizzy,
 		Dobie,
 		Doc,
-		Dom}
+		Dom,
+		Dora}
 )
