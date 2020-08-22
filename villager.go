@@ -164,5 +164,6 @@ var (
 		// D
 		Daisy,
 		Deena,
-		Deirdre}
+		Deirdre,
+		Del}
 )
