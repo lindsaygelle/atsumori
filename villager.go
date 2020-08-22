@@ -162,5 +162,6 @@ var (
 		Cyd,
 		Cyrano,
 		// D
-		Daisy}
+		Daisy,
+		Deena}
 )
