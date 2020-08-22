@@ -169,5 +169,6 @@ var (
 		Deli,
 		Derwin,
 		Diana,
-		Diva}
+		Diva,
+		Dizzy}
 )
