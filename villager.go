@@ -182,5 +182,6 @@ var (
 		// E
 		Ed,
 		Egbert,
-		Elise}
+		Elise,
+		Ellie}
 )
