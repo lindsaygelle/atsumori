@@ -174,5 +174,6 @@ var (
 		Dobie,
 		Doc,
 		Dom,
-		Dora}
+		Dora,
+		Dotty}
 )
