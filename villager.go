@@ -172,5 +172,6 @@ var (
 		Diva,
 		Dizzy,
 		Dobie,
-		Doc}
+		Doc,
+		Dom}
 )
