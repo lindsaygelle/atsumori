@@ -177,5 +177,6 @@ var (
 		Dora,
 		Dotty,
 		Drago,
-		Drake}
+		Drake,
+		Drift}
 )
