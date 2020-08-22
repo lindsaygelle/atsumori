@@ -181,5 +181,6 @@ var (
 		Drift,
 		// E
 		Ed,
-		Egbert}
+		Egbert,
+		Elise}
 )
