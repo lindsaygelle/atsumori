@@ -175,5 +175,6 @@ var (
 		Doc,
 		Dom,
 		Dora,
-		Dotty}
+		Dotty,
+		Drago}
 )
