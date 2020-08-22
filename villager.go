@@ -188,5 +188,6 @@ var (
 		Eloise,
 		Elvis,
 		Erik,
-		Eugene}
+		Eugene,
+		Eunice}
 )
