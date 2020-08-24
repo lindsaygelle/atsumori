@@ -204,5 +204,6 @@ var (
 		Freckles,
 		Freya,
 		Friga,
-		Frita}
+		Frita,
+		Frobert}
 )
