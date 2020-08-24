@@ -194,5 +194,6 @@ var (
 		Fang,
 		Fauna,
 		Felicity,
-		Filbert}
+		Filbert,
+		Flip}
 )
