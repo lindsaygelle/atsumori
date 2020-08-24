@@ -205,5 +205,6 @@ var (
 		Freya,
 		Friga,
 		Frita,
-		Frobert}
+		Frobert,
+		Fuchsia}
 )
