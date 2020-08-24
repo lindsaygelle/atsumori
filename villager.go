@@ -197,5 +197,6 @@ var (
 		Filbert,
 		Flip,
 		Flo,
-		Flora}
+		Flora,
+		Flurry}
 )
