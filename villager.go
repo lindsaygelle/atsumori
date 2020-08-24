@@ -208,5 +208,6 @@ var (
 		Frobert,
 		Fuchsia,
 		// G
-		Gabi}
+		Gabi,
+		Gala}
 )
