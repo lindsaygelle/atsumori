@@ -195,5 +195,6 @@ var (
 		Fauna,
 		Felicity,
 		Filbert,
-		Flip}
+		Flip,
+		Flo}
 )
