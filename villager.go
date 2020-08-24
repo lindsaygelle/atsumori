@@ -198,5 +198,6 @@ var (
 		Flip,
 		Flo,
 		Flora,
-		Flurry}
+		Flurry,
+		Francine}
 )
