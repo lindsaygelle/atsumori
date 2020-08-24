@@ -201,5 +201,6 @@ var (
 		Flurry,
 		Francine,
 		Frank,
-		Freckles}
+		Freckles,
+		Freya}
 )
