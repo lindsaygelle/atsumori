@@ -191,5 +191,23 @@ var (
 		Eugene,
 		Eunice,
 		// F
-		Fang}
+		Fang,
+		Fauna,
+		Felicity,
+		Filbert,
+		Flip,
+		Flo,
+		Flora,
+		Flurry,
+		Francine,
+		Frank,
+		Freckles,
+		Freya,
+		Friga,
+		Frita,
+		Frobert,
+		Fuchsia,
+		// G
+		Gabi,
+		Gala}
 )
