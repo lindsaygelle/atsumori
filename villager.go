@@ -203,5 +203,6 @@ var (
 		Frank,
 		Freckles,
 		Freya,
-		Friga}
+		Friga,
+		Frita}
 )
