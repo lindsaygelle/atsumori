@@ -196,5 +196,6 @@ var (
 		Felicity,
 		Filbert,
 		Flip,
-		Flo}
+		Flo,
+		Flora}
 )
