@@ -192,5 +192,6 @@ var (
 		Eunice,
 		// F
 		Fang,
-		Fauna}
+		Fauna,
+		Felicity}
 )
