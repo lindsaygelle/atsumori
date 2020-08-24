@@ -206,5 +206,7 @@ var (
 		Friga,
 		Frita,
 		Frobert,
-		Fuchsia}
+		Fuchsia,
+		// G
+		Gabi}
 )
