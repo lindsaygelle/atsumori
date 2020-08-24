@@ -199,5 +199,6 @@ var (
 		Flo,
 		Flora,
 		Flurry,
-		Francine}
+		Francine,
+		Frank}
 )
