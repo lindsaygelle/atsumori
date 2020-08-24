@@ -191,5 +191,6 @@ var (
 		Eugene,
 		Eunice,
 		// F
-		Fang}
+		Fang,
+		Fauna}
 )
