@@ -209,5 +209,6 @@ var (
 		Fuchsia,
 		// G
 		Gabi,
-		Gala}
+		Gala,
+		Gaston}
 )
