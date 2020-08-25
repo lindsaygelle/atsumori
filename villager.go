@@ -209,5 +209,22 @@ var (
 		Fuchsia,
 		// G
 		Gabi,
-		Gala}
+		Gala,
+		Gaston,
+		Gayle,
+		Genji,
+		Gigi,
+		Gladys,
+		Gloria,
+		Goldie,
+		Gonzo,
+		Goose,
+		Graham,
+		Greta,
+		Grizzly,
+		Groucho,
+		Gruff,
+		Gwen,
+		// H
+		Hamlet}
 )
