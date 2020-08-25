@@ -215,5 +215,6 @@ var (
 		Genji,
 		Gigi,
 		Gladys,
-		Gloria}
+		Gloria,
+		Goldie}
 )
