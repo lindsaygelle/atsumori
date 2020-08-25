@@ -214,5 +214,6 @@ var (
 		Gayle,
 		Genji,
 		Gigi,
-		Gladys}
+		Gladys,
+		Gloria}
 )
