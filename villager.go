@@ -212,5 +212,6 @@ var (
 		Gala,
 		Gaston,
 		Gayle,
-		Genji}
+		Genji,
+		Gigi}
 )
