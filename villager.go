@@ -213,5 +213,6 @@ var (
 		Gaston,
 		Gayle,
 		Genji,
-		Gigi}
+		Gigi,
+		Gladys}
 )
