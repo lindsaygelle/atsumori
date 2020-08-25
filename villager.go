@@ -222,5 +222,6 @@ var (
 		Graham,
 		Greta,
 		Grizzly,
-		Groucho}
+		Groucho,
+		Gruff}
 )
