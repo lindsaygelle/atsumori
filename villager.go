@@ -210,5 +210,6 @@ var (
 		// G
 		Gabi,
 		Gala,
-		Gaston}
+		Gaston,
+		Gayle}
 )
