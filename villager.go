@@ -220,5 +220,6 @@ var (
 		Gonzo,
 		Goose,
 		Graham,
-		Greta}
+		Greta,
+		Grizzly}
 )
