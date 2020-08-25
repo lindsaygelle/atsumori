@@ -216,5 +216,6 @@ var (
 		Gigi,
 		Gladys,
 		Gloria,
-		Goldie}
+		Goldie,
+		Gonzo}
 )
