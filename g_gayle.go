@@ -39,7 +39,7 @@ var (
 	gayleInterest      = villagersInterest{villagerInterestNature}
 	gayleName          = villagersName{villagerNameGayle}
 	gayleNameColor     = villagersNameColor{villagerNameColorFFFCE9}
-	gayleMusic         = villagersMusic{villagerClothesBubblegumKK}
+	gayleMusic         = villagersMusic{villagerMusicBubblegumKK}
 	gaylePersonality   = villagersPersonality{villagerPersonalityNormal}
 	gayleSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesAlligator}}
 	gayleStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCute, villagerStyleCute}}
