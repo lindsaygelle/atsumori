@@ -217,5 +217,6 @@ var (
 		Gladys,
 		Gloria,
 		Goldie,
-		Gonzo}
+		Gonzo,
+		Goose}
 )
