@@ -224,5 +224,7 @@ var (
 		Grizzly,
 		Groucho,
 		Gruff,
-		Gwen}
+		Gwen,
+		// H
+		Hamlet}
 )
