@@ -230,5 +230,6 @@ var (
 		Hamphrey,
 		Hans,
 		Harry,
-		Hazel}
+		Hazel,
+		Henry}
 )
