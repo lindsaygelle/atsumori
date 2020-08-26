@@ -251,5 +251,6 @@ var (
 		Joey,
 		Judy,
 		Julia,
-		Julian}
+		Julian,
+		June}
 )
