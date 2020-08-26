@@ -228,5 +228,6 @@ var (
 		// H
 		Hamlet,
 		Hamphrey,
-		Hans}
+		Hans,
+		Harry}
 )
