@@ -226,5 +226,33 @@ var (
 		Gruff,
 		Gwen,
 		// H
-		Hamlet}
+		Hamlet,
+		Hamphrey,
+		Hans,
+		Harry,
+		Hazel,
+		Henry,
+		Hippeux,
+		Hopkins,
+		Hopper,
+		Hornsby,
+		Huck,
+		Hugh,
+		// I
+		Iggly,
+		Ike,
+		// J
+		Jacob,
+		Jacques,
+		Jambette,
+		Jay,
+		Jeremiah,
+		Jitters,
+		Joey,
+		Judy,
+		Julia,
+		Julian,
+		June,
+		// K
+		Kabuki}
 )
