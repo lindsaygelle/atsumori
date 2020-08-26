@@ -236,5 +236,6 @@ var (
 		Hopkins,
 		Hopper,
 		Hornsby,
-		Huck}
+		Huck,
+		Hugh}
 )
