@@ -239,5 +239,6 @@ var (
 		Huck,
 		Hugh,
 		// I
-		Iggly}
+		Iggly,
+		Ike}
 )
