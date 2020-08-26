@@ -252,5 +252,7 @@ var (
 		Judy,
 		Julia,
 		Julian,
-		June}
+		June,
+		// K
+		Kabuki}
 )
