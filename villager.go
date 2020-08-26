@@ -226,5 +226,6 @@ var (
 		Gruff,
 		Gwen,
 		// H
-		Hamlet}
+		Hamlet,
+		Hamphrey}
 )
