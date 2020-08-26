@@ -227,5 +227,6 @@ var (
 		Gwen,
 		// H
 		Hamlet,
-		Hamphrey}
+		Hamphrey,
+		Hans}
 )
