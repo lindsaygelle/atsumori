@@ -254,5 +254,6 @@ var (
 		Julian,
 		June,
 		// K
-		Kabuki}
+		Kabuki,
+		Katt}
 )
