@@ -232,5 +232,6 @@ var (
 		Harry,
 		Hazel,
 		Henry,
-		Hippeux}
+		Hippeux,
+		Hopkins}
 )
