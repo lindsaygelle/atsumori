@@ -229,5 +229,6 @@ var (
 		Hamlet,
 		Hamphrey,
 		Hans,
-		Harry}
+		Harry,
+		Hazel}
 )
