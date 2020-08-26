@@ -239,6 +239,7 @@ const (
 
 var (
 	villagerBubbleColorAll = [...]string{
+		_villagerBubbleColor,
 		_villagerBubbleColor0A96AE,
 		_villagerBubbleColor0CA54A,
 		_villagerBubbleColor00D1BD,
