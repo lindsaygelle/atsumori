@@ -261,5 +261,6 @@ var (
 		Ketchup,
 		Kevin,
 		KidCat,
-		Kidd}
+		Kidd,
+		Kiki}
 )
