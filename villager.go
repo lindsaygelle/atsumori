@@ -259,5 +259,6 @@ var (
 		Keaton,
 		Ken,
 		Ketchup,
-		Kevin}
+		Kevin,
+		KidCat}
 )
