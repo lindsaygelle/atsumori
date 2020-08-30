@@ -267,5 +267,6 @@ var (
 		Kitty,
 		Klaus,
 		Knox,
-		Kody}
+		Kody,
+		Kyle}
 )
