@@ -263,5 +263,6 @@ var (
 		KidCat,
 		Kidd,
 		Kiki,
-		Kitt}
+		Kitt,
+		Kitty}
 )
