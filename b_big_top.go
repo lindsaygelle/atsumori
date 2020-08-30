@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// BigTop is an Animal Crossing villager
+// BigTop is an Animal Crossing villager.
 var BigTop = villager{
 	bigTopAstrology,
 	bigTopBirthDay,

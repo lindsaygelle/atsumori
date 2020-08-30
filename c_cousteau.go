@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Cousteau is an Animal Crossing villager
+// Cousteau is an Animal Crossing villager.
 var Cousteau = villager{
 	cousteauAstrology,
 	cousteauBirthDay,

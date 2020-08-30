@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Blaire is an Animal Crossing villager
+// Blaire is an Animal Crossing villager.
 var Blaire = villager{
 	blaireAstrology,
 	blaireBirthDay,

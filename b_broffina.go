@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Broffina is an Animal Crossing villager
+// Broffina is an Animal Crossing villager.
 var Broffina = villager{
 	broffinaAstrology,
 	broffinaBirthDay,

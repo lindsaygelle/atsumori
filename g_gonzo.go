@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Gonzo is an Animal Crossing villager
+// Gonzo is an Animal Crossing villager.
 var Gonzo = villager{
 	gonzoAstrology,
 	gonzoBirthDay,

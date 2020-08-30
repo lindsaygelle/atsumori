@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Flurry is an Animal Crossing villager
+// Flurry is an Animal Crossing villager.
 var Flurry = villager{
 	flurryAstrology,
 	flurryBirthDay,

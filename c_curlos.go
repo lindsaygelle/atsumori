@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Curlos is an Animal Crossing villager
+// Curlos is an Animal Crossing villager.
 var Curlos = villager{
 	curlosAstrology,
 	curlosBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Fauna is an Animal Crossing villager
+// Fauna is an Animal Crossing villager.
 var Fauna = villager{
 	faunaAstrology,
 	faunaBirthDay,

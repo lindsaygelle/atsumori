@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Canberra is an Animal Crossing villager
+// Canberra is an Animal Crossing villager.
 var Canberra = villager{
 	canberraAstrology,
 	canberraBirthDay,

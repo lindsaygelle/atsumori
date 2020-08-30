@@ -255,5 +255,20 @@ var (
 		June,
 		// K
 		Kabuki,
-		Katt}
+		Katt,
+		Keaton,
+		Ken,
+		Ketchup,
+		Kevin,
+		KidCat,
+		Kidd,
+		Kiki,
+		Kitt,
+		Kitty,
+		Klaus,
+		Knox,
+		Kody,
+		Kyle,
+		// L
+		Leonardo}
 )

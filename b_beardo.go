@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Beardo is an Animal Crossing villager
+// Beardo is an Animal Crossing villager.
 var Beardo = villager{
 	beardoAstrology,
 	beardoBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Drift is an Animal Crossing villager
+// Drift is an Animal Crossing villager.
 var Drift = villager{
 	driftAstrology,
 	driftBirthDay,

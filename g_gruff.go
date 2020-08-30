@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Gruff is an Animal Crossing villager
+// Gruff is an Animal Crossing villager.
 var Gruff = villager{
 	gruffAstrology,
 	gruffBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Egbert is an Animal Crossing villager
+// Egbert is an Animal Crossing villager.
 var Egbert = villager{
 	egbertAstrology,
 	egbertBirthDay,

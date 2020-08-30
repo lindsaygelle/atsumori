@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Chops is an Animal Crossing villager
+// Chops is an Animal Crossing villager.
 var Chops = villager{
 	chopsAstrology,
 	chopsBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Ankha is an Animal Crossing villager
+// Ankha is an Animal Crossing villager.
 var Ankha = villager{
 	ankhaAstrology,
 	ankhaBirthDay,

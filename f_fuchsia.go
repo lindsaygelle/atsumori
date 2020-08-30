@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Fuchsia is an Animal Crossing villager
+// Fuchsia is an Animal Crossing villager.
 var Fuchsia = villager{
 	fuchsiaAstrology,
 	fuchsiaBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Biskit is an Animal Crossing villager
+// Biskit is an Animal Crossing villager.
 var Biskit = villager{
 	biskitAstrology,
 	biskitBirthDay,

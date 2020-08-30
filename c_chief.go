@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Chief is an Animal Crossing villager
+// Chief is an Animal Crossing villager.
 var Chief = villager{
 	chiefAstrology,
 	chiefBirthDay,

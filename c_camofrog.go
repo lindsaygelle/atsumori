@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Camofrog is an Animal Crossing villager
+// Camofrog is an Animal Crossing villager.
 var Camofrog = villager{
 	camofrogAstrology,
 	camofrogBirthDay,

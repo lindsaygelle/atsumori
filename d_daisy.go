@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Daisy is an Animal Crossing villager
+// Daisy is an Animal Crossing villager.
 var Daisy = villager{
 	daisyAstrology,
 	daisyBirthDay,

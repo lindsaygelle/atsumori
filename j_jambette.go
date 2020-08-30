@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Jambette is an Animal Crossing villager
+// Jambette is an Animal Crossing villager.
 var Jambette = villager{
 	jambetteAstrology,
 	jambetteBirthDay,

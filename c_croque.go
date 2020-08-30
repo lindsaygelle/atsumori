@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Croque is an Animal Crossing villager
+// Croque is an Animal Crossing villager.
 var Croque = villager{
 	croqueAstrology,
 	croqueBirthDay,
