@@ -255,5 +255,6 @@ var (
 		June,
 		// K
 		Kabuki,
-		Katt}
+		Katt,
+		Keaton}
 )
