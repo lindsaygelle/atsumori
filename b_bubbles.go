@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Bubbles is an Animal Crossing villager
+// Bubbles is an Animal Crossing villager.
 var Bubbles = villager{
 	bubblesAstrology,
 	bubblesBirthDay,

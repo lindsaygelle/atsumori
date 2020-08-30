@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Bluebear is an Animal Crossing villager
+// Bluebear is an Animal Crossing villager.
 var Bluebear = villager{
 	bluebearAstrology,
 	bluebearBirthDay,

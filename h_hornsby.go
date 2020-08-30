@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Hornsby is an Animal Crossing villager
+// Hornsby is an Animal Crossing villager.
 var Hornsby = villager{
 	hornsbyAstrology,
 	hornsbyBirthDay,

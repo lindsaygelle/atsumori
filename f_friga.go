@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Friga is an Animal Crossing villager
+// Friga is an Animal Crossing villager.
 var Friga = villager{
 	frigaAstrology,
 	frigaBirthDay,

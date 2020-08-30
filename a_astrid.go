@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-// Astrid is an Animal Crossing villager
+// Astrid is an Animal Crossing villager.
 var Astrid = villager{
 	astridAstrology,
 	astridBirthDay,

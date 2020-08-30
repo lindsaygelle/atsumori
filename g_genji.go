@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Genji is an Animal Crossing villager
+// Genji is an Animal Crossing villager.
 var Genji = villager{
 	genjiAstrology,
 	genjiBirthDay,

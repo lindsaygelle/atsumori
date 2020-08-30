@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Broccolo is an Animal Crossing villager
+// Broccolo is an Animal Crossing villager.
 var Broccolo = villager{
 	broccoloAstrology,
 	broccoloBirthDay,

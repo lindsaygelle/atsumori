@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Candi is an Animal Crossing villager
+// Candi is an Animal Crossing villager.
 var Candi = villager{
 	candiAstrology,
 	candiBirthDay,

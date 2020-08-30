@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Jitters is an Animal Crossing villager
+// Jitters is an Animal Crossing villager.
 var Jitters = villager{
 	jittersAstrology,
 	jittersBirthDay,

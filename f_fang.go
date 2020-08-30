@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Fang is an Animal Crossing villager
+// Fang is an Animal Crossing villager.
 var Fang = villager{
 	fangAstrology,
 	fangBirthDay,

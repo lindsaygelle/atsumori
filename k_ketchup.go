@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Ketchup is an Animal Crossing villager
+// Ketchup is an Animal Crossing villager.
 var Ketchup = villager{
 	ketchupAstrology,
 	ketchupBirthDay,

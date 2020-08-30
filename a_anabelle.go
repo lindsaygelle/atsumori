@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-// Anabelle is an Animal Crossing villager
+// Anabelle is an Animal Crossing villager.
 var Anabelle = villager{
 	anabelleAstrology,
 	anabelleBirthDay,

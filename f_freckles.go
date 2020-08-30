@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Freckles is an Animal Crossing villager
+// Freckles is an Animal Crossing villager.
 var Freckles = villager{
 	frecklesAstrology,
 	frecklesBirthDay,

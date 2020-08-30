@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-// Avery is an Animal Crossing villager
+// Avery is an Animal Crossing villager.
 var Avery = villager{
 	averyAstrology,
 	averyBirthDay,

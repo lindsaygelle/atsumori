@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Chevre is an Animal Crossing villager
+// Chevre is an Animal Crossing villager.
 var Chevre = villager{
 	chevreAstrology,
 	chevreBirthDay,

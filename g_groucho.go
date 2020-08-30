@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Groucho is an Animal Crossing villager
+// Groucho is an Animal Crossing villager.
 var Groucho = villager{
 	grouchoAstrology,
 	grouchoBirthDay,

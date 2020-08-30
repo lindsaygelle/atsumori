@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Hippeux is an Animal Crossing villager
+// Hippeux is an Animal Crossing villager.
 var Hippeux = villager{
 	hippeuxAstrology,
 	hippeuxBirthDay,

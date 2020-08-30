@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Anicotti is an Animal Crossing villager
+// Anicotti is an Animal Crossing villager.
 var Anicotti = villager{
 	anicottiAstrology,
 	anicottiBirthDay,

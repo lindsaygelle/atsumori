@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Gwen is an Animal Crossing villager
+// Gwen is an Animal Crossing villager.
 var Gwen = villager{
 	gwenAstrology,
 	gwenBirthDay,

@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Cyrano is an Animal Crossing villager
+// Cyrano is an Animal Crossing villager.
 var Cyrano = villager{
 	cyranoAstrology,
 	cyranoBirthDay,
