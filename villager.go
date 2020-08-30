@@ -256,5 +256,6 @@ var (
 		// K
 		Kabuki,
 		Katt,
-		Keaton}
+		Keaton,
+		Ken}
 )
