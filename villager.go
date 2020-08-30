@@ -262,5 +262,6 @@ var (
 		Kevin,
 		KidCat,
 		Kidd,
-		Kiki}
+		Kiki,
+		Kitt}
 )
