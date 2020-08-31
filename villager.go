@@ -281,5 +281,6 @@ var (
 		Louie,
 		Lucha,
 		Lucky,
-		Lucy}
+		Lucy,
+		Lyman}
 )
