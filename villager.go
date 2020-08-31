@@ -271,5 +271,6 @@ var (
 		Kyle,
 		// L
 		Leonardo,
-		Leopold}
+		Leopold,
+		Lily}
 )
