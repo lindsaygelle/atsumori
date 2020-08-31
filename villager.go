@@ -278,5 +278,6 @@ var (
 		Lobo,
 		Lolly,
 		Lopez,
-		Louie}
+		Louie,
+		Lucha}
 )
