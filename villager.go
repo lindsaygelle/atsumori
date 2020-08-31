@@ -282,5 +282,7 @@ var (
 		Lucha,
 		Lucky,
 		Lucy,
-		Lyman}
+		Lyman,
+		// M
+		Mac}
 )
