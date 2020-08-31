@@ -270,5 +270,23 @@ var (
 		Kody,
 		Kyle,
 		// L
-		Leonardo}
+		Leonardo,
+		Leopold,
+		Lily,
+		Limberg,
+		Lionel,
+		Lobo,
+		Lolly,
+		Lopez,
+		Louie,
+		Lucha,
+		Lucky,
+		Lucy,
+		Lyman,
+		// M
+		Mac,
+		Maddie,
+		Maelle,
+		Maggie,
+		Mallary}
 )
