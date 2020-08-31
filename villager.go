@@ -284,5 +284,6 @@ var (
 		Lucy,
 		Lyman,
 		// M
-		Mac}
+		Mac,
+		Maddie}
 )
