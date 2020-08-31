@@ -287,5 +287,6 @@ var (
 		Mac,
 		Maddie,
 		Maelle,
-		Maggie}
+		Maggie,
+		Mallary}
 )
