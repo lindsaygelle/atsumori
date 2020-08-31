@@ -286,5 +286,6 @@ var (
 		// M
 		Mac,
 		Maddie,
-		Maelle}
+		Maelle,
+		Maggie}
 )
