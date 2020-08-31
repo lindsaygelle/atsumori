@@ -279,5 +279,6 @@ var (
 		Lolly,
 		Lopez,
 		Louie,
-		Lucha}
+		Lucha,
+		Lucky}
 )
