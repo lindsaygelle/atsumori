@@ -275,5 +275,6 @@ var (
 		Lily,
 		Limberg,
 		Lionel,
-		Lobo}
+		Lobo,
+		Lolly}
 )
