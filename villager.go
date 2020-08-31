@@ -285,5 +285,6 @@ var (
 		Lyman,
 		// M
 		Mac,
-		Maddie}
+		Maddie,
+		Maelle}
 )
