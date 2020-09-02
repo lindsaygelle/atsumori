@@ -298,5 +298,6 @@ var (
 		Mathilda,
 		Megan,
 		Melba,
-		Merengue}
+		Merengue,
+		Merry}
 )
