@@ -94,7 +94,7 @@ const (
 	_villagerClothesCavalierShirt             string = "Cavalier Shirt"
 	_villagerClothesCheckeredChesterfieldCoat string = "Checkered Chesterfield Coat"
 	_villagerClothesCheckeredMuffler          string = "Checkered Muffler"
-	_villagerClothesChefSOutfit               string = "Chef's Outfit"
+	_villagerClothesChefsOutfit               string = "Chef's Outfit"
 	_villagerClothesChesterfieldCoat          string = "Chesterfield Coat"
 	_villagerClothesChickTee                  string = "Chick Tee"
 	_villagerClothesCiaoTee                   string = "Ciao Tee"
@@ -280,7 +280,7 @@ const (
 	_villagerClothesStripedShirt              string = "Striped Shirt"
 	_villagerClothesStripedTank               string = "Striped Tank"
 	_villagerClothesStripedTee                string = "Striped Tee"
-	_villagerClothesSushiChefSOutfit          string = "Sushi Chef's Outfit"
+	_villagerClothesSushiChefsOutfit          string = "Sushi Chef's Outfit"
 	_villagerClothesSweaterOnShirt            string = "Sweater On Shirt"
 	_villagerClothesSweaterVest               string = "Sweater-vest"
 	_villagerClothesSweatshirt                string = "Sweatshirt"
@@ -389,7 +389,7 @@ const (
 	villagerClothesCavalierShirt
 	villagerClothesCheckeredChesterfieldCoat
 	villagerClothesCheckeredMuffler
-	villagerClothesChefSOutfit
+	villagerClothesChefsOutfit
 	villagerClothesChesterfieldCoat
 	villagerClothesChickTee
 	villagerClothesCiaoTee
@@ -575,7 +575,7 @@ const (
 	villagerClothesStripedShirt
 	villagerClothesStripedTank
 	villagerClothesStripedTee
-	villagerClothesSushiChefSOutfit
+	villagerClothesSushiChefsOutfit
 	villagerClothesSweaterOnShirt
 	villagerClothesSweaterVest
 	villagerClothesSweatshirt
@@ -686,7 +686,7 @@ var (
 		_villagerClothesCavalierShirt,
 		_villagerClothesCheckeredChesterfieldCoat,
 		_villagerClothesCheckeredMuffler,
-		_villagerClothesChefSOutfit,
+		_villagerClothesChefsOutfit,
 		_villagerClothesChesterfieldCoat,
 		_villagerClothesChickTee,
 		_villagerClothesCiaoTee,
@@ -872,7 +872,7 @@ var (
 		_villagerClothesStripedShirt,
 		_villagerClothesStripedTank,
 		_villagerClothesStripedTee,
-		_villagerClothesSushiChefSOutfit,
+		_villagerClothesSushiChefsOutfit,
 		_villagerClothesSweaterOnShirt,
 		_villagerClothesSweaterVest,
 		_villagerClothesSweatshirt,
