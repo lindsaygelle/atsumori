@@ -297,5 +297,6 @@ var (
 		Marshal,
 		Mathilda,
 		Megan,
-		Melba}
+		Melba,
+		Merengue}
 )
