@@ -288,5 +288,16 @@ var (
 		Maddie,
 		Maelle,
 		Maggie,
-		Mallary}
+		Mallary,
+		Maple,
+		Marcel,
+		Marcie,
+		Margie,
+		Marina,
+		Marshal,
+		Mathilda,
+		Megan,
+		Melba,
+		Merengue,
+		Merry}
 )
