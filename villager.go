@@ -316,5 +316,6 @@ var (
 		// N
 		Nan,
 		Nana,
-		Naomi}
+		Naomi,
+		Nate}
 )
