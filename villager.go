@@ -306,5 +306,6 @@ var (
 		Miranda,
 		Mitzi,
 		Moe,
-		Molly}
+		Molly,
+		Monique}
 )
