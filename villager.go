@@ -302,5 +302,6 @@ var (
 		Merry,
 		Midge,
 		Mint,
-		Mira}
+		Mira,
+		Miranda}
 )
