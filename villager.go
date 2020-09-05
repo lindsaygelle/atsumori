@@ -317,5 +317,6 @@ var (
 		Nan,
 		Nana,
 		Naomi,
-		Nate}
+		Nate,
+		Nibbles}
 )
