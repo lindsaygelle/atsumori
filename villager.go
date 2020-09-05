@@ -299,5 +299,6 @@ var (
 		Megan,
 		Melba,
 		Merengue,
-		Merry}
+		Merry,
+		Midge}
 )
