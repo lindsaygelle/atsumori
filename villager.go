@@ -299,5 +299,25 @@ var (
 		Megan,
 		Melba,
 		Merengue,
-		Merry}
+		Merry,
+		Midge,
+		Mint,
+		Mira,
+		Miranda,
+		Mitzi,
+		Moe,
+		Molly,
+		Monique,
+		Monty,
+		Moose,
+		Mott,
+		Muffy,
+		Murphy,
+		// N
+		Nan,
+		Nana,
+		Naomi,
+		Nate,
+		Nibbles,
+		Norma}
 )
