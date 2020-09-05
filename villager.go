@@ -310,5 +310,7 @@ var (
 		Monique,
 		Monty,
 		Moose,
-		Mott}
+		Mott,
+		Muffy,
+		Murphy}
 )
