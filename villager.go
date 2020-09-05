@@ -308,5 +308,6 @@ var (
 		Moe,
 		Molly,
 		Monique,
-		Monty}
+		Monty,
+		Moose}
 )
