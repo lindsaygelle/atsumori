@@ -301,5 +301,6 @@ var (
 		Merengue,
 		Merry,
 		Midge,
-		Mint}
+		Mint,
+		Mira}
 )
