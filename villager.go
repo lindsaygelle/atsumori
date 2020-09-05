@@ -315,5 +315,6 @@ var (
 		Murphy,
 		// N
 		Nan,
-		Nana}
+		Nana,
+		Naomi}
 )
