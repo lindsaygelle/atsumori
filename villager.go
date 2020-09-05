@@ -313,6 +313,7 @@ var (
 		Mott,
 		Muffy,
 		Murphy,
-		//
-		Nan}
+		// N
+		Nan,
+		Nana}
 )
