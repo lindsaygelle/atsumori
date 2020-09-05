@@ -300,5 +300,6 @@ var (
 		Melba,
 		Merengue,
 		Merry,
-		Midge}
+		Midge,
+		Mint}
 )
