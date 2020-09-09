@@ -332,5 +332,6 @@ var (
 		Pancetti,
 		Pango,
 		Paolo,
-		Papi}
+		Papi,
+		Pashmina}
 )
