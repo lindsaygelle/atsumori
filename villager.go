@@ -325,5 +325,6 @@ var (
 		Octavian,
 		Olaf,
 		Olive,
-		Olivia}
+		Olivia,
+		Opal}
 )
