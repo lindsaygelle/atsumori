@@ -321,5 +321,6 @@ var (
 		Nibbles,
 		Norma,
 		// O
-		OHare}
+		OHare,
+		Octavian}
 )
