@@ -329,5 +329,6 @@ var (
 		Opal,
 		Ozzie,
 		// P
-		Pancetti}
+		Pancetti,
+		Pango}
 )
