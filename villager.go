@@ -319,5 +319,7 @@ var (
 		Naomi,
 		Nate,
 		Nibbles,
-		Norma}
+		Norma,
+		// O
+		OHare}
 )
