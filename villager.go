@@ -319,5 +319,17 @@ var (
 		Naomi,
 		Nate,
 		Nibbles,
-		Norma}
+		Norma,
+		// O
+		OHare,
+		Octavian,
+		Olaf,
+		Olive,
+		Olivia,
+		Opal,
+		Ozzie,
+		// P
+		Pancetti,
+		Pango,
+		Paolo}
 )
