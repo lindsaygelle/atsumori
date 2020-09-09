@@ -322,5 +322,6 @@ var (
 		Norma,
 		// O
 		OHare,
-		Octavian}
+		Octavian,
+		Olaf}
 )
