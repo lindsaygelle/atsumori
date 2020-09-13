@@ -337,5 +337,6 @@ var (
 		Pate,
 		Patty,
 		Paula,
-		Peaches}
+		Peaches,
+		Peanut}
 )
