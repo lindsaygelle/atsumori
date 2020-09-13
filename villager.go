@@ -336,5 +336,6 @@ var (
 		Pashmina,
 		Pate,
 		Patty,
-		Paula}
+		Paula,
+		Peaches}
 )
