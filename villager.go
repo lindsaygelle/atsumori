@@ -333,5 +333,6 @@ var (
 		Pango,
 		Paolo,
 		Papi,
-		Pashmina}
+		Pashmina,
+		Pate}
 )
