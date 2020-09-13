@@ -339,5 +339,6 @@ var (
 		Paula,
 		Peaches,
 		Peanut,
-		Pecan}
+		Pecan,
+		Peck}
 )
