@@ -341,5 +341,6 @@ var (
 		Peanut,
 		Pecan,
 		Peck,
-		Peewee}
+		Peewee,
+		Peggy}
 )
