@@ -343,5 +343,6 @@ var (
 		Peck,
 		Peewee,
 		Peggy,
-		Pekoe}
+		Pekoe,
+		Penelope}
 )
