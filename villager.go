@@ -334,5 +334,6 @@ var (
 		Paolo,
 		Papi,
 		Pashmina,
-		Pate}
+		Pate,
+		Patty}
 )
