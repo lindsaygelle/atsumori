@@ -356,5 +356,6 @@ var (
 		Pompom,
 		Poncho,
 		Poppy,
-		Portia}
+		Portia,
+		Prince}
 )
