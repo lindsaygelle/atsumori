@@ -352,5 +352,6 @@ var (
 		Pinky,
 		Piper,
 		Pippy,
-		Plucky}
+		Plucky,
+		Pompom}
 )
