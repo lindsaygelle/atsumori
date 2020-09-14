@@ -362,5 +362,7 @@ var (
 		Puddles,
 		Pudge,
 		Punchy,
-		Purrl}
+		Purrl,
+		// Q
+		Queenie}
 )
