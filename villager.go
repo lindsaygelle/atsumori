@@ -358,5 +358,6 @@ var (
 		Poppy,
 		Portia,
 		Prince,
-		Puck}
+		Puck,
+		Puddles}
 )
