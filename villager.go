@@ -354,5 +354,6 @@ var (
 		Pippy,
 		Plucky,
 		Pompom,
-		Poncho}
+		Poncho,
+		Poppy}
 )
