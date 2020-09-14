@@ -361,5 +361,6 @@ var (
 		Puck,
 		Puddles,
 		Pudge,
-		Punchy}
+		Punchy,
+		Purrl}
 )
