@@ -360,5 +360,6 @@ var (
 		Prince,
 		Puck,
 		Puddles,
-		Pudge}
+		Pudge,
+		Punchy}
 )
