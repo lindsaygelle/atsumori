@@ -357,5 +357,6 @@ var (
 		Poncho,
 		Poppy,
 		Portia,
-		Prince}
+		Prince,
+		Puck}
 )
