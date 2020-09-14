@@ -351,5 +351,6 @@ var (
 		Pietro,
 		Pinky,
 		Piper,
-		Pippy}
+		Pippy,
+		Plucky}
 )
