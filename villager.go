@@ -367,5 +367,6 @@ var (
 		Queenie,
 		Quillson,
 		// R
-		Raddle}
+		Raddle,
+		Rasher}
 )
