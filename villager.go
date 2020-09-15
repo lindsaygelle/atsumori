@@ -364,5 +364,6 @@ var (
 		Punchy,
 		Purrl,
 		// Q
-		Queenie}
+		Queenie,
+		Quillson}
 )
