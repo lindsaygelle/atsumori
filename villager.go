@@ -371,5 +371,6 @@ var (
 		Rasher,
 		Raymond,
 		Renee,
-		Reneigh}
+		Reneigh,
+		Rex}
 )
