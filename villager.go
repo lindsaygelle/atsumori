@@ -364,5 +364,15 @@ var (
 		Punchy,
 		Purrl,
 		// Q
-		Queenie}
+		Queenie,
+		Quillson,
+		// R
+		Raddle,
+		Rasher,
+		Raymond,
+		Renee,
+		Reneigh,
+		Rex,
+		Rhonda,
+		Ribbot}
 )
