@@ -246,7 +246,7 @@ const (
 	_villagerClothesRoyalShirt                string = "Royal Shirt"
 	_villagerClothesRubberApron               string = "Rubber Apron"
 	_villagerClothesSafetyVest                string = "Safety Vest"
-	_villagerClothesSailorSTee                string = "Sailor's Tee"
+	_villagerClothesSailorsTee                string = "Sailor's Tee"
 	_villagerClothesSailorStyleShirt          string = "Sailor-style Shirt"
 	_villagerClothesSamuraiShirt              string = "Samurai Shirt"
 	_villagerClothesSchoolJacket              string = "School Jacket"
@@ -541,7 +541,7 @@ const (
 	villagerClothesRoyalShirt
 	villagerClothesRubberApron
 	villagerClothesSafetyVest
-	villagerClothesSailorSTee
+	villagerClothesSailorsTee
 	villagerClothesSailorStyleShirt
 	villagerClothesSamuraiShirt
 	villagerClothesSchoolJacket
@@ -838,7 +838,7 @@ var (
 		_villagerClothesRoyalShirt,
 		_villagerClothesRubberApron,
 		_villagerClothesSafetyVest,
-		_villagerClothesSailorSTee,
+		_villagerClothesSailorsTee,
 		_villagerClothesSailorStyleShirt,
 		_villagerClothesSamuraiShirt,
 		_villagerClothesSchoolJacket,

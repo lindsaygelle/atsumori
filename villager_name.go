@@ -988,7 +988,7 @@ const (
 	villagerNameRedd
 	villagerNameReese
 	villagerNameReneigh
-	villagerNameRenée
+	villagerNameRenee
 	villagerNameResetti
 	villagerNameRex
 	villagerNameRhoda
