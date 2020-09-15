@@ -368,5 +368,6 @@ var (
 		Quillson,
 		// R
 		Raddle,
-		Rasher}
+		Rasher,
+		Raymond}
 )
