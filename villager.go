@@ -365,5 +365,7 @@ var (
 		Purrl,
 		// Q
 		Queenie,
-		Quillson}
+		Quillson,
+		// R
+		Raddle}
 )
