@@ -381,5 +381,6 @@ var (
 		Robin,
 		Rocco,
 		Rocket,
-		Rod}
+		Rod,
+		Rodeo}
 )
