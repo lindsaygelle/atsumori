@@ -387,5 +387,6 @@ var (
 		Rolf,
 		Rooney,
 		Rory,
-		Roscoe}
+		Roscoe,
+		Rosie}
 )
