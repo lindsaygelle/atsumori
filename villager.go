@@ -395,5 +395,6 @@ var (
 		// S
 		Sally,
 		Samson,
-		Sandy}
+		Sandy,
+		Savannah}
 )
