@@ -384,5 +384,6 @@ var (
 		Rod,
 		Rodeo,
 		Rodney,
-		Rolf}
+		Rolf,
+		Rooney}
 )
