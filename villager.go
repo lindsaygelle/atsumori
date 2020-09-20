@@ -389,5 +389,6 @@ var (
 		Rory,
 		Roscoe,
 		Rosie,
-		Rowan}
+		Rowan,
+		Ruby}
 )
