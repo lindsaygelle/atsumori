@@ -379,5 +379,6 @@ var (
 		Rizzo,
 		Roald,
 		Robin,
-		Rocco}
+		Rocco,
+		Rocket}
 )
