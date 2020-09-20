@@ -377,5 +377,6 @@ var (
 		Ribbot,
 		Ricky,
 		Rizzo,
-		Roald}
+		Roald,
+		Robin}
 )
