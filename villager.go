@@ -394,5 +394,6 @@ var (
 		Rudy,
 		// S
 		Sally,
-		Samson}
+		Samson,
+		Sandy}
 )
