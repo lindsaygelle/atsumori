@@ -374,5 +374,27 @@ var (
 		Reneigh,
 		Rex,
 		Rhonda,
-		Ribbot}
+		Ribbot,
+		Ricky,
+		Rizzo,
+		Roald,
+		Robin,
+		Rocco,
+		Rocket,
+		Rod,
+		Rodeo,
+		Rodney,
+		Rolf,
+		Rooney,
+		Rory,
+		Roscoe,
+		Rosie,
+		Rowan,
+		Ruby,
+		Rudy,
+		// S
+		Sally,
+		Samson,
+		Sandy,
+		Savannah}
 )
