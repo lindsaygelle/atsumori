@@ -390,5 +390,6 @@ var (
 		Roscoe,
 		Rosie,
 		Rowan,
-		Ruby}
+		Ruby,
+		Rudy}
 )
