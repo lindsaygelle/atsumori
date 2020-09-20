@@ -375,5 +375,6 @@ var (
 		Rex,
 		Rhonda,
 		Ribbot,
-		Ricky}
+		Ricky,
+		Rizzo}
 )
