@@ -396,5 +396,15 @@ var (
 		Sally,
 		Samson,
 		Sandy,
-		Savannah}
+		Savannah,
+		Scoot,
+		Shari,
+		Sheldon,
+		Shep,
+		Sherb,
+		Simon,
+		Skye,
+		Sly,
+		Snake,
+		Snooty}
 )
