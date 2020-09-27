@@ -397,5 +397,6 @@ var (
 		Samson,
 		Sandy,
 		Savannah,
-		Scoot}
+		Scoot,
+		Shari}
 )
