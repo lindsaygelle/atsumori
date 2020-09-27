@@ -405,5 +405,6 @@ var (
 		Simon,
 		Skye,
 		Sly,
-		Snake}
+		Snake,
+		Snooty}
 )
