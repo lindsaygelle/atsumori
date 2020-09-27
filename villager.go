@@ -404,5 +404,6 @@ var (
 		Sherb,
 		Simon,
 		Skye,
-		Sly}
+		Sly,
+		Snake}
 )
