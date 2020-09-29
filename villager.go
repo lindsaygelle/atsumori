@@ -418,5 +418,6 @@ var (
 		Sterling,
 		Stinky,
 		Stitches,
-		Stu}
+		Stu,
+		Sydney}
 )
