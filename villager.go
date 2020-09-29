@@ -409,5 +409,6 @@ var (
 		Snooty,
 		Soleil,
 		Sparro,
-		Spike}
+		Spike,
+		Spork}
 )
