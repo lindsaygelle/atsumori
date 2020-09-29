@@ -415,5 +415,6 @@ var (
 		Sprocket,
 		Static,
 		Stella,
-		Sterling}
+		Sterling,
+		Stinky}
 )
