@@ -410,5 +410,6 @@ var (
 		Soleil,
 		Sparro,
 		Spike,
-		Spork}
+		Spork,
+		Sprinkle}
 )
