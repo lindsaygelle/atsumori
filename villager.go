@@ -406,5 +406,23 @@ var (
 		Skye,
 		Sly,
 		Snake,
-		Snooty}
+		Snooty,
+		Soleil,
+		Sparro,
+		Spike,
+		Spork,
+		Sprinkle,
+		Sprocket,
+		Static,
+		Stella,
+		Sterling,
+		Stinky,
+		Stitches,
+		Stu,
+		Sydney,
+		Sylvana,
+		Sylvia,
+		// T
+		TBone,
+		Tabby}
 )
