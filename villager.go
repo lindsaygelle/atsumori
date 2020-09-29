@@ -412,5 +412,6 @@ var (
 		Spike,
 		Spork,
 		Sprinkle,
-		Sprocket}
+		Sprocket,
+		Static}
 )
