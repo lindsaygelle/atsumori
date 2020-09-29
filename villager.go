@@ -408,5 +408,6 @@ var (
 		Snake,
 		Snooty,
 		Soleil,
-		Sparro}
+		Sparro,
+		Spike}
 )
