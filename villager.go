@@ -416,5 +416,6 @@ var (
 		Static,
 		Stella,
 		Sterling,
-		Stinky}
+		Stinky,
+		Stitches}
 )
