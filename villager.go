@@ -406,5 +406,6 @@ var (
 		Skye,
 		Sly,
 		Snake,
-		Snooty}
+		Snooty,
+		Soleil}
 )
