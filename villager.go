@@ -413,5 +413,6 @@ var (
 		Spork,
 		Sprinkle,
 		Sprocket,
-		Static}
+		Static,
+		Stella}
 )
