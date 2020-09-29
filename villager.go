@@ -417,5 +417,6 @@ var (
 		Stella,
 		Sterling,
 		Stinky,
-		Stitches}
+		Stitches,
+		Stu}
 )
