@@ -414,5 +414,6 @@ var (
 		Sprinkle,
 		Sprocket,
 		Static,
-		Stella}
+		Stella,
+		Sterling}
 )
