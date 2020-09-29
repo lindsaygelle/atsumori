@@ -419,5 +419,6 @@ var (
 		Stinky,
 		Stitches,
 		Stu,
-		Sydney}
+		Sydney,
+		Sylvana}
 )
