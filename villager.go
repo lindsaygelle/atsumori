@@ -411,5 +411,6 @@ var (
 		Sparro,
 		Spike,
 		Spork,
-		Sprinkle}
+		Sprinkle,
+		Sprocket}
 )
