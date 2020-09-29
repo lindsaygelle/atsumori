@@ -420,5 +420,6 @@ var (
 		Stitches,
 		Stu,
 		Sydney,
-		Sylvana}
+		Sylvana,
+		Sylvia}
 )
