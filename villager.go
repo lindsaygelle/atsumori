@@ -422,5 +422,7 @@ var (
 		Sydney,
 		Sylvana,
 		Sylvia,
-		TBone}
+		// T
+		TBone,
+		Tabby}
 )
