@@ -424,5 +424,11 @@ var (
 		Sylvia,
 		// T
 		TBone,
-		Tabby}
+		Tabby,
+		Tad,
+		Tammi,
+		Tammy,
+		Tangy,
+		Tank,
+		Tasha}
 )
