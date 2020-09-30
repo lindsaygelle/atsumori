@@ -425,5 +425,6 @@ var (
 		// T
 		TBone,
 		Tabby,
-		Tad}
+		Tad,
+		Tammi}
 )
