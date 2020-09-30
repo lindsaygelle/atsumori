@@ -424,5 +424,6 @@ var (
 		Sylvia,
 		// T
 		TBone,
-		Tabby}
+		Tabby,
+		Tad}
 )
