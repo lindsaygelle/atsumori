@@ -428,5 +428,6 @@ var (
 		Tad,
 		Tammi,
 		Tammy,
-		Tangy}
+		Tangy,
+		Tank}
 )
