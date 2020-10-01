@@ -430,5 +430,6 @@ var (
 		Tammy,
 		Tangy,
 		Tank,
-		Tasha}
+		Tasha,
+		Teddy}
 )
