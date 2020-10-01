@@ -432,5 +432,6 @@ var (
 		Tank,
 		Tasha,
 		Teddy,
-		Tex}
+		Tex,
+		Tia}
 )
