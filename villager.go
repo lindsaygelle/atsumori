@@ -435,5 +435,7 @@ var (
 		Tex,
 		Tia,
 		Tiffany,
-		Timbra}
+		Timbra,
+		Tipper,
+		Tom}
 )
