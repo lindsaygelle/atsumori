@@ -434,5 +434,6 @@ var (
 		Teddy,
 		Tex,
 		Tia,
-		Tiffany}
+		Tiffany,
+		Timbra}
 )
