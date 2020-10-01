@@ -430,5 +430,10 @@ var (
 		Tammy,
 		Tangy,
 		Tank,
-		Tasha}
+		Tasha,
+		Teddy,
+		Tex,
+		Tia,
+		Tiffany,
+		Timbra}
 )
