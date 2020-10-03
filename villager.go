@@ -440,5 +440,6 @@ var (
 		Tom,
 		Truffles,
 		Tucker,
-		Tutu}
+		Tutu,
+		Twiggy}
 )
