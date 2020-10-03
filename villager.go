@@ -437,5 +437,23 @@ var (
 		Tiffany,
 		Timbra,
 		Tipper,
-		Tom}
+		Tom,
+		Truffles,
+		Tucker,
+		Tutu,
+		Twiggy,
+		Tybalt,
+		// U
+		Ursala,
+		// V
+		Velma,
+		Vesta,
+		Vic,
+		Victoria,
+		Violet,
+		Vivian,
+		Vladimir,
+		// W
+		Wade,
+		Walker}
 )
