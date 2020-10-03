@@ -447,5 +447,6 @@ var (
 		Ursala,
 		// V
 		Velma,
-		Vesta}
+		Vesta,
+		Vic}
 )
