@@ -454,5 +454,6 @@ var (
 		Vivian,
 		Vladimir,
 		// W
-		Wade}
+		Wade,
+		Walker}
 )
