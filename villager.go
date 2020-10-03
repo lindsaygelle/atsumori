@@ -450,5 +450,6 @@ var (
 		Vesta,
 		Vic,
 		Victoria,
-		Violet}
+		Violet,
+		Vivian}
 )
