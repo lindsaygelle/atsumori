@@ -449,5 +449,6 @@ var (
 		Velma,
 		Vesta,
 		Vic,
-		Victoria}
+		Victoria,
+		Violet}
 )
