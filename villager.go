@@ -437,5 +437,6 @@ var (
 		Tiffany,
 		Timbra,
 		Tipper,
-		Tom}
+		Tom,
+		Truffles}
 )
