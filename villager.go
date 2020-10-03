@@ -438,5 +438,6 @@ var (
 		Timbra,
 		Tipper,
 		Tom,
-		Truffles}
+		Truffles,
+		Tucker}
 )
