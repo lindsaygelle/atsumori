@@ -455,5 +455,6 @@ var (
 		Vladimir,
 		// W
 		Wade,
-		Walker}
+		Walker,
+		Walt}
 )
