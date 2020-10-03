@@ -452,5 +452,7 @@ var (
 		Victoria,
 		Violet,
 		Vivian,
-		Vladimir}
+		Vladimir,
+		// W
+		Wade}
 )
