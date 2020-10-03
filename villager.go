@@ -444,5 +444,7 @@ var (
 		Twiggy,
 		Tybalt,
 		// U
-		Ursala}
+		Ursala,
+		// V
+		Velma}
 )
