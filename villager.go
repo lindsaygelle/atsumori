@@ -446,5 +446,6 @@ var (
 		// U
 		Ursala,
 		// V
-		Velma}
+		Velma,
+		Vesta}
 )
