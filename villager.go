@@ -439,5 +439,6 @@ var (
 		Tipper,
 		Tom,
 		Truffles,
-		Tucker}
+		Tucker,
+		Tutu}
 )
