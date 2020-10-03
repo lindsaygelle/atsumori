@@ -441,5 +441,6 @@ var (
 		Truffles,
 		Tucker,
 		Tutu,
-		Twiggy}
+		Twiggy,
+		Tybalt}
 )
