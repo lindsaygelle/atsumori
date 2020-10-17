@@ -457,5 +457,6 @@ var (
 		Wade,
 		Walker,
 		Walt,
-		WartJr}
+		WartJr,
+		Weber}
 )
