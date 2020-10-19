@@ -458,5 +458,6 @@ var (
 		Walker,
 		Walt,
 		WartJr,
-		Weber}
+		Weber,
+		Wendy}
 )
