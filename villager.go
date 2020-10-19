@@ -459,5 +459,6 @@ var (
 		Walt,
 		WartJr,
 		Weber,
-		Wendy}
+		Wendy,
+		Whitney}
 )
