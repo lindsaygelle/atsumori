@@ -460,5 +460,6 @@ var (
 		WartJr,
 		Weber,
 		Wendy,
-		Whitney}
+		Whitney,
+		Willow}
 )
