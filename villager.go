@@ -461,5 +461,6 @@ var (
 		Weber,
 		Wendy,
 		Whitney,
-		Willow}
+		Willow,
+		Winnie}
 )
