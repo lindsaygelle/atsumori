@@ -457,5 +457,10 @@ var (
 		Wade,
 		Walker,
 		Walt,
-		WartJr}
+		WartJr,
+		Weber,
+		Wendy,
+		Whitney,
+		Willow,
+		Winnie}
 )
