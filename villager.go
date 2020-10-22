@@ -462,5 +462,6 @@ var (
 		Wendy,
 		Whitney,
 		Willow,
-		Winnie}
+		Winnie,
+		Wolfgang}
 )
