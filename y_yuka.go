@@ -43,5 +43,5 @@ var (
 	yukaPersonality   = villagersPersonality{villagerPersonalitySnooty}
 	yukaSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesKoala}}
 	yukaStyle         = villagersStyle{[2]VillagerStyle{villagerStyleCool, villagerStyleElegant}}
-	yukaWallpaper     = villagersWallpaper{villagerWallpaperBeigeArt - DecoWall}
+	yukaWallpaper     = villagersWallpaper{villagerWallpaperBeigeArtDecoWall}
 )
