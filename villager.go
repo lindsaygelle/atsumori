@@ -465,5 +465,6 @@ var (
 		Winnie,
 		Wolfgang,
 		Yuka,
-		Zell}
+		Zell,
+		Zucker}
 )
