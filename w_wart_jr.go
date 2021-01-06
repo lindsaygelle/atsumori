@@ -2,7 +2,7 @@ package atsumori
 
 import "time"
 
-// Wart Jr is an Animal Crossing villager.
+// WartJr is an Animal Crossing villager.
 var WartJr = villager{
 	wartJrAstrology,
 	wartJrBirthDay,
