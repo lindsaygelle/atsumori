@@ -464,5 +464,6 @@ var (
 		Willow,
 		Winnie,
 		Wolfgang,
-		Yuka}
+		Yuka,
+		Zell}
 )
