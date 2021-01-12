@@ -393,6 +393,7 @@ var (
 		Ruby,
 		Rudy,
 		// S
+		Saharah, // special
 		Sally,
 		Samson,
 		Sandy,
