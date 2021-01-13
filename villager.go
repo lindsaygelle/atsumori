@@ -99,6 +99,7 @@ var (
 		Biskit,
 		Bitty,
 		Blaire,
+		Blathers, // special
 		Blanche,
 		Bluebear,
 		Bob,
