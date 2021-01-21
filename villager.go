@@ -106,6 +106,7 @@ var (
 		Bob,
 		Bonbon,
 		Bones,
+		Booker, // special
 		Boomer,
 		Boone,
 		Boots,
