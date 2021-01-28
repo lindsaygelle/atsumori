@@ -113,6 +113,7 @@ var (
 		Boris,
 		Boyd,
 		Bree,
+		Brewster, // special
 		Broccolo,
 		Broffina,
 		Bruce,
