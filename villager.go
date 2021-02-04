@@ -145,6 +145,7 @@ var (
 		Chops,
 		Chow,
 		Chrissy,
+		CJ, // special
 		Claude,
 		Claudia,
 		Clay,
