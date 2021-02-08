@@ -133,6 +133,7 @@ var (
 		Caroline,
 		Carrie,
 		Cashmere,
+		Celeste, // special
 		Celia,
 		Cesar,
 		Chadder,
