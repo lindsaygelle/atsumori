@@ -41,7 +41,7 @@ var (
 	cjNameColor     = villagersNameColor{villagerNameColorF9DB2F}
 	cjMusic         = villagersMusic{} //
 	cjPersonality   = villagersPersonality{}
-	cjSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesCat}}
+	cjSpecies       = villagersSpecies{[2]VillagerSpecies{villagerSpeciesBeaver}}
 	cjStyle         = villagersStyle{[2]VillagerStyle{}}
 	cjWallpaper     = villagersWallpaper{}
 )
