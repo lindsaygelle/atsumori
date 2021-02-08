@@ -42,6 +42,7 @@ const (
 	_villagerSpeciesAnteater  string = "Anteater"
 	_villagerSpeciesAxolotl   string = "Axolotl"
 	_villagerSpeciesBear      string = "Bear"
+	_villagerSpeciesBeaver    string = "Beaver"
 	_villagerSpeciesBird      string = "Bird"
 	_villagerSpeciesBoar      string = "Boar"
 	_villagerSpeciesBull      string = "Bull"
@@ -113,6 +114,7 @@ const (
 	villagerSpeciesAnteater
 	villagerSpeciesAxolotl
 	villagerSpeciesBear
+	villagerSpeciesBeaver
 	villagerSpeciesBird
 	villagerSpeciesBoar
 	villagerSpeciesBull
@@ -186,6 +188,7 @@ var (
 		_villagerSpeciesAnteater,
 		_villagerSpeciesAxolotl,
 		_villagerSpeciesBear,
+		_villagerSpeciesBeaver,
 		_villagerSpeciesBird,
 		_villagerSpeciesBoar,
 		_villagerSpeciesBull,
