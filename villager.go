@@ -143,6 +143,7 @@ var (
 		Chester,
 		Chevre,
 		Chief,
+		Chip, // special
 		Chops,
 		Chow,
 		Chrissy,
