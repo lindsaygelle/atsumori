@@ -159,6 +159,7 @@ var (
 		Cole,
 		Colton,
 		Cookie,
+		Copper, // special
 		Cousteau,
 		Cranston,
 		Croque,
